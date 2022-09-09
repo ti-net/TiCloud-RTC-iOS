@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  TODO: Add long description of the pod here.
                    DESC
 
   spec.homepage     = "https://github.com/ti-net/TiCloud-RTC-iOS"
