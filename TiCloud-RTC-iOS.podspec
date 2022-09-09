@@ -122,7 +122,7 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks  = "TiCloudRTC.framework"
 
-  spec.pod_target_xcconfig = {'VALID_ARCHS'=>'x86_64 arm64'}
+  spec.pod_target_xcconfig = {'VALID_ARCHS'=>'arm64'}
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
