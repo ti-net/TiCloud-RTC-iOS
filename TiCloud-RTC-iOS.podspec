@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TiCloud-RTC-iOS"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "TiCloud-RTC-iOS 实时语音呼叫SDK"
 
 # This description is used to generate tags and improve search results.
