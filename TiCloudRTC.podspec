@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TiCloudRTC"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "TiCloudRTC iOS实时语音呼叫SDK"
 
 # This description is used to generate tags and improve search results.
@@ -34,5 +34,5 @@ TODO: Add long description of the pod here.
   s.pod_target_xcconfig = {'VALID_ARCHS'=>'arm64 x86_64','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-  s.dependency 'AgoraRtcEngine_iOS', '4.0.0-rc.1'
+  s.dependency 'AgoraRtcEngine_iOS', 'AgoraRtm_iOS'
 end
