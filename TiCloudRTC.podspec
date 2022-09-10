@@ -34,4 +34,5 @@ TODO: Add long description of the pod here.
   s.pod_target_xcconfig = {'VALID_ARCHS'=>'arm64 x86_64','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
+  s.dependency 'AgoraRtcEngine_iOS', '4.0.0-rc.1'
 end
