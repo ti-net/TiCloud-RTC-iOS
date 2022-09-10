@@ -8,9 +8,9 @@
 
 
 Pod::Spec.new do |s|
-  s.name         = "TiCloud-RTC-iOS"
+  s.name         = "TiCloudRTC"
   s.version      = "1.0.4"
-  s.summary      = "TiCloud-RTC-iOS 实时语音呼叫SDK"
+  s.summary      = "TiCloudRTC iOS实时语音呼叫SDK"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
 
   s.vendored_frameworks  = "TiCloudRTC.framework"
   #s.pod_target_xcconfig = {'VALID_ARCHS'=>'arm64 x86_64'}
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = {'VALID_ARCHS'=>'arm64 x86_64','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
