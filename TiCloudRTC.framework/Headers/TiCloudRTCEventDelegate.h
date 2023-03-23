@@ -79,6 +79,64 @@
  */
 - (void)onAccessTokenHasExpired;
 
+/**
+ * 接收到的数据流
+ *
+ * @param data 对方的流地址
+ * @param size 大小
+ */
+- (void)receiveStreamDataFromOther:(void *_Nonnull)data size:(int)size;
+
+/**
+ * 拉取的对端的音频格式
+ *
+ * @param samples 码率
+ * @param channels 通道数
+ */
+- (void)receiveStreamSample:(int)samples channels:(int)channels;
+
+
+/**
+ *  检测本端网络质量
+ */
+- (void)networkQuality:(TiCloudRtcNetwotkQuality)netwotkQuality;
+
+/**
+* 接收到远端呼叫
+*
+*  @param fields 包含如下数据：
+*
+* customerNumber：主叫号码
+* requestUniqueId：通话唯一标识
+*
+*/
+- (void)onRemoteInvitationReceived:(nonnull NSDictionary *)fields;
+
+/**
+* 远端呼叫已拒绝
+*
+* @param fields 包含如下数据：
+*
+* customerNumber：主叫号码
+* requestUniqueId：通话唯一标识
+* isCalling：标识本次邀请是否因正处于通话中而自动拒绝 YES：是，NO：否
+*
+*/
+- (void)onInvitationRefusedByLocal:(nonnull NSDictionary *)fields;
+
+/**
+* 远端呼叫已取消
+*
+* @param fields 包含如下数据：
+*
+* customerNumber：主叫号码
+* requestUniqueId：通话唯一标识
+*
+*/
+- (void)onRemoteInvitationCanceled:(nonnull NSDictionary *)fields;
+
+
+
 @end
 
 #endif /* TiCloudRTCEventHandler_h */

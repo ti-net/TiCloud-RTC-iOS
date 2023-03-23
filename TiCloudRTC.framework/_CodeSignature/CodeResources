@@ -4,34 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Base.lproj/LaunchScreen.nib</key>
-		<data>
-		F+sO8+FGCei7hIE07n0L/71g/Vs=
-		</data>
-		<key>Base.lproj/Main.storyboardc/Info.plist</key>
-		<data>
-		Jmu6F/QDeWUyQljt5m/23hAkmcs=
-		</data>
-		<key>Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib</key>
-		<data>
-		9NE4+F18eGWZCS7qOjXZjd2zIkI=
-		</data>
-		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
-		<data>
-		g5b8veIDVxs2rgqRQDHsnRHPP6A=
-		</data>
-		<key>Cartfile.bak</key>
-		<data>
-		S+HMNgvAGwWapj/aH2MV9yVkIS4=
-		</data>
-		<key>GithubUserBenchmark.swift.bak</key>
-		<data>
-		TfEYf5mEai2yxQu8Ei8mTIJhp24=
-		</data>
-		<key>GithubUserObjectMapper.swift.bak</key>
-		<data>
-		F9+bTsmZTT8Wm2ZP+cmGwU7fv2w=
-		</data>
 		<key>Headers/AFNetworkReachabilityManager.h</key>
 		<data>
 		ucw7ZEs9qbD4ZHXh6GrEj2bffRw=
@@ -42,11 +14,11 @@
 		</data>
 		<key>Headers/TiCloudRTCDefines.h</key>
 		<data>
-		02KB7MG/fv0K/Dk414ZympJ6R/M=
+		0UkURDlNkCRQY3EH38OamCTf4wk=
 		</data>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
 		<data>
-		p5WSw/xw8nn2cC+MVM2HuPTYJqI=
+		skxHNkmPKQP11lzzxtgVOk27av8=
 		</data>
 		<key>Headers/TiCloudRTCEngine+ApiRequest.h</key>
 		<data>
@@ -54,124 +26,23 @@
 		</data>
 		<key>Headers/TiCloudRTCEngine.h</key>
 		<data>
-		Ffahw8089kl+UIAdfWMFrtiiAyU=
+		s76No23mXLZrxahbpDimLO3vihI=
 		</data>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
 		<data>
-		z9pG5nQLn+fSfkn39wEaIS6WrKI=
+		pQp71NJV4bsmMrMZdKiGt3g8TNo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WkOf4Mn7APwJ/rxgya9S7//rKZ0=
-		</data>
-		<key>LICENSE</key>
-		<data>
-		ra9/iB29ND/SWtmHXdbBX9kDFVo=
+		bGl1NMyNGk+1ixEpzRTQtvCu4RQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		48CDhGg/4sCs5VHefihJeDz6zcg=
 		</data>
-		<key>Result.numbers</key>
-		<data>
-		vllTzCF8njPhR53oZF6468kQTHs=
-		</data>
-		<key>Result.png</key>
-		<data>
-		sJ8sKNU6zJ9p0TSiEinS3UwKqEU=
-		</data>
-		<key>YYModel.podspec</key>
-		<data>
-		64bKs/UHEzcTftaAxywd5Pw3g1Y=
-		</data>
-		<key>user.json</key>
-		<data>
-		6L/M7ay1Tds8ujgNlydogJqLIn4=
-		</data>
-		<key>weibo.json</key>
-		<data>
-		9MwF7Tn6OrD598jRCbKafd/f21Q=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Base.lproj/LaunchScreen.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			F+sO8+FGCei7hIE07n0L/71g/Vs=
-			</data>
-			<key>hash2</key>
-			<data>
-			/vNk218bpbPuk17gOr8YmOyoEvs/GFh2Rmaxn2QuihQ=
-			</data>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Jmu6F/QDeWUyQljt5m/23hAkmcs=
-			</data>
-			<key>hash2</key>
-			<data>
-			ImV+t6+3kdlWtwVtORWAi/zrK27cHRLl+D1JvX2nLSc=
-			</data>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9NE4+F18eGWZCS7qOjXZjd2zIkI=
-			</data>
-			<key>hash2</key>
-			<data>
-			f5JZaR9hXgAGQWQinzZidFgddrI9EUhuNvFwGdg+oss=
-			</data>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			g5b8veIDVxs2rgqRQDHsnRHPP6A=
-			</data>
-			<key>hash2</key>
-			<data>
-			yOnvdTgg0Z/itLR48zD2HdlbXEniVC8lqdflx8RVJ2U=
-			</data>
-		</dict>
-		<key>Cartfile.bak</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			S+HMNgvAGwWapj/aH2MV9yVkIS4=
-			</data>
-			<key>hash2</key>
-			<data>
-			IIJZLACLN6HXbs5KWEr7PbVZkUw4CwZhyQDr8kE5PDg=
-			</data>
-		</dict>
-		<key>GithubUserBenchmark.swift.bak</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TfEYf5mEai2yxQu8Ei8mTIJhp24=
-			</data>
-			<key>hash2</key>
-			<data>
-			EYBhsaosDT7SJM5+LgcQb77IvqgYB6I1zkRgmXlu0io=
-			</data>
-		</dict>
-		<key>GithubUserObjectMapper.swift.bak</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			F9+bTsmZTT8Wm2ZP+cmGwU7fv2w=
-			</data>
-			<key>hash2</key>
-			<data>
-			NvX2ZJfP9WSTvguQgDYK3+aFlS90H78VBUWuf+RuoPQ=
-			</data>
-		</dict>
 		<key>Headers/AFNetworkReachabilityManager.h</key>
 		<dict>
 			<key>hash</key>
@@ -198,22 +69,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			02KB7MG/fv0K/Dk414ZympJ6R/M=
+			0UkURDlNkCRQY3EH38OamCTf4wk=
 			</data>
 			<key>hash2</key>
 			<data>
-			fJsTf5DPpqY7NqkFm1an0Cl3EOyu5IvC+gIQoMGunik=
+			qU1tSwuBmW2bGtBDgcLBp1B7331WecdsavysVimDR0A=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p5WSw/xw8nn2cC+MVM2HuPTYJqI=
+			skxHNkmPKQP11lzzxtgVOk27av8=
 			</data>
 			<key>hash2</key>
 			<data>
-			aLpSKJE2pupIVqFgYxaLuJ9BcJet5nJ02uZp6QGyiLc=
+			VywrffZqNKveVi2ei/tAREB5DP3bxsZv2QI5MkksKBU=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine+ApiRequest.h</key>
@@ -231,33 +102,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ffahw8089kl+UIAdfWMFrtiiAyU=
+			s76No23mXLZrxahbpDimLO3vihI=
 			</data>
 			<key>hash2</key>
 			<data>
-			HDTzVwzkWgoTRUAanEQdJJC3+D1Su7rDJVKpFkaZzwo=
+			ejSyyPyrkXLUnUEHy+Ixf7Rld4/7RGxgMfgczFtE/7U=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z9pG5nQLn+fSfkn39wEaIS6WrKI=
+			pQp71NJV4bsmMrMZdKiGt3g8TNo=
 			</data>
 			<key>hash2</key>
 			<data>
-			TCGdWxQSPRMsZ9lXsMar6fFmbmMZ6jv4TQTEFH37+Xw=
-			</data>
-		</dict>
-		<key>LICENSE</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ra9/iB29ND/SWtmHXdbBX9kDFVo=
-			</data>
-			<key>hash2</key>
-			<data>
-			mUf3VCIfbgrMjAuYhMV63N5HKyE1sO007noP1z63UUQ=
+			fxmrU182oZ7Xf02L+pfVEJuHhVdfkGZIM/bTt+c0A1Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -269,61 +129,6 @@
 			<key>hash2</key>
 			<data>
 			Q9QoYyd8wfSTx5IKw+V1TFxotbGe0PS7TQaNfXu0QRg=
-			</data>
-		</dict>
-		<key>Result.numbers</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vllTzCF8njPhR53oZF6468kQTHs=
-			</data>
-			<key>hash2</key>
-			<data>
-			4Za+OtgTpxNLQ4sUcNksjzeuBJNaa8XnAEh0r5z8CYc=
-			</data>
-		</dict>
-		<key>Result.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sJ8sKNU6zJ9p0TSiEinS3UwKqEU=
-			</data>
-			<key>hash2</key>
-			<data>
-			nC9c9YNSbnoa7MKumncqob/6mdLHfgNc7ZdO3X6m+Sc=
-			</data>
-		</dict>
-		<key>YYModel.podspec</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			64bKs/UHEzcTftaAxywd5Pw3g1Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			O5meQ6RlwEmyFmSyTBQpJSIg/0qmnBQp0TPShkx/9PQ=
-			</data>
-		</dict>
-		<key>user.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6L/M7ay1Tds8ujgNlydogJqLIn4=
-			</data>
-			<key>hash2</key>
-			<data>
-			dwZ8TZd67lkJhfvuwSXdNi0C9seoBth8Sy6A2WbjJi8=
-			</data>
-		</dict>
-		<key>weibo.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9MwF7Tn6OrD598jRCbKafd/f21Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			9c3ssu5xOz9HDJlSLBjSR9vTZZJtp2+fovZaSy9ZVxE=
 			</data>
 		</dict>
 	</dict>

@@ -36,6 +36,15 @@ typedef NS_ENUM(NSInteger, TiCloudRtcErrCode)
     ERR_CALL_FAILED_RTM_ERROR        = 11005,   // "外呼失败：内部信令错误"
 };
 
+/// 网络状态
+typedef NS_ENUM(NSInteger, TiCloudRtcNetwotkQuality)
+{
+    TiCloudRtcNetwotkQuality_Unknown,      // 网络质量未知
+    TiCloudRtcNetwotkQuality_Good ,      // 网络质量较好
+    TiCloudRtcNetwotkQuality_General ,    // 网络质量一般
+    TiCloudRtcNetwotkQuality_Bad ,    // 网络质量较差
+};
+
 /// 呼叫场景
 typedef NS_ENUM(NSInteger, TiCloudRtcScence)
 {
