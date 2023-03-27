@@ -71,7 +71,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * 接受邀请
  */
-- (void)acceptedCall;
+- (void)acceptCall;
 
 /**
  * 拒绝邀请

@@ -80,18 +80,18 @@
 - (void)onAccessTokenHasExpired;
 
 /**
- * 接收到的数据流
+ * 拉取到的对方的数据流
  *
- * @param data 对方的流地址
- * @param size 大小
+ * @param data 对方原始数据
+ * @param size 数据大小
  */
 - (void)receiveStreamDataFromOther:(void *_Nonnull)data size:(int)size;
 
 /**
  * 拉取的对端的音频格式
  *
- * @param samples 码率
- * @param channels 通道数
+ * @param samples 采样率
+ * @param channels 声道数
  */
 - (void)receiveStreamSample:(int)samples channels:(int)channels;
 
