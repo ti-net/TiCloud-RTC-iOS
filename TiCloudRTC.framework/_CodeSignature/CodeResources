@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/TiCloudRTCDefines.h</key>
 		<data>
-		0UkURDlNkCRQY3EH38OamCTf4wk=
+		P0eC+pAg+TuJ3TffRwOqeWsRolY=
 		</data>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
 		<data>
-		kyIuANS9xS5tL7borH4Cl4X9zME=
+		pO/Vx3dlAguRUJ3mwRZ615CamJ8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HmfLkJYH/5SjfHAebQUoOjt4RgQ=
+		XFuYMmB7LAXgDOrAHFstpXkTseE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,11 +69,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0UkURDlNkCRQY3EH38OamCTf4wk=
+			P0eC+pAg+TuJ3TffRwOqeWsRolY=
 			</data>
 			<key>hash2</key>
 			<data>
-			qU1tSwuBmW2bGtBDgcLBp1B7331WecdsavysVimDR0A=
+			m9zO4npQ4Nu7idnRutxyDZXVmsSUXBYGXlBjuo87ByM=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
@@ -113,11 +113,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kyIuANS9xS5tL7borH4Cl4X9zME=
+			pO/Vx3dlAguRUJ3mwRZ615CamJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			+XU1AM7C5TdO0po/BZqxxtZjevvup0L3y7pSwB1QKro=
+			ASrsdDOA98hdf9BPd3alM8WSMKjQsKxCPzB6MZ8r6qc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

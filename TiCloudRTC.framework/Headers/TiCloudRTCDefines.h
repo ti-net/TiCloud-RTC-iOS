@@ -87,6 +87,9 @@ typedef NS_ENUM(NSInteger, TiCloudRtcScence)
 // 外显号码
 @property(nonatomic, copy, nullable) NSString *clid;
 
+// 坐席号
+@property(nonatomic, copy, nullable) NSString *cno;
+
 // 通话唯一标识 不填则有sdk内部生成
 @property(nonatomic, copy, nullable) NSString *requestUniqueId;
 
