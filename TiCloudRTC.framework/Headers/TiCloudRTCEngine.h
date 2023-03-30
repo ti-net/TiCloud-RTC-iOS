@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * 创建引擎
  */
-+ (TiCloudRTCEngine * _Nonnull)createClient:(TiCloudRTCEngineConfig *_Nonnull)config success:(void (^)(NSDictionary *data))successBlock error:(void (^)(TiCloudRtcErrCode nErrorCode, NSString *errorDes))errorBlock;
++ (TiCloudRTCEngine * _Nonnull)createClient:(TiCloudRTCEngineConfig *_Nonnull)config success:(void (^)( NSDictionary *data))successBlock error:(void (^)(TiCloudRtcErrCode nErrorCode, NSString *errorDes))errorBlock;
 
 /**
  * 设置引擎事件的监听
