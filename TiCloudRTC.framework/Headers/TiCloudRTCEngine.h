@@ -44,8 +44,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)isSpeakerphoneEnabled;
 
 /**
-* 打开/关闭本地音频 (静音/取消静音)
-*/
+ * 打开/关闭本地音频 (静音/取消静音)
+ */
 - (void)setEnableLocalAudio:(BOOL)isEnable;
 
 /**

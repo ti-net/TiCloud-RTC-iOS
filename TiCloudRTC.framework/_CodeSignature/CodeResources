@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/TiCloudRTCEngine.h</key>
 		<data>
-		aENfpYIdd5lzWRVnf3AWs5LrwhY=
+		jJWnesOLicPKm+S2hYOBXTPeQZ4=
 		</data>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4pGJV+myFns5x4NIooWA4aKV4Rg=
+		uyagxllQp9gpr1xp2HbCmE1grOE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,11 +102,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aENfpYIdd5lzWRVnf3AWs5LrwhY=
+			jJWnesOLicPKm+S2hYOBXTPeQZ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			QiceIZsezrAHmeAW7uxgAUf4rBtOfoCmzsndOCIqMSk=
+			elGc3rDaeg05yhCW8dFVw49Y6ffMNFLvl81YM8sSYXw=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
