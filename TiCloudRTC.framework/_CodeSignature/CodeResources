@@ -4,33 +4,53 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Base.lproj/LaunchScreen.nib</key>
+		<key>Frameworks/AgoraRtcKit.framework/AgoraRtcKit</key>
 		<data>
-		F+sO8+FGCei7hIE07n0L/71g/Vs=
+		xVkF3t/sSoi4C/7aI8DAArlMm6g=
 		</data>
-		<key>Base.lproj/Main.storyboardc/Info.plist</key>
+		<key>Frameworks/AgoraRtcKit.framework/Info.plist</key>
 		<data>
-		Jmu6F/QDeWUyQljt5m/23hAkmcs=
+		yjeb7asU+r8YZVNm4Q6d0TuGCBg=
 		</data>
-		<key>Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib</key>
+		<key>Frameworks/AgoraRtcKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		9NE4+F18eGWZCS7qOjXZjd2zIkI=
+		BPnvMKPcFAjw461AJBXdNT9gbXw=
 		</data>
-		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
+		<key>Frameworks/AgoraRtmKit.framework/AgoraRtmKit</key>
 		<data>
-		g5b8veIDVxs2rgqRQDHsnRHPP6A=
+		B2X3lNCrQVCBUYSUEuEj6I8lqi0=
 		</data>
-		<key>Cartfile.bak</key>
+		<key>Frameworks/AgoraRtmKit.framework/Info.plist</key>
 		<data>
-		S+HMNgvAGwWapj/aH2MV9yVkIS4=
+		K7W9canzpNhdIfBP42B+L3sl4N8=
 		</data>
-		<key>GithubUserBenchmark.swift.bak</key>
+		<key>Frameworks/AgoraRtmKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		TfEYf5mEai2yxQu8Ei8mTIJhp24=
+		Dzak9gws0j/GwUcwW96lvH3XUvU=
 		</data>
-		<key>GithubUserObjectMapper.swift.bak</key>
+		<key>Frameworks/AgoraSoundTouch.framework/AgoraSoundTouch</key>
 		<data>
-		F9+bTsmZTT8Wm2ZP+cmGwU7fv2w=
+		wz3z4C3k9HFPNq7vanuEH0W2jLQ=
+		</data>
+		<key>Frameworks/AgoraSoundTouch.framework/Info.plist</key>
+		<data>
+		jTwiIwfbE1Ber38ih25hQlArKXk=
+		</data>
+		<key>Frameworks/AgoraSoundTouch.framework/_CodeSignature/CodeResources</key>
+		<data>
+		5PzWewEkWFPclUCWV+TJTPQoxbk=
+		</data>
+		<key>Frameworks/Agorafdkaac.framework/Agorafdkaac</key>
+		<data>
+		ssEBlak+lqZ/xSiZbDBWjMX7R5g=
+		</data>
+		<key>Frameworks/Agorafdkaac.framework/Info.plist</key>
+		<data>
+		6HAJEgQZI6BxApbCOvujJQqz9bw=
+		</data>
+		<key>Frameworks/Agorafdkaac.framework/_CodeSignature/CodeResources</key>
+		<data>
+		LAY6uUCioeO7GI5GAQ6mb33tHIw=
 		</data>
 		<key>Headers/AFNetworkReachabilityManager.h</key>
 		<data>
@@ -42,11 +62,11 @@
 		</data>
 		<key>Headers/TiCloudRTCDefines.h</key>
 		<data>
-		l2+2LVpbvSUNOd5kSuKQuT3szpg=
+		P0eC+pAg+TuJ3TffRwOqeWsRolY=
 		</data>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
 		<data>
-		p5WSw/xw8nn2cC+MVM2HuPTYJqI=
+		skxHNkmPKQP11lzzxtgVOk27av8=
 		</data>
 		<key>Headers/TiCloudRTCEngine+ApiRequest.h</key>
 		<data>
@@ -54,98 +74,161 @@
 		</data>
 		<key>Headers/TiCloudRTCEngine.h</key>
 		<data>
-		Ffahw8089kl+UIAdfWMFrtiiAyU=
+		jJWnesOLicPKm+S2hYOBXTPeQZ4=
 		</data>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
 		<data>
-		z9pG5nQLn+fSfkn39wEaIS6WrKI=
+		pO/Vx3dlAguRUJ3mwRZ615CamJ8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jGziE6Re9bGzkR3ADIZ40HRGvac=
-		</data>
-		<key>LICENSE</key>
-		<data>
-		ra9/iB29ND/SWtmHXdbBX9kDFVo=
+		XzxrYeaRtIe6o83ptPStLHrmO6Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		48CDhGg/4sCs5VHefihJeDz6zcg=
 		</data>
-		<key>Result.numbers</key>
-		<data>
-		vllTzCF8njPhR53oZF6468kQTHs=
-		</data>
-		<key>Result.png</key>
-		<data>
-		sJ8sKNU6zJ9p0TSiEinS3UwKqEU=
-		</data>
-		<key>YYModel.podspec</key>
-		<data>
-		64bKs/UHEzcTftaAxywd5Pw3g1Y=
-		</data>
-		<key>user.json</key>
-		<data>
-		6L/M7ay1Tds8ujgNlydogJqLIn4=
-		</data>
-		<key>weibo.json</key>
-		<data>
-		9MwF7Tn6OrD598jRCbKafd/f21Q=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Base.lproj/LaunchScreen.nib</key>
+		<key>Frameworks/AgoraRtcKit.framework/AgoraRtcKit</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			xVkF3t/sSoi4C/7aI8DAArlMm6g=
+			</data>
 			<key>hash2</key>
 			<data>
-			/vNk218bpbPuk17gOr8YmOyoEvs/GFh2Rmaxn2QuihQ=
+			vTxmG3yC5mQl/t/zc633RcIL2TgKk/8YjPdOT4DesV0=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/Info.plist</key>
+		<key>Frameworks/AgoraRtcKit.framework/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			yjeb7asU+r8YZVNm4Q6d0TuGCBg=
+			</data>
 			<key>hash2</key>
 			<data>
-			ImV+t6+3kdlWtwVtORWAi/zrK27cHRLl+D1JvX2nLSc=
+			0buSNBdaczk9SROThV1u35MNZKdC2s9Paj7r0TjTANI=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib</key>
+		<key>Frameworks/AgoraRtcKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			BPnvMKPcFAjw461AJBXdNT9gbXw=
+			</data>
 			<key>hash2</key>
 			<data>
-			f5JZaR9hXgAGQWQinzZidFgddrI9EUhuNvFwGdg+oss=
+			8maYMRvuqAhmH6kkkc7nn1fBTVc+GDeYy/Mk6Fj1aPg=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
+		<key>Frameworks/AgoraRtmKit.framework/AgoraRtmKit</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			B2X3lNCrQVCBUYSUEuEj6I8lqi0=
+			</data>
 			<key>hash2</key>
 			<data>
-			yOnvdTgg0Z/itLR48zD2HdlbXEniVC8lqdflx8RVJ2U=
+			02ItUA4i2Tb6hE+8DYwuKBsRlh5mL7NAxV99rcPBwLw=
 			</data>
 		</dict>
-		<key>Cartfile.bak</key>
+		<key>Frameworks/AgoraRtmKit.framework/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			K7W9canzpNhdIfBP42B+L3sl4N8=
+			</data>
 			<key>hash2</key>
 			<data>
-			IIJZLACLN6HXbs5KWEr7PbVZkUw4CwZhyQDr8kE5PDg=
+			L2CXxxaq1WE5ZVRRL89jLsn34mGMhJKnJOgQweZaGpQ=
 			</data>
 		</dict>
-		<key>GithubUserBenchmark.swift.bak</key>
+		<key>Frameworks/AgoraRtmKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Dzak9gws0j/GwUcwW96lvH3XUvU=
+			</data>
 			<key>hash2</key>
 			<data>
-			EYBhsaosDT7SJM5+LgcQb77IvqgYB6I1zkRgmXlu0io=
+			MVJ3IWekNp9WznUta1xUvXZojMo9G5IEQS6+D7l8sig=
 			</data>
 		</dict>
-		<key>GithubUserObjectMapper.swift.bak</key>
+		<key>Frameworks/AgoraSoundTouch.framework/AgoraSoundTouch</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wz3z4C3k9HFPNq7vanuEH0W2jLQ=
+			</data>
 			<key>hash2</key>
 			<data>
-			NvX2ZJfP9WSTvguQgDYK3+aFlS90H78VBUWuf+RuoPQ=
+			1Z0yus8WnVOBcj2d0EYA3WBqzJy21A4S/V58llJe0zo=
+			</data>
+		</dict>
+		<key>Frameworks/AgoraSoundTouch.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jTwiIwfbE1Ber38ih25hQlArKXk=
+			</data>
+			<key>hash2</key>
+			<data>
+			08FWTpOlLxq7xtbWF2Wdw/yPB6oCPLVegz+LU6okmuA=
+			</data>
+		</dict>
+		<key>Frameworks/AgoraSoundTouch.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5PzWewEkWFPclUCWV+TJTPQoxbk=
+			</data>
+			<key>hash2</key>
+			<data>
+			EjgunNVCRPoPZaT+He5u2RVsJMwl9G8feF9HYYIMTGI=
+			</data>
+		</dict>
+		<key>Frameworks/Agorafdkaac.framework/Agorafdkaac</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ssEBlak+lqZ/xSiZbDBWjMX7R5g=
+			</data>
+			<key>hash2</key>
+			<data>
+			EWweBcLZAhBNzhIdmgf1G5p11biUQrijc6MYDz9i7TI=
+			</data>
+		</dict>
+		<key>Frameworks/Agorafdkaac.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6HAJEgQZI6BxApbCOvujJQqz9bw=
+			</data>
+			<key>hash2</key>
+			<data>
+			fPRyVOaiZ6XsIG8Sv9jtOSeeYS+9XUzcERBm/nEpjbI=
+			</data>
+		</dict>
+		<key>Frameworks/Agorafdkaac.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LAY6uUCioeO7GI5GAQ6mb33tHIw=
+			</data>
+			<key>hash2</key>
+			<data>
+			eg5C9OC9wH/k++y70v+rlciK9i2r+Gkx1ybPRKNqqsA=
 			</data>
 		</dict>
 		<key>Headers/AFNetworkReachabilityManager.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ucw7ZEs9qbD4ZHXh6GrEj2bffRw=
+			</data>
 			<key>hash2</key>
 			<data>
 			Auq4EpEWLRxuWwpS81xd1K4dDfhaetQkoWz7EiJn4no=
@@ -153,6 +236,10 @@
 		</dict>
 		<key>Headers/TiCloudRTC.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			NUIdx0/B5RgKDpts1piAQ66+95w=
+			</data>
 			<key>hash2</key>
 			<data>
 			BPAT2yMZ3e4jZiO6pMMuvKNjPSD35Hm01ZuZ6xLDxCA=
@@ -160,20 +247,32 @@
 		</dict>
 		<key>Headers/TiCloudRTCDefines.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			P0eC+pAg+TuJ3TffRwOqeWsRolY=
+			</data>
 			<key>hash2</key>
 			<data>
-			9yEBiqBzUEDrgmrGEarvvvmAbp1rN8KkIRVMmTVZnCM=
+			m9zO4npQ4Nu7idnRutxyDZXVmsSUXBYGXlBjuo87ByM=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			skxHNkmPKQP11lzzxtgVOk27av8=
+			</data>
 			<key>hash2</key>
 			<data>
-			aLpSKJE2pupIVqFgYxaLuJ9BcJet5nJ02uZp6QGyiLc=
+			VywrffZqNKveVi2ei/tAREB5DP3bxsZv2QI5MkksKBU=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine+ApiRequest.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			+eRzNtsPv9A+hIui6VEdJwEtaZU=
+			</data>
 			<key>hash2</key>
 			<data>
 			jMq1hZERLXQAwJc6M28uJsv16oacRIt9dgGW/dQ+xsU=
@@ -181,65 +280,35 @@
 		</dict>
 		<key>Headers/TiCloudRTCEngine.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			jJWnesOLicPKm+S2hYOBXTPeQZ4=
+			</data>
 			<key>hash2</key>
 			<data>
-			HDTzVwzkWgoTRUAanEQdJJC3+D1Su7rDJVKpFkaZzwo=
+			elGc3rDaeg05yhCW8dFVw49Y6ffMNFLvl81YM8sSYXw=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
 		<dict>
-			<key>hash2</key>
+			<key>hash</key>
 			<data>
-			TCGdWxQSPRMsZ9lXsMar6fFmbmMZ6jv4TQTEFH37+Xw=
+			pO/Vx3dlAguRUJ3mwRZ615CamJ8=
 			</data>
-		</dict>
-		<key>LICENSE</key>
-		<dict>
 			<key>hash2</key>
 			<data>
-			mUf3VCIfbgrMjAuYhMV63N5HKyE1sO007noP1z63UUQ=
+			ASrsdDOA98hdf9BPd3alM8WSMKjQsKxCPzB6MZ8r6qc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			48CDhGg/4sCs5VHefihJeDz6zcg=
+			</data>
 			<key>hash2</key>
 			<data>
 			Q9QoYyd8wfSTx5IKw+V1TFxotbGe0PS7TQaNfXu0QRg=
-			</data>
-		</dict>
-		<key>Result.numbers</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4Za+OtgTpxNLQ4sUcNksjzeuBJNaa8XnAEh0r5z8CYc=
-			</data>
-		</dict>
-		<key>Result.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nC9c9YNSbnoa7MKumncqob/6mdLHfgNc7ZdO3X6m+Sc=
-			</data>
-		</dict>
-		<key>YYModel.podspec</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			O5meQ6RlwEmyFmSyTBQpJSIg/0qmnBQp0TPShkx/9PQ=
-			</data>
-		</dict>
-		<key>user.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dwZ8TZd67lkJhfvuwSXdNi0C9seoBth8Sy6A2WbjJi8=
-			</data>
-		</dict>
-		<key>weibo.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9c3ssu5xOz9HDJlSLBjSR9vTZZJtp2+fovZaSy9ZVxE=
 			</data>
 		</dict>
 	</dict>
