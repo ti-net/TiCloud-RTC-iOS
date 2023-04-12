@@ -6,7 +6,7 @@
 	<dict>
 		<key>Frameworks/AgoraRtcKit.framework/AgoraRtcKit</key>
 		<data>
-		jZDKuMV9SPEUHrNWg2Zuic/XW5M=
+		xVkF3t/sSoi4C/7aI8DAArlMm6g=
 		</data>
 		<key>Frameworks/AgoraRtcKit.framework/Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Frameworks/AgoraRtmKit.framework/AgoraRtmKit</key>
 		<data>
-		71Qahyv2rQUOrbpdVf+zrddWuxE=
+		B2X3lNCrQVCBUYSUEuEj6I8lqi0=
 		</data>
 		<key>Frameworks/AgoraRtmKit.framework/Info.plist</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/AgoraSoundTouch.framework/AgoraSoundTouch</key>
 		<data>
-		w5n1FQByqyTlp3aGSOfut9aY654=
+		wz3z4C3k9HFPNq7vanuEH0W2jLQ=
 		</data>
 		<key>Frameworks/AgoraSoundTouch.framework/Info.plist</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Frameworks/Agorafdkaac.framework/Agorafdkaac</key>
 		<data>
-		hH2rmKp7OUpI7lqv8PfGihREMpo=
+		ssEBlak+lqZ/xSiZbDBWjMX7R5g=
 		</data>
 		<key>Frameworks/Agorafdkaac.framework/Info.plist</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Lsb87v5iEB6kFMdo6REW9A7hED4=
+		XzxrYeaRtIe6o83ptPStLHrmO6Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jZDKuMV9SPEUHrNWg2Zuic/XW5M=
+			xVkF3t/sSoi4C/7aI8DAArlMm6g=
 			</data>
 			<key>hash2</key>
 			<data>
-			9iQ6aCzOK+vv5mTcKEc05tj/ZcFc1KonB9lKIr2YzEk=
+			vTxmG3yC5mQl/t/zc633RcIL2TgKk/8YjPdOT4DesV0=
 			</data>
 		</dict>
 		<key>Frameworks/AgoraRtcKit.framework/Info.plist</key>
@@ -128,11 +128,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			71Qahyv2rQUOrbpdVf+zrddWuxE=
+			B2X3lNCrQVCBUYSUEuEj6I8lqi0=
 			</data>
 			<key>hash2</key>
 			<data>
-			cMYnd3Yf6n7+XzbJXmUKrbBSLbcC1vol7Ha12jVOmHo=
+			02ItUA4i2Tb6hE+8DYwuKBsRlh5mL7NAxV99rcPBwLw=
 			</data>
 		</dict>
 		<key>Frameworks/AgoraRtmKit.framework/Info.plist</key>
@@ -161,11 +161,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w5n1FQByqyTlp3aGSOfut9aY654=
+			wz3z4C3k9HFPNq7vanuEH0W2jLQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			jYov37MBdMJA9ucQ2HEyVt6FRtEzWKwbKVqkCQY7eKc=
+			1Z0yus8WnVOBcj2d0EYA3WBqzJy21A4S/V58llJe0zo=
 			</data>
 		</dict>
 		<key>Frameworks/AgoraSoundTouch.framework/Info.plist</key>
@@ -194,11 +194,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hH2rmKp7OUpI7lqv8PfGihREMpo=
+			ssEBlak+lqZ/xSiZbDBWjMX7R5g=
 			</data>
 			<key>hash2</key>
 			<data>
-			Mqni0jOSpdalIgraCVivZB2M96HBG75DFocwK7Bmpvs=
+			EWweBcLZAhBNzhIdmgf1G5p11biUQrijc6MYDz9i7TI=
 			</data>
 		</dict>
 		<key>Frameworks/Agorafdkaac.framework/Info.plist</key>
