@@ -6,7 +6,7 @@
 	<dict>
 		<key>.DS_Store</key>
 		<data>
-		TBgOEVYza/4XhgTocIeJA69l+cs=
+		8HBILDFEakDWCumixDppow1BV+Y=
 		</data>
 		<key>Headers/AFNetworkReachabilityManager.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TiCloudRTCDefines.h</key>
 		<data>
-		2N0wlCJ/7dZz+ZSvbTIscnFILO8=
+		3c2kdtsPVKa41V/tca4qsIFa5x0=
 		</data>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/TiCloudRTCEngine.h</key>
 		<data>
-		jJWnesOLicPKm+S2hYOBXTPeQZ4=
+		lsXRavMnP7ZJqM14+KV9NgjDoNQ=
 		</data>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ox4habNcRl6AtXV55eHbvpwDF8I=
+		k2Da2nmmicAYboro5nB8FfS0OA8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,11 +73,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2N0wlCJ/7dZz+ZSvbTIscnFILO8=
+			3c2kdtsPVKa41V/tca4qsIFa5x0=
 			</data>
 			<key>hash2</key>
 			<data>
-			r2vmnixLa49Oqvf4kcW17LBhMXnH72ryMgQBrVkVTkQ=
+			EQN2zpLCFX2xq82hVYBS0LWo8jINeX7gL/2BSSvlGvo=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
@@ -106,11 +106,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jJWnesOLicPKm+S2hYOBXTPeQZ4=
+			lsXRavMnP7ZJqM14+KV9NgjDoNQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			elGc3rDaeg05yhCW8dFVw49Y6ffMNFLvl81YM8sSYXw=
+			NAiyQheoo9Wt7LnRA/GuXIk9x48hmGy8wKcMuvc/jXI=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
