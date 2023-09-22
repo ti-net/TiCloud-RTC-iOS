@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		H9n/9pzvMHyLvUFw+qA7lmGwbic=
+		</data>
 		<key>Headers/AFNetworkReachabilityManager.h</key>
 		<data>
 		ucw7ZEs9qbD4ZHXh6GrEj2bffRw=
@@ -34,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Tb2Evvzz4iYNHva3EergeI4D7e4=
+		YWz/iQstDOl01Oj1WOy6gTVcK0Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
