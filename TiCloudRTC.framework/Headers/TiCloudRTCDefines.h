@@ -40,6 +40,11 @@ typedef NS_ENUM(NSInteger, TiCloudRtcErrCode)
     ERR_CALL_FAILED_NET_ERROR             = 11004,   // "外呼失败：网络异常"
     ERR_CALL_FAILED_RTM_ERROR             = 11005,   // "外呼失败：内部信令错误"
     ERR_CALL_HOTLINE_NOT_EXIST            = 11006,   // "热线号码未配置"
+    
+    ERR_RTC_ENDPOINT_FORMAT_INCORRECT     = 13001,   // "RTC 平台地址格式不正确"
+    ERR_ENTERPRISE_ID_FORMAT_INCORRECT    = 13002,   // "企业 ID 格式不正确"
+    ERR_USER_ID_FORMAT_INCORRECT          = 13003,   // "用户 ID 格式不正确"
+    ERR_ACCESS_TOKEN_FORMAT_INCORRECT     = 13004,   // "accessToken 格式不正确"
 };
 
 /// 网络状态
