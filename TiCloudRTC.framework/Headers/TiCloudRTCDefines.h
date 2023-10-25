@@ -41,6 +41,7 @@ typedef NS_ENUM(NSInteger, TiCloudRtcErrCode)
     ERR_CALL_FAILED_RTM_ERROR             = 11005,   // "外呼失败：内部信令错误"
     ERR_CALL_HOTLINE_NOT_EXIST            = 11006,   // "热线号码未配置"
     
+    // SDK 初始化时参数校验错误码
     ERR_RTC_ENDPOINT_FORMAT_INCORRECT     = 13001,   // "RTC 平台地址格式不正确"
     ERR_ENTERPRISE_ID_FORMAT_INCORRECT    = 13002,   // "企业 ID 格式不正确"
     ERR_USER_ID_FORMAT_INCORRECT          = 13003,   // "用户 ID 格式不正确"

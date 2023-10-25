@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/TiCloudRTCDefines.h</key>
 		<data>
-		uSWhGtTo+p/RzXXSdQF9o8Xwg6Q=
+		U5FdzmEWzZt3i9yVhnp8JTB5gow=
 		</data>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zD+IIKz1io/MuBFOs9nn+2NUoMU=
+		S5pU0J4XY9nQUeRNMeXFQ9qJigA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -45,6 +45,10 @@
 	<dict>
 		<key>Headers/AFNetworkReachabilityManager.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ucw7ZEs9qbD4ZHXh6GrEj2bffRw=
+			</data>
 			<key>hash2</key>
 			<data>
 			Auq4EpEWLRxuWwpS81xd1K4dDfhaetQkoWz7EiJn4no=
@@ -52,6 +56,10 @@
 		</dict>
 		<key>Headers/TiCloudRTC.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			NUIdx0/B5RgKDpts1piAQ66+95w=
+			</data>
 			<key>hash2</key>
 			<data>
 			BPAT2yMZ3e4jZiO6pMMuvKNjPSD35Hm01ZuZ6xLDxCA=
@@ -59,13 +67,21 @@
 		</dict>
 		<key>Headers/TiCloudRTCDefines.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			U5FdzmEWzZt3i9yVhnp8JTB5gow=
+			</data>
 			<key>hash2</key>
 			<data>
-			yTkOcVBlqdLH/Z68GEmyXtCoJB4Zzv/TQIKarCNhrek=
+			13qTBnh/JgjisatQskIqYIKlR6UtSc0ChIbrWjAfsAY=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			skxHNkmPKQP11lzzxtgVOk27av8=
+			</data>
 			<key>hash2</key>
 			<data>
 			VywrffZqNKveVi2ei/tAREB5DP3bxsZv2QI5MkksKBU=
@@ -73,6 +89,10 @@
 		</dict>
 		<key>Headers/TiCloudRTCEngine+ApiRequest.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			kmwyMWNfAOi6CFH4P2R5Np8Cl8Q=
+			</data>
 			<key>hash2</key>
 			<data>
 			YhP5jfsT9DYZtaUKVsPQQjAhEQkgvQpCAIyWS5E3Mww=
@@ -80,6 +100,10 @@
 		</dict>
 		<key>Headers/TiCloudRTCEngine.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lsXRavMnP7ZJqM14+KV9NgjDoNQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			NAiyQheoo9Wt7LnRA/GuXIk9x48hmGy8wKcMuvc/jXI=
@@ -87,6 +111,10 @@
 		</dict>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			QNyta0PbkBC1x2LhIp0SOgmlfPo=
+			</data>
 			<key>hash2</key>
 			<data>
 			wfM57Kqoz03jv+tZ1WFUAJ3wQXPKexB5LxWoJikFf5s=
@@ -94,6 +122,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			48CDhGg/4sCs5VHefihJeDz6zcg=
+			</data>
 			<key>hash2</key>
 			<data>
 			Q9QoYyd8wfSTx5IKw+V1TFxotbGe0PS7TQaNfXu0QRg=
