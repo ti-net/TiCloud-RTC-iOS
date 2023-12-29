@@ -99,7 +99,7 @@ typedef NS_ENUM(NSInteger, TiCloudRtcScence)
 // 外显号码
 @property(nonatomic, copy, nullable) NSString *clid;
 
-// 指定外显区号（和指定外显号码池同时出现）
+// 指定外显区号
 @property(nonatomic, copy, nullable) NSString *obClidAreaCode;
 
 /// 指定外显号码池，使用此参数时obClid参数无效
