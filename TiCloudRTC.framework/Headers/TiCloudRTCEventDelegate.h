@@ -12,6 +12,8 @@
 
 @protocol TiCloudRTCEventDelegate <NSObject>
 
+@optional  // 可选实现
+
 /**
  * 引擎全局内错误信息事件回调
  *
@@ -150,6 +152,11 @@
  * 当前 userId 在其他设备登录，此时引擎已销毁
  */
 - (void)onRemoteLogin;
+
+/**
+ * 本地监测无发送语音流时间间隔5秒时回调
+ */
+- (void)onLocalNoVoiceStreamSent;
 
 @end
 
