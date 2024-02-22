@@ -158,6 +158,15 @@
  */
 - (void)onLocalNoVoiceStreamSent;
 
+/**
+ * SDK 根据平台配置对 userField 外呼参数里的特殊字符进行了移除处理
+ *
+ * @param removedCharList 被移除的特殊字符列表
+ * @param srcUserField 原始的 userField
+ * @param finalUserField 处理后的 userField
+ * */
+- (void)onUserFieldModifiedByConfig:(nonnull NSArray *)removedCharList srcUserField:(nonnull NSString *)srcUserField finalUserField:(nonnull NSString *)finalUserField;
+
 @end
 
 #endif /* TiCloudRTCEventHandler_h */
