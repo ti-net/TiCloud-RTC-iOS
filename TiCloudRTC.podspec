@@ -37,7 +37,5 @@ TODO: Add long description of the pod here.
   s.dependency 'AgoraRtm_iOS', '1.5.1'
   s.dependency 'AgoraAudio_Special_iOS', '4.1.1.17.BASIC'
 
-  # s.dependency 'AgoraAudio_iOS/RtcBasic', '4.1.1'
-  # s.dependency 'AgoraAudio_Special_iOS', '4.1.1.11.MINI.AUDIO'
   
 end
