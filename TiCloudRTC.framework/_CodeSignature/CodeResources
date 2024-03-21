@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/TiCloudRTCEngine+ApiRequest.h</key>
 		<data>
-		kmwyMWNfAOi6CFH4P2R5Np8Cl8Q=
+		iosEq/6Zil1O7Rknl0VUkg6JrXo=
 		</data>
 		<key>Headers/TiCloudRTCEngine.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qDpvYml9fR6eezZC6ah0hzpMf7w=
+		NcKmHiFbQp8vG8jcZO6gbppxHAU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -91,11 +91,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kmwyMWNfAOi6CFH4P2R5Np8Cl8Q=
+			iosEq/6Zil1O7Rknl0VUkg6JrXo=
 			</data>
 			<key>hash2</key>
 			<data>
-			YhP5jfsT9DYZtaUKVsPQQjAhEQkgvQpCAIyWS5E3Mww=
+			Xvwc6q2g4osDpb1ACgZ3DZTpx/Nx4MW5gEp+qN3l7Kc=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine.h</key>

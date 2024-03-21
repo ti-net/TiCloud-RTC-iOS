@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)registerSdk:(void (^)(void))successBlock error:(void (^)(TiCloudRtcErrCode nErrorCode, NSString *errorDes))errorBlock;
 
 /// 呼叫前获取呼叫信息
--(void)getCallInfo:(void (^)(void))successBlock error:(void (^)(TiCloudRtcErrCode nErrorCode, NSString *errorDes))errorBlock;
+-(void)getCallInfo:(void (^)(NSString *newAccessToken, NSInteger expires))successBlock error:(void (^)(TiCloudRtcErrCode nErrorCode, NSString *errorDes))errorBlock;
 
 /// 获取新的RTC和RTM  Token
 - (void)getAgoraNewToken:(void(^)(void))successBlock error:(void(^)(TiCloudRtcErrCode nErrorCode, NSString *errorDes))errorBlock;
