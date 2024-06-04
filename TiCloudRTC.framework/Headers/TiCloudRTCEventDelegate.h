@@ -10,6 +10,9 @@
 
 #import <TiCloudRTC/TiCloudRTCDefines.h>
 
+#import <AgoraRtmKit/AgoraRtmKit.h>
+#import <AgoraRtcKit/AgoraRtcKit.h>
+
 @protocol TiCloudRTCEventDelegate <NSObject>
 
 @optional  // 可选实现
@@ -55,10 +58,12 @@
 
 /**
  * 外呼结束
- * @param isPeerHangup     为 true 表示对方挂断，false 表示己方挂断
+ * @param errorCode         错误码
+ * @param errorMessage   错误描述
+ * @param sipCode           sip错误码
  *
  */
-- (void)onCallingEnd:(BOOL)isPeerHangup;
+- (void)onCallingEnd:(TiCloudRtcErrCode)errorCode errorMessage:(nonnull NSString *)errorMessage sipCode:(NSInteger)sipCode;
 
 /**
  * 外呼失败
@@ -140,13 +145,11 @@
 /**
 * 接收回呼失败
 *
-* @param fields 包含如下数据：
-*
-* customerNumber：主叫号码
-* requestUniqueId：通话唯一标识
+* errorCode：错误码
+* errorMessage：通话唯一标识
 *
 */
-- (void)onRemoteInvitationFailure:(nonnull NSDictionary *)fields;
+- (void)onRemoteInviteFailure:(TiCloudRtcErrCode)errorCode errorMessage:(nonnull NSString *)errorMessage;
 
 /**
  * 当前 userId 在其他设备登录，此时引擎已销毁
@@ -166,6 +169,18 @@
  * @param finalUserField 处理后的 userField
  * */
 - (void)onUserFieldModifiedByConfig:(nonnull NSArray *)removedCharList srcUserField:(nonnull NSString *)srcUserField finalUserField:(nonnull NSString *)finalUserField;
+
+/// 远程音频状态改变
+- (void)onRemoteAudioStateChangedOfUid:(NSUInteger)uid state:(AgoraAudioRemoteState)state reason:(AgoraAudioRemoteReason)reason elapsed:(NSInteger)elapsed;
+
+/// 远程音频质量统计
+- (void)onRemoteAudioStats:(AgoraRtcRemoteAudioStats * _Nonnull)stats;
+
+/// 本地音频状态改变
+- (void)onLocalAudioStateChanged:(AgoraAudioLocalState)state error:(AgoraAudioLocalError)error;
+
+/// 本地音频质量统计
+- (void)onLocalAudioStats:(AgoraRtcLocalAudioStats *_Nullable)stats;
 
 @end
 

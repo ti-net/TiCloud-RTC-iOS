@@ -18,34 +18,95 @@
 
 typedef NS_ENUM(NSInteger, TiCloudRtcErrCode)
 {
-    // 初始化及登录错误码
-    ERR_NET_ERROR                         = 10001,   // "网络错误"
-    ERR_ENGINE_NOT_INITIALIZE             = 10002,   // "引擎未初始化"
-    ERR_INNER_MESSAGE_SEND_FIELD          = 10003,   // "内部信令发送失败"
-    ERR_INNER_ERROR                       = 10004,   // "内部错误",通常因为引擎处于初始化中或销毁中导致当前操作执行失败
-    ERR_RTM_ERROR                         = 10005,   // "内部信令错误"
-    ERR_RTC_ERROR                         = 10006,   // "内部 RTC 错误"
-    ERR_TOKEN_EXPIRED                     = 10007,   // "token 已过期"
-    ERR_TOKEN_INVALID                     = 10008,   // "token 无效"
-    ERR_TOKEN_PERIOD_TOO_SHORT            = 10009,   // "token 有效期过短，有效期最小为 10 分钟"
-    ERR_AUTH_FAILED                       = 10010,   // 鉴权失败,userId 与 accessToken 不匹配
-    ERR_REQUEST_TOO_FREQUENT              = 10011,   // 请求过于频繁
-    ERR_REGISTRATION_CONCURRENCY_EXCEEDED = 10012,   // 注册并发数超限制
-    ERR_ENTERPRISE_NOT_EXIST              = 10013,   // 企业不存在
+    /*
+     * code 分类方式:
+     * 1. 1xxxx  格式错误码为 SDK 自身内部运行所遇到的错误, 19999 为 SDK 未知错误兜底错误码
+     * 2. 2xxxx  格式错误码为网关类错误码
+     * 3. 3xxxx  格式错误码为 Media-Server 类错误码
+     * 4. 4xxxx  格式错误码为 RTC API 接口返回的配置错误类错误码
+     */
     
-    // 外呼相关错误码
-    ERR_CALL_FAILED_PARAMS_INCORRECT      = 11001,   // "外呼失败：参数不正确"
-    ERR_CALL_FAILED_CALL_REPEAT           = 11002,   // "外呼失败：重复呼叫"
-    ERR_CALL_FAILED_REMOTE_OFFLINE        = 11003,   // "外呼失败：对端异常掉线"
-    ERR_CALL_FAILED_NET_ERROR             = 11004,   // "外呼失败：网络异常"
-    ERR_CALL_FAILED_RTM_ERROR             = 11005,   // "外呼失败：内部信令错误"
-    ERR_CALL_HOTLINE_NOT_EXIST            = 11006,   // "热线号码未配置"
+    // SDK 自身相关错误码 ::::::::::::::::::::::::::::::::::::::::::::::::
+    SDK_NOT_INIT                            = 10000,   // "SDK未初始化"
+    NET_ERROR                               = 10001,   // "网络异常"
+    PARSE_HTTP_RESPONSE_FAILED              = 10002,   // "解析 HTTP 响应失败"
+    SDK_ON_INITIALIZING_OR_DESTROYING       = 10003,   // "SDK 正在初始化或 SDK 正在销毁"     暂无
+    RTC_ENDPOINT_FORMAT_INCORRECT           = 10004,   // "RTC 平台地址格式不正确. 正确格式: ^https://[a-zA-Z0-9\.\-_]+$ "
+    ENTERPRISE_ID_FORMAT_INCORRECT          = 10005,   // "企业 ID 格式不正确. 正确格式: ^\d{7}$ "
+    USER_ID_FORMAT_INCORRECT                = 10006,   // "用户 ID 格式不正确. 正确格式:   ^[a-zA-Z0-9@\-\.:]{1,512}$ "
+    ACCESS_TOKEN_FORMAT_INCORRECT           = 10007,   // "accessToken 格式不正确. 正确格式:   ^[a-zA-Z0-9%/=+]+$ "
+    RTM_INIT_FAILED                         = 10008,   // "RTM 初始化失败"
+    RTM_NOT_INIT                            = 10009,   // "RTM 未初始化"
     
-    // SDK 初始化时参数校验错误码
-    ERR_RTC_ENDPOINT_FORMAT_INCORRECT     = 13001,   // "RTC 平台地址格式不正确"
-    ERR_ENTERPRISE_ID_FORMAT_INCORRECT    = 13002,   // "企业 ID 格式不正确"
-    ERR_USER_ID_FORMAT_INCORRECT          = 13003,   // "用户 ID 格式不正确"
-    ERR_ACCESS_TOKEN_FORMAT_INCORRECT     = 13004,   // "accessToken 格式不正确"
+    HTTP_AUTH_FAILED                        = 11000,   // "HTTP 鉴权失败"
+    ACCESS_TOKEN_EXPIRED                    = 11001,   // "AccessToken 已过期"
+    ACCESS_TOKEN_PERIOD_TOO_SHORT           = 11002,   // "AccessToken 有效期短于 10 分钟"
+    ACCESS_TOKEN_VERSION_INCORRECT          = 11003,   // "AccessToken 版本错误"
+    HTTP_REQUEST_UNAUTHORIZED               = 11004,   // "HTTP 未授权"
+    HTTP_REQUEST_404                        = 11005,   // "资源未定义(404异常)"
+//    HTTP_METHOD_NOT_ALLOWED                 = 11006,   // "请求方式错误"    //移动端发送的请求方法不会出错, 所以可以不支持该错误码
+    
+    NOT_SUPPORT_CALL_TYPE                   = 12000,   // "不支持的呼叫场景"
+    CALL_PARAM_INCORRECT                    = 12001,   // "呼叫参数错误"
+    CALL_REPEAT                             = 12002,   // "呼叫重复"
+//    OTHER_CLIENTS_ARE_ON_CALL               = 12003,   // "当前有其他客户端正在通话中"     // 移动端有互踢逻辑, 所以不会出现该错误码
+    LOCAL_INVITATION_SEND_FAILED            = 12004,   // "发送本地会话邀请失败"
+    NOT_SUPPORT_DTMF                        = 12005,   // "外呼场景不支持 DTMF"
+    DTMF_PARAM_INCORRECT                    = 12006,   // "请输入正确的 DTMF 字符"
+    AUDIO_CAPTURE_PERMISSION_DENIED         = 12007,   // "无音频采集权限"
+    
+    UNKNOWN_ERROR_WHEN_ACCEPT_REMOTE_INVITATION     = 13000,   // "因意外情况无法接受网关的远端会话邀请"     暂无
+    PARSE_REMOTE_INVITATION_CONTENT_FAILED  = 13001,   // "解析网关远端会话邀请内容失败"
+    ACCEPT_REMOTE_INVITATION_FAILED         = 13002,   // "接受网关远端会话邀请失败"
+    
+    SELF_HANGUP                             = 14001,   // "调用 SDK hangup 接口引发挂断"
+    REMOTE_HANGUP                           = 14002,   // "对方接起后挂断"
+    REMOTE_MISSED_CALL                      = 14003,   // "对方未接起挂断,请检查 sipCode"
+    SDK_OFFLINE                             = 14004,   // "通话过程中 SDK 因网络问题断线"
+    SAME_USER_ID_LOGIN_ON_OTHER_DEVICE      = 14005,   // "通话过程中同一 userId 在其他端登录导致断线"
+    HANGUP_DUE_DESTROY_CLIENT               = 14006,   // "通话过程中调用销毁 SDK 导致断线"
+    
+    UNKNOWN_SDK_ERROR                       = 19999,   // "未知 SDK 内部错误"
+    
+    // 网关类错误码 ::::::::::::::::::::::::::::::::::::::::::::::::::::-
+    // 此部分由 Gateway 透传 ==============
+    LOCAL_INVITATION_PARAM_ERROR            = 20001,   // "本地会话邀请参数错误"
+    IB_OB_ERROR                             = 20002,   // "主被叫错误"
+    GATEWAY_INNER_ERROR                     = 20003,   // "网关内部错误"
+    SDK_SIDE_RTP_TIMEOUT                    = 20004,   // "SDK 侧 RTP 超时"
+    SIP_SIDE_RTP_TIMEOUT                    = 20005,   // "SIP 侧 RTP 超时"
+    CALL_MEDIA_SERVER_TIMEOUT               = 20006,   // "呼叫 Media-Server 超时"
+    
+    GATEWAY_OFFLINE                         = 21000,   // "通话过程中网关掉线"
+    GATEWAY_NOT_ACCEPT_INVITATION_BECAUSE_OF_OFFLINE    = 21001,   // "网关离线无法接受本地会话邀请"
+    GATEWAY_NO_RESPONSE_INVITATION          = 21002,   // "网关对本地会话邀请无响应"
+    GATEWAY_ACCEPT_INVITATION_TIMEOUT       = 21003,   // "网关接受邀请超时"
+    
+    // Media-Server 类错误码 ::::::::::::::::::::::::::::::::::::::::::::
+    // 此部由 Media-Server 透传 ===========
+    ABNORMAL_ENTERPRISE_STATUS              = 30001,   // "企业状态异常"
+    NO_PERMISSION_TO_MAKE_OUTBOUND_CALL     = 30002,   // "没有外呼权限"
+    CONCURRENCY_LIMIT_EXCEEDED              = 30003,   // "并发超限"
+    INVALID_OUTBOUND_NUMBER_FORMAT          = 30004,   // "外呼号码格式错误"
+    CAN_NOT_OBTAIN_CLID_NUMBER              = 30005,   // "未获取到外显号码"
+    BLACKLIST_BLOCKED                       = 30006,   // "风控黑名单拦截"
+    FREQUENCY_LIMIT_EXCEEDED                = 30007,   // "风控频次拦截"
+    TIME_LIMIT_EXCEEDED                     = 30008,   // "风控时间限制拦截"
+    
+    MEDIA_SERVER_OTHER_ERROR                = 39999,   // "其他异常"
+    
+    // 访问 RTC API 接口遇到的误码 ::::::::::::::::::::::::::::::::::::::-
+    HTTP_REQUEST_500                        = 40000,   // "系统异常(500异常)"
+    HOTLINE_NOT_CONFIG                      = 40001,   // "热线号码未配置"
+    RTC_HTTP_API_FREQUENCY_LIMIT_EXCEEDED   = 40002,   // "接口频次超限"
+    RTC_REGISTER_CONCURRENCY_LIMIT_EXCEEDED = 40003,   // "注册并发超限"
+    RTC_CALL_CONCURRENCY_LIMIT_EXCEEDED     = 40004,   // "呼叫并发超限"
+    ACCOUNT_DEACTIVATED                     = 40005,   // "账户状态异常:停机"
+    ACCOUNT_CANCELED                        = 40006,   // "账户状态异常:注销"
+    ENTERPRISE_NOT_EXIST                    = 40007,   // "企业不存在"
+    NO_AVAILABLE_GATEWAY                    = 40008,   // "无可用 Gateway"
+    
+    UNKNOWN_RTC_HTTP_API_ERROR              = 49999,   // "未知 RTC HTTP API 错误"
 };
 
 /// 网络状态
