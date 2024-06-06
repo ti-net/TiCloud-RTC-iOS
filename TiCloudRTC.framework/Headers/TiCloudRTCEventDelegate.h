@@ -109,6 +109,17 @@
 - (void)networkQuality:(TiCloudRtcNetwotkQuality)netwotkQuality;
 
 /**
+ *  检测全部用户网络质量
+ *
+ *  uid：用户id
+ *
+ *  txQuality：传输质量
+ *  rxQuality：接受质量
+ *
+ */
+- (void)networkQuality:(NSUInteger)uid txQuality:(AgoraNetworkQuality)txQuality rxQuality:(AgoraNetworkQuality)rxQuality;
+
+/**
 * 接收到远端呼叫
 *
 *  @param fields 包含如下数据：

@@ -45,6 +45,7 @@ typedef NS_ENUM(NSInteger, TiCloudRtcErrCode)
     HTTP_REQUEST_UNAUTHORIZED               = 11004,   // "HTTP 未授权"
     HTTP_REQUEST_404                        = 11005,   // "资源未定义(404异常)"
 //    HTTP_METHOD_NOT_ALLOWED                 = 11006,   // "请求方式错误"    //移动端发送的请求方法不会出错, 所以可以不支持该错误码
+    ACCESS_TOKEN_AND_USER_ID_MISMATCH       = 11007,   // "AccessToken 与 userId 不匹配"
     
     NOT_SUPPORT_CALL_TYPE                   = 12000,   // "不支持的呼叫场景"
     CALL_PARAM_INCORRECT                    = 12001,   // "呼叫参数错误"
