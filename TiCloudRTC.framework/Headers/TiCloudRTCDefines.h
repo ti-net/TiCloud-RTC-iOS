@@ -52,7 +52,7 @@ typedef NS_ENUM(NSInteger, TiCloudRtcErrCode)
     CALL_REPEAT                             = 12002,   // "呼叫重复"
 //    OTHER_CLIENTS_ARE_ON_CALL               = 12003,   // "当前有其他客户端正在通话中"     // 移动端有互踢逻辑, 所以不会出现该错误码
     LOCAL_INVITATION_SEND_FAILED            = 12004,   // "发送本地会话邀请失败"
-    NOT_SUPPORT_DTMF                        = 12005,   // "外呼场景不支持 DTMF"
+    NOT_SUPPORT_DTMF __attribute__((deprecated("已废弃,SDK 不会再返回此错误码,无论外呼场景还是客服场景都支持传 DTMF,当前错误码将在 5.0.0 版本移除"))) = 12005 ,   // "外呼场景不支持 DTMF"
     DTMF_PARAM_INCORRECT                    = 12006,   // "请输入正确的 DTMF 字符"
     AUDIO_CAPTURE_PERMISSION_DENIED         = 12007,   // "无音频采集权限"
     
@@ -60,8 +60,8 @@ typedef NS_ENUM(NSInteger, TiCloudRtcErrCode)
     PARSE_REMOTE_INVITATION_CONTENT_FAILED  = 13001,   // "解析网关远端会话邀请内容失败"
     ACCEPT_REMOTE_INVITATION_FAILED         = 13002,   // "接受网关远端会话邀请失败"
     
-    SELF_HANGUP                             = 14001,   // "调用 SDK hangup 接口引发挂断"
-    REMOTE_HANGUP                           = 14002,   // "对方接起后挂断"
+    SELF_HANGUP    __attribute__((deprecated("已废弃,请用 onLocalHangup 回调,SDK 不会再返回此错误码,当前错误码将在 5.0.0 版本移除")))   = 14001,   // "调用 SDK hangup 接口引发挂断"
+    REMOTE_HANGUP  __attribute__((deprecated("已废弃,请用 onRemoteHangup 回调,SDK 不会再返回此错误码,当前错误码将在 5.0.0 版本移除")))   = 14002,   // "对方接起后挂断"
     REMOTE_MISSED_CALL                      = 14003,   // "对方未接起挂断,请检查 sipCode"
     SDK_OFFLINE                             = 14004,   // "通话过程中 SDK 因网络问题断线"
     SAME_USER_ID_LOGIN_ON_OTHER_DEVICE      = 14005,   // "通话过程中同一 userId 在其他端登录导致断线"
@@ -145,6 +145,18 @@ typedef NS_ENUM(NSInteger, TiCloudRtcScence)
 
 // 调试标识，true 为输出调试信息，false 为不输出调试信息
 @property(nonatomic, assign) BOOL isDebug;
+
+/**
+ * 启动SDK端观测云，true 为启动观测云，false 为不启动观测云
+ *
+ * 注:
+ * 1. 当设置该标识为 false 时, 关闭 SDK 的观测云初始化.
+ *
+ * 2. 当设置该标识为 true 时, 开启 SDK 的观测云初始化.
+ *
+ * 3. 如果 APP 端使用观测云, 则 isStartFTMobile 需要设置为 false.
+ */
+@property(nonatomic, assign) BOOL isStartFTMobile;
 
 // 主叫号码（用于回呼）
 @property(nonatomic, copy, nullable) NSString *callerNumber;

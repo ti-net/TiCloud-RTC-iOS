@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/TiCloudRTCDefines.h</key>
 		<data>
-		Ti77wCaajAusMlKAS/tnz6cUd8c=
+		hq0QAN8fomfSTBADW/SazKcrq40=
 		</data>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/TiCloudRTCEngine+ApiRequest.h</key>
 		<data>
-		iosEq/6Zil1O7Rknl0VUkg6JrXo=
+		UILfgwNQ8nQmp76QWx4QIsrsSp0=
 		</data>
 		<key>Headers/TiCloudRTCEngine.h</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
 		<data>
-		HJEOB2XASOFlmtjyvzfdftDJefs=
+		V+tEg7A1np0dmw/ai3hDIrieKkE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zL8uHLnpxbTDqh0MWaamIT+nt3s=
+		mvGyzOv7ULD7XYsHTs1mgv0sECU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,11 +69,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ti77wCaajAusMlKAS/tnz6cUd8c=
+			hq0QAN8fomfSTBADW/SazKcrq40=
 			</data>
 			<key>hash2</key>
 			<data>
-			lHkyiqiqhSA/mGhDDYwDwFn00KFdz0gOj9+C9anXTPk=
+			ZDPewaH+NceQOFosm69cnyzD46ymOKnMiU6NB1BLRec=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
@@ -91,11 +91,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iosEq/6Zil1O7Rknl0VUkg6JrXo=
+			UILfgwNQ8nQmp76QWx4QIsrsSp0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xvwc6q2g4osDpb1ACgZ3DZTpx/Nx4MW5gEp+qN3l7Kc=
+			pq14iejd/6UDNSyBSX+LcZJxTD1zo1HI/bZXTuIzsSw=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine.h</key>
@@ -113,11 +113,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HJEOB2XASOFlmtjyvzfdftDJefs=
+			V+tEg7A1np0dmw/ai3hDIrieKkE=
 			</data>
 			<key>hash2</key>
 			<data>
-			jw+fb+9Lxft5WPZ1H6Q2n0yCc6abvLAXc0qG5VMVWHs=
+			qMnVkO3Q0iiDZeV16mhA0p7f7HmL5g74NWYdcdWQ5e4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -57,6 +57,18 @@
 - (void)onCalling;
 
 /**
+ * 调用 SDK hangup 接口引发挂断
+ *
+ */
+- (void)onLocalHangup;
+
+/**
+ * 对方接起后挂断
+ *
+ */
+- (void)onRemoteHangup;
+
+/**
  * 外呼结束
  * @param errorCode         错误码
  * @param errorMessage   错误描述
