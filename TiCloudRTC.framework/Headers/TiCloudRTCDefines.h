@@ -55,6 +55,8 @@ typedef NS_ENUM(NSInteger, TiCloudRtcErrCode)
     NOT_SUPPORT_DTMF __attribute__((deprecated("已废弃,SDK 不会再返回此错误码,无论外呼场景还是客服场景都支持传 DTMF,当前错误码将在 5.0.0 版本移除"))) = 12005 ,   // "外呼场景不支持 DTMF"
     DTMF_PARAM_INCORRECT                    = 12006,   // "请输入正确的 DTMF 字符"
     AUDIO_CAPTURE_PERMISSION_DENIED         = 12007,   // "无音频采集权限"
+//    PUBLISH_LOCAL_STREAM_FAILED             = 12008  // 当前错误码只有小程序支持
+//    JOIN_CHANNEL_FAILED                     = 12009  // 当前错误码只有小程序支持
     
     UNKNOWN_ERROR_WHEN_ACCEPT_REMOTE_INVITATION     = 13000,   // "因意外情况无法接受网关的远端会话邀请"     暂无
     PARSE_REMOTE_INVITATION_CONTENT_FAILED  = 13001,   // "解析网关远端会话邀请内容失败"
