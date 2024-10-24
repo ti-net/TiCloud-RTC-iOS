@@ -27,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 //- (void)uploadLogs:(NSString *)accessToken success:(void(^)(NSInteger expires))successBlock error:(void(^)(TiCloudRtcErrCode nErrorCode, NSString *errorDes))errorBlock;
 - (void)uploadLogs:(NSDictionary *)logs;
 
+- (void)tim_uploadLogs:(NSArray *)logs;
+
 @end
 
 NS_ASSUME_NONNULL_END

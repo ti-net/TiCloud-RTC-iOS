@@ -163,6 +163,14 @@ typedef NS_ENUM(NSInteger, TiCloudRtcScence)
 // 主叫号码（用于回呼）
 @property(nonatomic, copy, nullable) NSString *callerNumber;
 
+/**
+ * 是否在对端挂断时播放预置挂机音频(注:通话错误导致的挂机不会播放音频)
+ *
+ * true: 播放音频(默认)
+ * false: 不播放音频
+ */
+@property(nonatomic, assign) BOOL isPlayHangupAudio;
+
 + (instancetype _Nonnull)defaultConfig;
 
 @end
