@@ -1,0 +1,996 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/zhaoyan/Library/Developer/Xcode/DerivedData/TiCloudRTCObjcExample-bymdijttmitlsycfsywecdocaoaj/Build/Products/Release-iphoneos/TiCloudRTC.framework/TiCloudRTC'
+relocations:
+  - { offset: 0x7AA24, size: 0x8, addend: 0x0, symName: _TiCloudRTCVersionString, symObjAddr: 0x10, symBinAddr: 0x3BB60, symSize: 0x0 }
+  - { offset: 0x7AA59, size: 0x8, addend: 0x0, symName: _TiCloudRTCVersionNumber, symObjAddr: 0x40, symBinAddr: 0x3BB90, symSize: 0x0 }
+  - { offset: 0x7AA96, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCStatusModel updateRTCStatus:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x8C }
+  - { offset: 0x7AB36, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCStatusModel updateRTCStatus:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x8C }
+  - { offset: 0x7AB7D, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCStatusModel innerState]', symObjAddr: 0x8C, symBinAddr: 0x408C, symSize: 0x8 }
+  - { offset: 0x7ABB4, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCStatusModel setInnerState:]', symObjAddr: 0x94, symBinAddr: 0x4094, symSize: 0x8 }
+  - { offset: 0x7ACB8, size: 0x8, addend: 0x0, symName: '+[TiCloudRTCEngineConfig defaultConfig]', symObjAddr: 0x0, symBinAddr: 0x409C, symSize: 0xB8 }
+  - { offset: 0x7AF12, size: 0x8, addend: 0x0, symName: '+[TiCloudRTCEngineConfig defaultConfig]', symObjAddr: 0x0, symBinAddr: 0x409C, symSize: 0xB8 }
+  - { offset: 0x7AF55, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig rtcEndpoint]', symObjAddr: 0xB8, symBinAddr: 0x4154, symSize: 0x8 }
+  - { offset: 0x7AF8C, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig setRtcEndpoint:]', symObjAddr: 0xC0, symBinAddr: 0x415C, symSize: 0x8 }
+  - { offset: 0x7AFCB, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig enterpriseId]', symObjAddr: 0xC8, symBinAddr: 0x4164, symSize: 0x8 }
+  - { offset: 0x7B002, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig setEnterpriseId:]', symObjAddr: 0xD0, symBinAddr: 0x416C, symSize: 0x8 }
+  - { offset: 0x7B03F, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig userId]', symObjAddr: 0xD8, symBinAddr: 0x4174, symSize: 0x8 }
+  - { offset: 0x7B076, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig setUserId:]', symObjAddr: 0xE0, symBinAddr: 0x417C, symSize: 0x8 }
+  - { offset: 0x7B0B5, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig accessToken]', symObjAddr: 0xE8, symBinAddr: 0x4184, symSize: 0x8 }
+  - { offset: 0x7B0EC, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig setAccessToken:]', symObjAddr: 0xF0, symBinAddr: 0x418C, symSize: 0x8 }
+  - { offset: 0x7B12B, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig advancedConnectConfig]', symObjAddr: 0xF8, symBinAddr: 0x4194, symSize: 0x8 }
+  - { offset: 0x7B162, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig setAdvancedConnectConfig:]', symObjAddr: 0x100, symBinAddr: 0x419C, symSize: 0x8 }
+  - { offset: 0x7B1A1, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig isDebug]', symObjAddr: 0x108, symBinAddr: 0x41A4, symSize: 0x8 }
+  - { offset: 0x7B1D8, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig setIsDebug:]', symObjAddr: 0x110, symBinAddr: 0x41AC, symSize: 0x8 }
+  - { offset: 0x7B213, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig isStartFTMobile]', symObjAddr: 0x118, symBinAddr: 0x41B4, symSize: 0x8 }
+  - { offset: 0x7B24A, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig setIsStartFTMobile:]', symObjAddr: 0x120, symBinAddr: 0x41BC, symSize: 0x8 }
+  - { offset: 0x7B285, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig callerNumber]', symObjAddr: 0x128, symBinAddr: 0x41C4, symSize: 0x8 }
+  - { offset: 0x7B2BC, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig setCallerNumber:]', symObjAddr: 0x130, symBinAddr: 0x41CC, symSize: 0x8 }
+  - { offset: 0x7B2FB, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig isPlayHangupAudio]', symObjAddr: 0x138, symBinAddr: 0x41D4, symSize: 0x8 }
+  - { offset: 0x7B332, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig setIsPlayHangupAudio:]', symObjAddr: 0x140, symBinAddr: 0x41DC, symSize: 0x8 }
+  - { offset: 0x7B36D, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngineConfig .cxx_destruct]', symObjAddr: 0x148, symBinAddr: 0x41E4, symSize: 0x54 }
+  - { offset: 0x7B3A0, size: 0x8, addend: 0x0, symName: '+[TiCloudRTCCallConfig defaultConfig]', symObjAddr: 0x19C, symBinAddr: 0x4238, symSize: 0xB8 }
+  - { offset: 0x7B3E3, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig tel]', symObjAddr: 0x254, symBinAddr: 0x42F0, symSize: 0x8 }
+  - { offset: 0x7B41A, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig setTel:]', symObjAddr: 0x25C, symBinAddr: 0x42F8, symSize: 0x8 }
+  - { offset: 0x7B459, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig clid]', symObjAddr: 0x264, symBinAddr: 0x4300, symSize: 0x8 }
+  - { offset: 0x7B490, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig setClid:]', symObjAddr: 0x26C, symBinAddr: 0x4308, symSize: 0x8 }
+  - { offset: 0x7B4CF, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig obClidAreaCode]', symObjAddr: 0x274, symBinAddr: 0x4310, symSize: 0x8 }
+  - { offset: 0x7B506, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig setObClidAreaCode:]', symObjAddr: 0x27C, symBinAddr: 0x4318, symSize: 0x8 }
+  - { offset: 0x7B545, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig obClidGroup]', symObjAddr: 0x284, symBinAddr: 0x4320, symSize: 0x8 }
+  - { offset: 0x7B57C, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig setObClidGroup:]', symObjAddr: 0x28C, symBinAddr: 0x4328, symSize: 0x8 }
+  - { offset: 0x7B5BB, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig cno]', symObjAddr: 0x294, symBinAddr: 0x4330, symSize: 0x8 }
+  - { offset: 0x7B5F2, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig setCno:]', symObjAddr: 0x29C, symBinAddr: 0x4338, symSize: 0x8 }
+  - { offset: 0x7B631, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig requestUniqueId]', symObjAddr: 0x2A4, symBinAddr: 0x4340, symSize: 0x8 }
+  - { offset: 0x7B668, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig setRequestUniqueId:]', symObjAddr: 0x2AC, symBinAddr: 0x4348, symSize: 0x8 }
+  - { offset: 0x7B6A7, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig userField]', symObjAddr: 0x2B4, symBinAddr: 0x4350, symSize: 0x8 }
+  - { offset: 0x7B6DE, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig setUserField:]', symObjAddr: 0x2BC, symBinAddr: 0x4358, symSize: 0x8 }
+  - { offset: 0x7B71D, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig type]', symObjAddr: 0x2C4, symBinAddr: 0x4360, symSize: 0x8 }
+  - { offset: 0x7B754, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig setType:]', symObjAddr: 0x2CC, symBinAddr: 0x4368, symSize: 0x8 }
+  - { offset: 0x7B791, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig callerNumber]', symObjAddr: 0x2D4, symBinAddr: 0x4370, symSize: 0x8 }
+  - { offset: 0x7B7C8, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig setCallerNumber:]', symObjAddr: 0x2DC, symBinAddr: 0x4378, symSize: 0x8 }
+  - { offset: 0x7B807, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig advancedConnectConfig]', symObjAddr: 0x2E4, symBinAddr: 0x4380, symSize: 0x8 }
+  - { offset: 0x7B83E, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig setAdvancedConnectConfig:]', symObjAddr: 0x2EC, symBinAddr: 0x4388, symSize: 0x8 }
+  - { offset: 0x7B87D, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCCallConfig .cxx_destruct]', symObjAddr: 0x2F4, symBinAddr: 0x4390, symSize: 0x84 }
+  - { offset: 0x7B94C, size: 0x8, addend: 0x0, symName: '-[MDILogContentModel content]', symObjAddr: 0x0, symBinAddr: 0x4414, symSize: 0x8 }
+  - { offset: 0x7B966, size: 0x8, addend: 0x0, symName: __curUserId, symObjAddr: 0x2928, symBinAddr: 0x60D98, symSize: 0x0 }
+  - { offset: 0x7B981, size: 0x8, addend: 0x0, symName: __curUserDirectoryPath, symObjAddr: 0xA070, symBinAddr: 0x6F860, symSize: 0x0 }
+  - { offset: 0x7B997, size: 0x8, addend: 0x0, symName: __tempNoClearUserDirectoryNames, symObjAddr: 0xA078, symBinAddr: 0x6F868, symSize: 0x0 }
+  - { offset: 0x7B9B2, size: 0x8, addend: 0x0, symName: __useBeginTimeDayStr, symObjAddr: 0xA080, symBinAddr: 0x6F870, symSize: 0x0 }
+  - { offset: 0x7B9C8, size: 0x8, addend: 0x0, symName: __logContentModelsDataArr, symObjAddr: 0xA088, symBinAddr: 0x6F878, symSize: 0x0 }
+  - { offset: 0x7B9D2, size: 0x8, addend: 0x0, symName: '+[MDILogTool sharedTiPhoneManager]', symObjAddr: 0x68, symBinAddr: 0x447C, symSize: 0x70 }
+  - { offset: 0x7B9FC, size: 0x8, addend: 0x0, symName: _sharedTiPhoneManager.onceToken, symObjAddr: 0xA090, symBinAddr: 0x6F880, symSize: 0x0 }
+  - { offset: 0x7BA4B, size: 0x8, addend: 0x0, symName: '+[MDILogTool monitorCrashExceptionHandler]', symObjAddr: 0x1B68, symBinAddr: 0x5F7C, symSize: 0xCC }
+  - { offset: 0x7BA73, size: 0x8, addend: 0x0, symName: _monitorCrashExceptionHandler._hasMonitor, symObjAddr: 0xA0B0, symBinAddr: 0x6F8A0, symSize: 0x0 }
+  - { offset: 0x7BBA5, size: 0x8, addend: 0x0, symName: _logTool, symObjAddr: 0xA098, symBinAddr: 0x6F888, symSize: 0x0 }
+  - { offset: 0x7BBEB, size: 0x8, addend: 0x0, symName: __writeToFile, symObjAddr: 0x2930, symBinAddr: 0x60DA0, symSize: 0x0 }
+  - { offset: 0x7BC01, size: 0x8, addend: 0x0, symName: __forceToWirte, symObjAddr: 0x2931, symBinAddr: 0x60DA1, symSize: 0x0 }
+  - { offset: 0x7BC17, size: 0x8, addend: 0x0, symName: __curLogType, symObjAddr: 0xA0A0, symBinAddr: 0x6F890, symSize: 0x0 }
+  - { offset: 0x7BC6A, size: 0x8, addend: 0x0, symName: __logTimes, symObjAddr: 0xA0A8, symBinAddr: 0x6F898, symSize: 0x0 }
+  - { offset: 0x7BD0F, size: 0x8, addend: 0x0, symName: '-[MDILogContentModel content]', symObjAddr: 0x0, symBinAddr: 0x4414, symSize: 0x8 }
+  - { offset: 0x7BD46, size: 0x8, addend: 0x0, symName: '-[MDILogContentModel setContent:]', symObjAddr: 0x8, symBinAddr: 0x441C, symSize: 0xC }
+  - { offset: 0x7BD87, size: 0x8, addend: 0x0, symName: '-[MDILogContentModel fontColor]', symObjAddr: 0x14, symBinAddr: 0x4428, symSize: 0x8 }
+  - { offset: 0x7BDBE, size: 0x8, addend: 0x0, symName: '-[MDILogContentModel setFontColor:]', symObjAddr: 0x1C, symBinAddr: 0x4430, symSize: 0xC }
+  - { offset: 0x7BDFF, size: 0x8, addend: 0x0, symName: '-[MDILogContentModel logType]', symObjAddr: 0x28, symBinAddr: 0x443C, symSize: 0x8 }
+  - { offset: 0x7BE36, size: 0x8, addend: 0x0, symName: '-[MDILogContentModel setLogType:]', symObjAddr: 0x30, symBinAddr: 0x4444, symSize: 0x8 }
+  - { offset: 0x7BE73, size: 0x8, addend: 0x0, symName: '-[MDILogContentModel .cxx_destruct]', symObjAddr: 0x38, symBinAddr: 0x444C, symSize: 0x30 }
+  - { offset: 0x7BEE6, size: 0x8, addend: 0x0, symName: '___34+[MDILogTool sharedTiPhoneManager]_block_invoke', symObjAddr: 0xD8, symBinAddr: 0x44EC, symSize: 0x40 }
+  - { offset: 0x7BF0D, size: 0x8, addend: 0x0, symName: '+[MDILogTool mdi_setWriteToFileOn:bindUserId:]', symObjAddr: 0x118, symBinAddr: 0x452C, symSize: 0xBC }
+  - { offset: 0x7BF58, size: 0x8, addend: 0x0, symName: '+[MDILogTool mdi_setForceWirteToFile:]', symObjAddr: 0x1D4, symBinAddr: 0x45E8, symSize: 0x1C }
+  - { offset: 0x7BF93, size: 0x8, addend: 0x0, symName: '+[MDILogTool mdi_logWithType:file:line:function:format:]', symObjAddr: 0x1F0, symBinAddr: 0x4604, symSize: 0x324 }
+  - { offset: 0x7C062, size: 0x8, addend: 0x0, symName: '+[MDILogTool mdi_getCurrentLogContents]', symObjAddr: 0x514, symBinAddr: 0x4928, symSize: 0x1C }
+  - { offset: 0x7C095, size: 0x8, addend: 0x0, symName: '+[MDILogTool initMembers]', symObjAddr: 0x530, symBinAddr: 0x4944, symSize: 0xB0 }
+  - { offset: 0x7C0C4, size: 0x8, addend: 0x0, symName: '+[MDILogTool createSaveDirectory]', symObjAddr: 0x5E0, symBinAddr: 0x49F4, symSize: 0x1D4 }
+  - { offset: 0x7C14C, size: 0x8, addend: 0x0, symName: '+[MDILogTool getFormatTimeStr]', symObjAddr: 0x7B4, symBinAddr: 0x4BC8, symSize: 0x12C }
+  - { offset: 0x7C1BF, size: 0x8, addend: 0x0, symName: '+[MDILogTool writeLogWithType:time:file:line:function:format:]', symObjAddr: 0x8E0, symBinAddr: 0x4CF4, symSize: 0x628 }
+  - { offset: 0x7C3AA, size: 0x8, addend: 0x0, symName: '+[MDILogTool localLogWithType:time:file:line:function:format:]', symObjAddr: 0xF08, symBinAddr: 0x531C, symSize: 0x39C }
+  - { offset: 0x7C4A1, size: 0x8, addend: 0x0, symName: '+[MDILogTool getFmtLogStrWithTime:file:line:function:format:]', symObjAddr: 0x12A4, symBinAddr: 0x56B8, symSize: 0x19C }
+  - { offset: 0x7C53B, size: 0x8, addend: 0x0, symName: '+[MDILogTool getTotalLogsSizeMb]', symObjAddr: 0x1440, symBinAddr: 0x5854, symSize: 0x258 }
+  - { offset: 0x7C60E, size: 0x8, addend: 0x0, symName: '+[MDILogTool fileSizeAtPath:]', symObjAddr: 0x1698, symBinAddr: 0x5AAC, symSize: 0xB8 }
+  - { offset: 0x7C684, size: 0x8, addend: 0x0, symName: '+[MDILogTool getEarliestLogFilePath]', symObjAddr: 0x1750, symBinAddr: 0x5B64, symSize: 0x350 }
+  - { offset: 0x7C77A, size: 0x8, addend: 0x0, symName: '+[MDILogTool getUserPathLogsCount:]', symObjAddr: 0x1AA0, symBinAddr: 0x5EB4, symSize: 0xC8 }
+  - { offset: 0x7C830, size: 0x8, addend: 0x0, symName: _signalHandler, symObjAddr: 0x1C34, symBinAddr: 0x6048, symSize: 0x14 }
+  - { offset: 0x7C855, size: 0x8, addend: 0x0, symName: _handleExceptions, symObjAddr: 0x1C48, symBinAddr: 0x605C, symSize: 0x14 }
+  - { offset: 0x7C87A, size: 0x8, addend: 0x0, symName: '-[MDILogTool isDebug]', symObjAddr: 0x1C5C, symBinAddr: 0x6070, symSize: 0x8 }
+  - { offset: 0x7C8B1, size: 0x8, addend: 0x0, symName: '-[MDILogTool setIsDebug:]', symObjAddr: 0x1C64, symBinAddr: 0x6078, symSize: 0x8 }
+  - { offset: 0x7CA29, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTC) rtcEngine:didJoinChannel:withUid:elapsed:]', symObjAddr: 0x0, symBinAddr: 0x6080, symSize: 0x1BC }
+  - { offset: 0x7CD1D, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTC) rtcEngine:didJoinChannel:withUid:elapsed:]', symObjAddr: 0x0, symBinAddr: 0x6080, symSize: 0x1BC }
+  - { offset: 0x7CD8C, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTC) rtcEngine:didJoinedOfUid:elapsed:]', symObjAddr: 0x1BC, symBinAddr: 0x623C, symSize: 0x344 }
+  - { offset: 0x7CDEB, size: 0x8, addend: 0x0, symName: '___63-[TiCloudRTCEngine(AgoraRTC) rtcEngine:didJoinedOfUid:elapsed:]_block_invoke', symObjAddr: 0x500, symBinAddr: 0x6580, symSize: 0xAC }
+  - { offset: 0x7CE9A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x5AC, symBinAddr: 0x662C, symSize: 0x8 }
+  - { offset: 0x7CEC1, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x5B4, symBinAddr: 0x6634, symSize: 0x8 }
+  - { offset: 0x7CEE0, size: 0x8, addend: 0x0, symName: '___63-[TiCloudRTCEngine(AgoraRTC) rtcEngine:didJoinedOfUid:elapsed:]_block_invoke.18', symObjAddr: 0x5BC, symBinAddr: 0x663C, symSize: 0xAC }
+  - { offset: 0x7CF6F, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTC) rtcEngine:remoteAudioStateChangedOfUid:state:reason:elapsed:]', symObjAddr: 0x668, symBinAddr: 0x66E8, symSize: 0xA4 }
+  - { offset: 0x7CFEE, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTC) rtcEngine:remoteAudioStats:]', symObjAddr: 0x70C, symBinAddr: 0x678C, symSize: 0x80 }
+  - { offset: 0x7D03D, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTC) rtcEngine:localAudioStateChanged:error:]', symObjAddr: 0x78C, symBinAddr: 0x680C, symSize: 0x88 }
+  - { offset: 0x7D09C, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTC) rtcEngine:localAudioStats:]', symObjAddr: 0x814, symBinAddr: 0x6894, symSize: 0x138 }
+  - { offset: 0x7D0F9, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTC) rtcEngine:didLeaveChannelWithStats:]', symObjAddr: 0x94C, symBinAddr: 0x69CC, symSize: 0x378 }
+  - { offset: 0x7D1EE, size: 0x8, addend: 0x0, symName: '___65-[TiCloudRTCEngine(AgoraRTC) rtcEngine:didLeaveChannelWithStats:]_block_invoke', symObjAddr: 0xCC4, symBinAddr: 0x6D44, symSize: 0x40 }
+  - { offset: 0x7D229, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0xD04, symBinAddr: 0x6D84, symSize: 0xC }
+  - { offset: 0x7D252, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0xD10, symBinAddr: 0x6D90, symSize: 0x8 }
+  - { offset: 0x7D271, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTC) anomalyHangup:]', symObjAddr: 0xD18, symBinAddr: 0x6D98, symSize: 0x158 }
+  - { offset: 0x7D2B4, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTC) rtcEngine:didOfflineOfUid:reason:]', symObjAddr: 0xE70, symBinAddr: 0x6EF0, symSize: 0x370 }
+  - { offset: 0x7D379, size: 0x8, addend: 0x0, symName: '___63-[TiCloudRTCEngine(AgoraRTC) rtcEngine:didOfflineOfUid:reason:]_block_invoke', symObjAddr: 0x11E0, symBinAddr: 0x7260, symSize: 0x78 }
+  - { offset: 0x7D3C8, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w, symObjAddr: 0x1258, symBinAddr: 0x72D8, symSize: 0x30 }
+  - { offset: 0x7D3F1, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w, symObjAddr: 0x1288, symBinAddr: 0x7308, symSize: 0x28 }
+  - { offset: 0x7D410, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTC) rtcEngine:tokenPrivilegeWillExpire:]', symObjAddr: 0x12B0, symBinAddr: 0x7330, symSize: 0x164 }
+  - { offset: 0x7D45F, size: 0x8, addend: 0x0, symName: '___65-[TiCloudRTCEngine(AgoraRTC) rtcEngine:tokenPrivilegeWillExpire:]_block_invoke', symObjAddr: 0x1414, symBinAddr: 0x7494, symSize: 0x6C }
+  - { offset: 0x7D49E, size: 0x8, addend: 0x0, symName: '___65-[TiCloudRTCEngine(AgoraRTC) rtcEngine:tokenPrivilegeWillExpire:]_block_invoke.43', symObjAddr: 0x1480, symBinAddr: 0x7500, symSize: 0x14 }
+  - { offset: 0x7D4DD, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTC) rtcEngine:networkQuality:txQuality:rxQuality:]', symObjAddr: 0x1494, symBinAddr: 0x7514, symSize: 0x158 }
+  - { offset: 0x7DD0E, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel setModelData:]', symObjAddr: 0x0, symBinAddr: 0x766C, symSize: 0x23C }
+  - { offset: 0x7E04E, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel setModelData:]', symObjAddr: 0x0, symBinAddr: 0x766C, symSize: 0x23C }
+  - { offset: 0x7E091, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel accessTokenExpires]', symObjAddr: 0x23C, symBinAddr: 0x78A8, symSize: 0x8 }
+  - { offset: 0x7E0C8, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel setAccessTokenExpires:]', symObjAddr: 0x244, symBinAddr: 0x78B0, symSize: 0x8 }
+  - { offset: 0x7E105, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel appId]', symObjAddr: 0x24C, symBinAddr: 0x78B8, symSize: 0x8 }
+  - { offset: 0x7E13C, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel setAppId:]', symObjAddr: 0x254, symBinAddr: 0x78C0, symSize: 0x8 }
+  - { offset: 0x7E17B, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel expires]', symObjAddr: 0x25C, symBinAddr: 0x78C8, symSize: 0x8 }
+  - { offset: 0x7E1B2, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel setExpires:]', symObjAddr: 0x264, symBinAddr: 0x78D0, symSize: 0x8 }
+  - { offset: 0x7E1EF, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel rtcStatus]', symObjAddr: 0x26C, symBinAddr: 0x78D8, symSize: 0x8 }
+  - { offset: 0x7E226, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel setRtcStatus:]', symObjAddr: 0x274, symBinAddr: 0x78E0, symSize: 0x8 }
+  - { offset: 0x7E263, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel rtmStatus]', symObjAddr: 0x27C, symBinAddr: 0x78E8, symSize: 0x8 }
+  - { offset: 0x7E29A, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel setRtmStatus:]', symObjAddr: 0x284, symBinAddr: 0x78F0, symSize: 0x8 }
+  - { offset: 0x7E2D9, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel rtmToken]', symObjAddr: 0x28C, symBinAddr: 0x78F8, symSize: 0x8 }
+  - { offset: 0x7E310, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel setRtmToken:]', symObjAddr: 0x294, symBinAddr: 0x7900, symSize: 0x8 }
+  - { offset: 0x7E34F, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel uid]', symObjAddr: 0x29C, symBinAddr: 0x7908, symSize: 0x8 }
+  - { offset: 0x7E386, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel setUid:]', symObjAddr: 0x2A4, symBinAddr: 0x7910, symSize: 0x8 }
+  - { offset: 0x7E3C3, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel removeUserFieldScArr]', symObjAddr: 0x2AC, symBinAddr: 0x7918, symSize: 0x8 }
+  - { offset: 0x7E3FA, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel setRemoveUserFieldScArr:]', symObjAddr: 0x2B4, symBinAddr: 0x7920, symSize: 0xC }
+  - { offset: 0x7E43B, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel enableUploadLog]', symObjAddr: 0x2C0, symBinAddr: 0x792C, symSize: 0x8 }
+  - { offset: 0x7E472, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel setEnableUploadLog:]', symObjAddr: 0x2C8, symBinAddr: 0x7934, symSize: 0xC }
+  - { offset: 0x7E4B3, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerRegisterModel .cxx_destruct]', symObjAddr: 0x2D4, symBinAddr: 0x7940, symSize: 0x54 }
+  - { offset: 0x7E4E6, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel setModelData:]', symObjAddr: 0x328, symBinAddr: 0x7994, symSize: 0x22C }
+  - { offset: 0x7E529, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel roomChannelId]', symObjAddr: 0x554, symBinAddr: 0x7BC0, symSize: 0x8 }
+  - { offset: 0x7E560, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel setRoomChannelId:]', symObjAddr: 0x55C, symBinAddr: 0x7BC8, symSize: 0x8 }
+  - { offset: 0x7E59F, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel roomToken]', symObjAddr: 0x564, symBinAddr: 0x7BD0, symSize: 0x8 }
+  - { offset: 0x7E5D6, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel setRoomToken:]', symObjAddr: 0x56C, symBinAddr: 0x7BD8, symSize: 0x8 }
+  - { offset: 0x7E615, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel gatewayRoomToken]', symObjAddr: 0x574, symBinAddr: 0x7BE0, symSize: 0x8 }
+  - { offset: 0x7E64C, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel setGatewayRoomToken:]', symObjAddr: 0x57C, symBinAddr: 0x7BE8, symSize: 0x8 }
+  - { offset: 0x7E68B, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel gatewayUid]', symObjAddr: 0x584, symBinAddr: 0x7BF0, symSize: 0x8 }
+  - { offset: 0x7E6C2, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel setGatewayUid:]', symObjAddr: 0x58C, symBinAddr: 0x7BF8, symSize: 0x8 }
+  - { offset: 0x7E701, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel gatewayRtcUid]', symObjAddr: 0x594, symBinAddr: 0x7C00, symSize: 0x8 }
+  - { offset: 0x7E738, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel setGatewayRtcUid:]', symObjAddr: 0x59C, symBinAddr: 0x7C08, symSize: 0x8 }
+  - { offset: 0x7E777, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel hotline]', symObjAddr: 0x5A4, symBinAddr: 0x7C10, symSize: 0x8 }
+  - { offset: 0x7E7AE, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel setHotline:]', symObjAddr: 0x5AC, symBinAddr: 0x7C18, symSize: 0x8 }
+  - { offset: 0x7E7ED, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel expires]', symObjAddr: 0x5B4, symBinAddr: 0x7C20, symSize: 0x8 }
+  - { offset: 0x7E824, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel setExpires:]', symObjAddr: 0x5BC, symBinAddr: 0x7C28, symSize: 0x8 }
+  - { offset: 0x7E861, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCInnerGetCallInfoResponseModel .cxx_destruct]', symObjAddr: 0x5C4, symBinAddr: 0x7C30, symSize: 0x60 }
+  - { offset: 0x7E894, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel requestUniqueId]', symObjAddr: 0x624, symBinAddr: 0x7C90, symSize: 0x8 }
+  - { offset: 0x7E8CB, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel setRequestUniqueId:]', symObjAddr: 0x62C, symBinAddr: 0x7C98, symSize: 0x8 }
+  - { offset: 0x7E90A, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel enterpriseId]', symObjAddr: 0x634, symBinAddr: 0x7CA0, symSize: 0x8 }
+  - { offset: 0x7E941, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel setEnterpriseId:]', symObjAddr: 0x63C, symBinAddr: 0x7CA8, symSize: 0x8 }
+  - { offset: 0x7E97E, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel gatewayRtcUid]', symObjAddr: 0x644, symBinAddr: 0x7CB0, symSize: 0x8 }
+  - { offset: 0x7E9B5, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel setGatewayRtcUid:]', symObjAddr: 0x64C, symBinAddr: 0x7CB8, symSize: 0x8 }
+  - { offset: 0x7E9F4, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel userId]', symObjAddr: 0x654, symBinAddr: 0x7CC0, symSize: 0x8 }
+  - { offset: 0x7EA2B, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel setUserId:]', symObjAddr: 0x65C, symBinAddr: 0x7CC8, symSize: 0x8 }
+  - { offset: 0x7EA6A, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel type]', symObjAddr: 0x664, symBinAddr: 0x7CD0, symSize: 0x8 }
+  - { offset: 0x7EAA1, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel setType:]', symObjAddr: 0x66C, symBinAddr: 0x7CD8, symSize: 0x8 }
+  - { offset: 0x7EAE0, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel tel]', symObjAddr: 0x674, symBinAddr: 0x7CE0, symSize: 0x8 }
+  - { offset: 0x7EB17, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel setTel:]', symObjAddr: 0x67C, symBinAddr: 0x7CE8, symSize: 0x8 }
+  - { offset: 0x7EB56, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel roomChannelId]', symObjAddr: 0x684, symBinAddr: 0x7CF0, symSize: 0x8 }
+  - { offset: 0x7EB8D, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel setRoomChannelId:]', symObjAddr: 0x68C, symBinAddr: 0x7CF8, symSize: 0x8 }
+  - { offset: 0x7EBCC, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel gatewayRoomToken]', symObjAddr: 0x694, symBinAddr: 0x7D00, symSize: 0x8 }
+  - { offset: 0x7EC03, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel setGatewayRoomToken:]', symObjAddr: 0x69C, symBinAddr: 0x7D08, symSize: 0x8 }
+  - { offset: 0x7EC42, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel expires]', symObjAddr: 0x6A4, symBinAddr: 0x7D10, symSize: 0x8 }
+  - { offset: 0x7EC79, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel setExpires:]', symObjAddr: 0x6AC, symBinAddr: 0x7D18, symSize: 0x8 }
+  - { offset: 0x7ECB8, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel userField]', symObjAddr: 0x6B4, symBinAddr: 0x7D20, symSize: 0x8 }
+  - { offset: 0x7ECEF, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel setUserField:]', symObjAddr: 0x6BC, symBinAddr: 0x7D28, symSize: 0x8 }
+  - { offset: 0x7ED2E, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmCallMessageModel .cxx_destruct]', symObjAddr: 0x6C4, symBinAddr: 0x7D30, symSize: 0x84 }
+  - { offset: 0x7ED61, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmGetTokenModel setModelData:]', symObjAddr: 0x748, symBinAddr: 0x7DB4, symSize: 0xA0 }
+  - { offset: 0x7EDA4, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmGetTokenModel rtcNewToken]', symObjAddr: 0x7E8, symBinAddr: 0x7E54, symSize: 0x8 }
+  - { offset: 0x7EDDB, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmGetTokenModel setRtcNewToken:]', symObjAddr: 0x7F0, symBinAddr: 0x7E5C, symSize: 0x8 }
+  - { offset: 0x7EE1A, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmGetTokenModel rtmNewToken]', symObjAddr: 0x7F8, symBinAddr: 0x7E64, symSize: 0x8 }
+  - { offset: 0x7EE51, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmGetTokenModel setRtmNewToken:]', symObjAddr: 0x800, symBinAddr: 0x7E6C, symSize: 0x8 }
+  - { offset: 0x7EE90, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCRtmGetTokenModel .cxx_destruct]', symObjAddr: 0x808, symBinAddr: 0x7E74, symSize: 0x30 }
+  - { offset: 0x7EF70, size: 0x8, addend: 0x0, symName: '+[AFSecurityPolicy certificatesInBundle:]', symObjAddr: 0x0, symBinAddr: 0x7EA4, symSize: 0x1BC }
+  - { offset: 0x7F087, size: 0x8, addend: 0x0, symName: '+[AFSecurityPolicy certificatesInBundle:]', symObjAddr: 0x0, symBinAddr: 0x7EA4, symSize: 0x1BC }
+  - { offset: 0x7F118, size: 0x8, addend: 0x0, symName: '+[AFSecurityPolicy defaultPolicy]', symObjAddr: 0x1BC, symBinAddr: 0x8060, symSize: 0x40 }
+  - { offset: 0x7F15F, size: 0x8, addend: 0x0, symName: '+[AFSecurityPolicy policyWithPinningMode:]', symObjAddr: 0x1FC, symBinAddr: 0x80A0, symSize: 0x98 }
+  - { offset: 0x7F1B6, size: 0x8, addend: 0x0, symName: '+[AFSecurityPolicy policyWithPinningMode:withPinnedCertificates:]', symObjAddr: 0x294, symBinAddr: 0x8138, symSize: 0x74 }
+  - { offset: 0x7F21D, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy init]', symObjAddr: 0x308, symBinAddr: 0x81AC, symSize: 0x88 }
+  - { offset: 0x7F2B2, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy setPinnedCertificates:]', symObjAddr: 0x390, symBinAddr: 0x8234, symSize: 0x348 }
+  - { offset: 0x7F5F9, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy evaluateServerTrust:forDomain:]', symObjAddr: 0x6D8, symBinAddr: 0x857C, symSize: 0x8D8 }
+  - { offset: 0x7FA69, size: 0x8, addend: 0x0, symName: _AFServerTrustIsValid, symObjAddr: 0xFB0, symBinAddr: 0x8E54, symSize: 0x90 }
+  - { offset: 0x7FB77, size: 0x8, addend: 0x0, symName: '+[AFSecurityPolicy keyPathsForValuesAffectingPinnedPublicKeys]', symObjAddr: 0x1040, symBinAddr: 0x8EE4, symSize: 0x24 }
+  - { offset: 0x7FBAB, size: 0x8, addend: 0x0, symName: '+[AFSecurityPolicy supportsSecureCoding]', symObjAddr: 0x1064, symBinAddr: 0x8F08, symSize: 0x18 }
+  - { offset: 0x7FBDF, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy initWithCoder:]', symObjAddr: 0x107C, symBinAddr: 0x8F20, symSize: 0x1B4 }
+  - { offset: 0x7FC86, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy encodeWithCoder:]', symObjAddr: 0x1230, symBinAddr: 0x90D4, symSize: 0x168 }
+  - { offset: 0x7FD03, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy copyWithZone:]', symObjAddr: 0x1398, symBinAddr: 0x923C, symSize: 0xC8 }
+  - { offset: 0x7FD5D, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy SSLPinningMode]', symObjAddr: 0x1460, symBinAddr: 0x9304, symSize: 0x8 }
+  - { offset: 0x7FD94, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy setSSLPinningMode:]', symObjAddr: 0x1468, symBinAddr: 0x930C, symSize: 0x8 }
+  - { offset: 0x7FDD1, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy pinnedCertificates]', symObjAddr: 0x1470, symBinAddr: 0x9314, symSize: 0x8 }
+  - { offset: 0x7FE08, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy allowInvalidCertificates]', symObjAddr: 0x1478, symBinAddr: 0x931C, symSize: 0x8 }
+  - { offset: 0x7FE3F, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy setAllowInvalidCertificates:]', symObjAddr: 0x1480, symBinAddr: 0x9324, symSize: 0x8 }
+  - { offset: 0x7FE7A, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy validatesDomainName]', symObjAddr: 0x1488, symBinAddr: 0x932C, symSize: 0x8 }
+  - { offset: 0x7FEB1, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy setValidatesDomainName:]', symObjAddr: 0x1490, symBinAddr: 0x9334, symSize: 0x8 }
+  - { offset: 0x7FEEC, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy pinnedPublicKeys]', symObjAddr: 0x1498, symBinAddr: 0x933C, symSize: 0x8 }
+  - { offset: 0x7FF23, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy setPinnedPublicKeys:]', symObjAddr: 0x14A0, symBinAddr: 0x9344, symSize: 0xC }
+  - { offset: 0x7FF64, size: 0x8, addend: 0x0, symName: '-[AFSecurityPolicy .cxx_destruct]', symObjAddr: 0x14AC, symBinAddr: 0x9350, symSize: 0x30 }
+  - { offset: 0x80017, size: 0x8, addend: 0x0, symName: '+[AFHttpClient sharedClient]', symObjAddr: 0x0, symBinAddr: 0x9380, symSize: 0x70 }
+  - { offset: 0x8002A, size: 0x8, addend: 0x0, symName: '+[AFHttpClient sharedClient]', symObjAddr: 0x0, symBinAddr: 0x9380, symSize: 0x70 }
+  - { offset: 0x80054, size: 0x8, addend: 0x0, symName: _sharedClient.client, symObjAddr: 0x7C00, symBinAddr: 0x6F8A8, symSize: 0x0 }
+  - { offset: 0x8006A, size: 0x8, addend: 0x0, symName: _sharedClient.onceToken, symObjAddr: 0x7C08, symBinAddr: 0x6F8B0, symSize: 0x0 }
+  - { offset: 0x803FE, size: 0x8, addend: 0x0, symName: '___28+[AFHttpClient sharedClient]_block_invoke', symObjAddr: 0x70, symBinAddr: 0x93F0, symSize: 0x1A4 }
+  - { offset: 0x80444, size: 0x8, addend: 0x0, symName: '+[TeilAFNetWorkingTool getWithPath:params:success:failure:]', symObjAddr: 0x214, symBinAddr: 0x9594, symSize: 0x1E4 }
+  - { offset: 0x804D3, size: 0x8, addend: 0x0, symName: '___59+[TeilAFNetWorkingTool getWithPath:params:success:failure:]_block_invoke', symObjAddr: 0x3F8, symBinAddr: 0x9778, symSize: 0x148 }
+  - { offset: 0x80587, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x540, symBinAddr: 0x98C0, symSize: 0x10 }
+  - { offset: 0x805B0, size: 0x8, addend: 0x0, symName: '___59+[TeilAFNetWorkingTool getWithPath:params:success:failure:]_block_invoke.43', symObjAddr: 0x558, symBinAddr: 0x98D0, symSize: 0xC0 }
+  - { offset: 0x8065F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x618, symBinAddr: 0x9990, symSize: 0x34 }
+  - { offset: 0x80688, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x64C, symBinAddr: 0x99C4, symSize: 0x28 }
+  - { offset: 0x806A7, size: 0x8, addend: 0x0, symName: '+[TeilAFNetWorkingTool getWithAllPath:withHeader:params:success:failure:]', symObjAddr: 0x674, symBinAddr: 0x99EC, symSize: 0x1C0 }
+  - { offset: 0x80726, size: 0x8, addend: 0x0, symName: '___73+[TeilAFNetWorkingTool getWithAllPath:withHeader:params:success:failure:]_block_invoke', symObjAddr: 0x834, symBinAddr: 0x9BAC, symSize: 0x148 }
+  - { offset: 0x807CA, size: 0x8, addend: 0x0, symName: '___73+[TeilAFNetWorkingTool getWithAllPath:withHeader:params:success:failure:]_block_invoke_2', symObjAddr: 0x97C, symBinAddr: 0x9CF4, symSize: 0xA0 }
+  - { offset: 0x8085B, size: 0x8, addend: 0x0, symName: '+[TeilAFNetWorkingTool postWithPath:params:success:failure:]', symObjAddr: 0xA1C, symBinAddr: 0x9D94, symSize: 0x1CC }
+  - { offset: 0x808EA, size: 0x8, addend: 0x0, symName: '___60+[TeilAFNetWorkingTool postWithPath:params:success:failure:]_block_invoke', symObjAddr: 0xBE8, symBinAddr: 0x9F60, symSize: 0x138 }
+  - { offset: 0x80980, size: 0x8, addend: 0x0, symName: '___60+[TeilAFNetWorkingTool postWithPath:params:success:failure:]_block_invoke_2', symObjAddr: 0xD20, symBinAddr: 0xA098, symSize: 0xA0 }
+  - { offset: 0x80A11, size: 0x8, addend: 0x0, symName: '+[TeilAFNetWorkingTool postAllWithPath:params:success:failure:]', symObjAddr: 0xDC0, symBinAddr: 0xA138, symSize: 0x158 }
+  - { offset: 0x80A8C, size: 0x8, addend: 0x0, symName: '___63+[TeilAFNetWorkingTool postAllWithPath:params:success:failure:]_block_invoke', symObjAddr: 0xF18, symBinAddr: 0xA290, symSize: 0x60 }
+  - { offset: 0x80B16, size: 0x8, addend: 0x0, symName: '___63+[TeilAFNetWorkingTool postAllWithPath:params:success:failure:]_block_invoke_2', symObjAddr: 0xF78, symBinAddr: 0xA2F0, symSize: 0xA0 }
+  - { offset: 0x810BB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate initWithTask:]', symObjAddr: 0x0, symBinAddr: 0xA390, symSize: 0x410 }
+  - { offset: 0x810D5, size: 0x8, addend: 0x0, symName: _AFNetworkingTaskDidResumeNotification, symObjAddr: 0x6CC0, symBinAddr: 0x50808, symSize: 0x0 }
+  - { offset: 0x810F5, size: 0x8, addend: 0x0, symName: _AFNetworkingTaskDidCompleteNotification, symObjAddr: 0x6CC8, symBinAddr: 0x50810, symSize: 0x0 }
+  - { offset: 0x8110B, size: 0x8, addend: 0x0, symName: _AFNetworkingTaskDidSuspendNotification, symObjAddr: 0x6CD0, symBinAddr: 0x50818, symSize: 0x0 }
+  - { offset: 0x81121, size: 0x8, addend: 0x0, symName: _AFURLSessionDidInvalidateNotification, symObjAddr: 0x6CD8, symBinAddr: 0x50820, symSize: 0x0 }
+  - { offset: 0x81137, size: 0x8, addend: 0x0, symName: _AFURLSessionDownloadTaskDidMoveFileSuccessfullyNotification, symObjAddr: 0x6CE0, symBinAddr: 0x50828, symSize: 0x0 }
+  - { offset: 0x8114D, size: 0x8, addend: 0x0, symName: _AFURLSessionDownloadTaskDidFailToMoveFileNotification, symObjAddr: 0x6CE8, symBinAddr: 0x50830, symSize: 0x0 }
+  - { offset: 0x81163, size: 0x8, addend: 0x0, symName: _AFNetworkingTaskDidCompleteSerializedResponseKey, symObjAddr: 0x6CF0, symBinAddr: 0x50838, symSize: 0x0 }
+  - { offset: 0x81179, size: 0x8, addend: 0x0, symName: _AFNetworkingTaskDidCompleteResponseSerializerKey, symObjAddr: 0x6CF8, symBinAddr: 0x50840, symSize: 0x0 }
+  - { offset: 0x8118F, size: 0x8, addend: 0x0, symName: _AFNetworkingTaskDidCompleteResponseDataKey, symObjAddr: 0x6D00, symBinAddr: 0x50848, symSize: 0x0 }
+  - { offset: 0x811A5, size: 0x8, addend: 0x0, symName: _AFNetworkingTaskDidCompleteErrorKey, symObjAddr: 0x6D08, symBinAddr: 0x50850, symSize: 0x0 }
+  - { offset: 0x811BB, size: 0x8, addend: 0x0, symName: _AFNetworkingTaskDidCompleteAssetPathKey, symObjAddr: 0x6D10, symBinAddr: 0x50858, symSize: 0x0 }
+  - { offset: 0x811D1, size: 0x8, addend: 0x0, symName: _AFNetworkingTaskDidCompleteSessionTaskMetrics, symObjAddr: 0x6D18, symBinAddr: 0x50860, symSize: 0x0 }
+  - { offset: 0x811E7, size: 0x8, addend: 0x0, symName: _AuthenticationChallengeErrorKey, symObjAddr: 0x6D50, symBinAddr: 0x50868, symSize: 0x0 }
+  - { offset: 0x811FC, size: 0x8, addend: 0x0, symName: _url_session_manager_completion_group, symObjAddr: 0x6208, symBinAddr: 0x1053C, symSize: 0x70 }
+  - { offset: 0x81222, size: 0x8, addend: 0x0, symName: _url_session_manager_completion_group.af_url_session_manager_completion_group, symObjAddr: 0x2A1E0, symBinAddr: 0x6F8B8, symSize: 0x0 }
+  - { offset: 0x81238, size: 0x8, addend: 0x0, symName: _url_session_manager_completion_group.onceToken, symObjAddr: 0x2A1E8, symBinAddr: 0x6F8C0, symSize: 0x0 }
+  - { offset: 0x81F60, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate initWithTask:]', symObjAddr: 0x0, symBinAddr: 0xA390, symSize: 0x410 }
+  - { offset: 0x8200A, size: 0x8, addend: 0x0, symName: '___48-[AFURLSessionManagerTaskDelegate initWithTask:]_block_invoke', symObjAddr: 0x410, symBinAddr: 0xA7A0, symSize: 0x3C }
+  - { offset: 0x82045, size: 0x8, addend: 0x0, symName: '___48-[AFURLSessionManagerTaskDelegate initWithTask:]_block_invoke.28', symObjAddr: 0x460, symBinAddr: 0xA7DC, symSize: 0x3C }
+  - { offset: 0x82080, size: 0x8, addend: 0x0, symName: '___48-[AFURLSessionManagerTaskDelegate initWithTask:]_block_invoke_2', symObjAddr: 0x49C, symBinAddr: 0xA818, symSize: 0x3C }
+  - { offset: 0x820BB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate dealloc]', symObjAddr: 0x4D8, symBinAddr: 0xA854, symSize: 0xEC }
+  - { offset: 0x8211A, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x5C4, symBinAddr: 0xA940, symSize: 0x158 }
+  - { offset: 0x821DD, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]', symObjAddr: 0x71C, symBinAddr: 0xAA98, symSize: 0x57C }
+  - { offset: 0x8237F, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0xC98, symBinAddr: 0xB014, symSize: 0x10 }
+  - { offset: 0x823A4, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0xCA8, symBinAddr: 0xB024, symSize: 0x8 }
+  - { offset: 0x823C3, size: 0x8, addend: 0x0, symName: '___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke', symObjAddr: 0xCB0, symBinAddr: 0xB02C, symSize: 0x134 }
+  - { offset: 0x82480, size: 0x8, addend: 0x0, symName: '___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2', symObjAddr: 0xDE4, symBinAddr: 0xB160, symSize: 0x58 }
+  - { offset: 0x824CB, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0xE3C, symBinAddr: 0xB1B8, symSize: 0x28 }
+  - { offset: 0x824F4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64r, symObjAddr: 0xE8C, symBinAddr: 0xB1E0, symSize: 0x4C }
+  - { offset: 0x8251D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64r, symObjAddr: 0xED8, symBinAddr: 0xB22C, symSize: 0x44 }
+  - { offset: 0x8253C, size: 0x8, addend: 0x0, symName: '___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke.35', symObjAddr: 0xF1C, symBinAddr: 0xB270, symSize: 0x2C4 }
+  - { offset: 0x82631, size: 0x8, addend: 0x0, symName: '___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2.36', symObjAddr: 0x11E0, symBinAddr: 0xB534, symSize: 0x134 }
+  - { offset: 0x826EE, size: 0x8, addend: 0x0, symName: '___72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_3', symObjAddr: 0x1314, symBinAddr: 0xB668, symSize: 0x58 }
+  - { offset: 0x82739, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72r, symObjAddr: 0x136C, symBinAddr: 0xB6C0, symSize: 0x54 }
+  - { offset: 0x82762, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72r, symObjAddr: 0x13C0, symBinAddr: 0xB714, symSize: 0x4C }
+  - { offset: 0x82781, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate URLSession:task:didFinishCollectingMetrics:]', symObjAddr: 0x140C, symBinAddr: 0xB760, symSize: 0x18 }
+  - { offset: 0x827DA, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate URLSession:dataTask:didReceiveData:]', symObjAddr: 0x1424, symBinAddr: 0xB778, symSize: 0xE4 }
+  - { offset: 0x8283D, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]', symObjAddr: 0x1508, symBinAddr: 0xB85C, symSize: 0xA0 }
+  - { offset: 0x828B6, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]', symObjAddr: 0x15A8, symBinAddr: 0xB8FC, symSize: 0x7C }
+  - { offset: 0x82933, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]', symObjAddr: 0x1624, symBinAddr: 0xB978, symSize: 0x7C }
+  - { offset: 0x829A3, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate URLSession:downloadTask:didFinishDownloadingToURL:]', symObjAddr: 0x16A0, symBinAddr: 0xB9F4, symSize: 0x248 }
+  - { offset: 0x82A4C, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate manager]', symObjAddr: 0x18E8, symBinAddr: 0xBC3C, symSize: 0x18 }
+  - { offset: 0x82A83, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate setManager:]', symObjAddr: 0x1900, symBinAddr: 0xBC54, symSize: 0xC }
+  - { offset: 0x82AC4, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate mutableData]', symObjAddr: 0x190C, symBinAddr: 0xBC60, symSize: 0x8 }
+  - { offset: 0x82AFB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate setMutableData:]', symObjAddr: 0x1914, symBinAddr: 0xBC68, symSize: 0xC }
+  - { offset: 0x82B3C, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate uploadProgress]', symObjAddr: 0x1920, symBinAddr: 0xBC74, symSize: 0x8 }
+  - { offset: 0x82B73, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate setUploadProgress:]', symObjAddr: 0x1928, symBinAddr: 0xBC7C, symSize: 0xC }
+  - { offset: 0x82BB4, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate downloadProgress]', symObjAddr: 0x1934, symBinAddr: 0xBC88, symSize: 0x8 }
+  - { offset: 0x82BEB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate setDownloadProgress:]', symObjAddr: 0x193C, symBinAddr: 0xBC90, symSize: 0xC }
+  - { offset: 0x82C2C, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate downloadFileURL]', symObjAddr: 0x1948, symBinAddr: 0xBC9C, symSize: 0x8 }
+  - { offset: 0x82C63, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate setDownloadFileURL:]', symObjAddr: 0x1950, symBinAddr: 0xBCA4, symSize: 0x8 }
+  - { offset: 0x82CA2, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate sessionTaskMetrics]', symObjAddr: 0x1958, symBinAddr: 0xBCAC, symSize: 0x8 }
+  - { offset: 0x82CD9, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate setSessionTaskMetrics:]', symObjAddr: 0x1960, symBinAddr: 0xBCB4, symSize: 0xC }
+  - { offset: 0x82D1A, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate downloadTaskDidFinishDownloading]', symObjAddr: 0x196C, symBinAddr: 0xBCC0, symSize: 0x8 }
+  - { offset: 0x82D51, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate setDownloadTaskDidFinishDownloading:]', symObjAddr: 0x1974, symBinAddr: 0xBCC8, symSize: 0x8 }
+  - { offset: 0x82D90, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate uploadProgressBlock]', symObjAddr: 0x197C, symBinAddr: 0xBCD0, symSize: 0x8 }
+  - { offset: 0x82DC7, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate setUploadProgressBlock:]', symObjAddr: 0x1984, symBinAddr: 0xBCD8, symSize: 0x8 }
+  - { offset: 0x82E06, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate downloadProgressBlock]', symObjAddr: 0x198C, symBinAddr: 0xBCE0, symSize: 0x8 }
+  - { offset: 0x82E3D, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate setDownloadProgressBlock:]', symObjAddr: 0x1994, symBinAddr: 0xBCE8, symSize: 0x8 }
+  - { offset: 0x82E7C, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate completionHandler]', symObjAddr: 0x199C, symBinAddr: 0xBCF0, symSize: 0x8 }
+  - { offset: 0x82EB3, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate setCompletionHandler:]', symObjAddr: 0x19A4, symBinAddr: 0xBCF8, symSize: 0x8 }
+  - { offset: 0x82EF2, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManagerTaskDelegate .cxx_destruct]', symObjAddr: 0x19AC, symBinAddr: 0xBD00, symSize: 0x8C }
+  - { offset: 0x82F25, size: 0x8, addend: 0x0, symName: '+[_AFURLSessionTaskSwizzling load]', symObjAddr: 0x1A38, symBinAddr: 0xBD8C, symSize: 0x1E4 }
+  - { offset: 0x83174, size: 0x8, addend: 0x0, symName: '+[_AFURLSessionTaskSwizzling swizzleResumeAndSuspendMethodForClass:]', symObjAddr: 0x1C1C, symBinAddr: 0xBF70, symSize: 0x190 }
+  - { offset: 0x8347F, size: 0x8, addend: 0x0, symName: '-[_AFURLSessionTaskSwizzling state]', symObjAddr: 0x1DAC, symBinAddr: 0xC100, symSize: 0x18 }
+  - { offset: 0x834B3, size: 0x8, addend: 0x0, symName: '-[_AFURLSessionTaskSwizzling af_resume]', symObjAddr: 0x1DC4, symBinAddr: 0xC118, symSize: 0x88 }
+  - { offset: 0x834F8, size: 0x8, addend: 0x0, symName: '-[_AFURLSessionTaskSwizzling af_suspend]', symObjAddr: 0x1E4C, symBinAddr: 0xC1A0, symSize: 0x8C }
+  - { offset: 0x8353D, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager init]', symObjAddr: 0x1ED8, symBinAddr: 0xC22C, symSize: 0x18 }
+  - { offset: 0x83575, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager initWithSessionConfiguration:]', symObjAddr: 0x1EF0, symBinAddr: 0xC244, symSize: 0x288 }
+  - { offset: 0x835BE, size: 0x8, addend: 0x0, symName: '___52-[AFURLSessionManager initWithSessionConfiguration:]_block_invoke', symObjAddr: 0x2178, symBinAddr: 0xC4CC, symSize: 0x2C0 }
+  - { offset: 0x8367B, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager dealloc]', symObjAddr: 0x2448, symBinAddr: 0xC78C, symSize: 0x78 }
+  - { offset: 0x836AF, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager session]', symObjAddr: 0x24C0, symBinAddr: 0xC804, symSize: 0xE8 }
+  - { offset: 0x836E7, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager taskDescriptionForSessionTasks]', symObjAddr: 0x25A8, symBinAddr: 0xC8EC, symSize: 0x44 }
+  - { offset: 0x8371F, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager taskDidResume:]', symObjAddr: 0x25EC, symBinAddr: 0xC930, symSize: 0x134 }
+  - { offset: 0x837A1, size: 0x8, addend: 0x0, symName: '___37-[AFURLSessionManager taskDidResume:]_block_invoke', symObjAddr: 0x2720, symBinAddr: 0xCA64, symSize: 0x58 }
+  - { offset: 0x837DF, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager taskDidSuspend:]', symObjAddr: 0x2778, symBinAddr: 0xCABC, symSize: 0x134 }
+  - { offset: 0x83861, size: 0x8, addend: 0x0, symName: '___38-[AFURLSessionManager taskDidSuspend:]_block_invoke', symObjAddr: 0x28AC, symBinAddr: 0xCBF0, symSize: 0x58 }
+  - { offset: 0x8389F, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager delegateForTask:]', symObjAddr: 0x2904, symBinAddr: 0xCC48, symSize: 0xFC }
+  - { offset: 0x838F9, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDelegate:forTask:]', symObjAddr: 0x2A00, symBinAddr: 0xCD44, symSize: 0x10C }
+  - { offset: 0x8394F, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager addDelegateForDataTask:uploadProgress:downloadProgress:completionHandler:]', symObjAddr: 0x2B0C, symBinAddr: 0xCE50, symSize: 0x11C }
+  - { offset: 0x839D8, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager addDelegateForUploadTask:progress:completionHandler:]', symObjAddr: 0x2C28, symBinAddr: 0xCF6C, symSize: 0xF8 }
+  - { offset: 0x83A50, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager addDelegateForDownloadTask:progress:destination:completionHandler:]', symObjAddr: 0x2D20, symBinAddr: 0xD064, symSize: 0x184 }
+  - { offset: 0x83AD9, size: 0x8, addend: 0x0, symName: '___89-[AFURLSessionManager addDelegateForDownloadTask:progress:destination:completionHandler:]_block_invoke', symObjAddr: 0x2EA4, symBinAddr: 0xD1E8, symSize: 0x8C }
+  - { offset: 0x83B6C, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager removeDelegateForTask:]', symObjAddr: 0x2F40, symBinAddr: 0xD274, symSize: 0xF4 }
+  - { offset: 0x83BB1, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager tasksForKeyPath:]', symObjAddr: 0x3034, symBinAddr: 0xD368, symSize: 0x164 }
+  - { offset: 0x83C7C, size: 0x8, addend: 0x0, symName: '___39-[AFURLSessionManager tasksForKeyPath:]_block_invoke', symObjAddr: 0x3198, symBinAddr: 0xD4CC, symSize: 0x28C }
+  - { offset: 0x83D67, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48r, symObjAddr: 0x3424, symBinAddr: 0xD758, symSize: 0x3C }
+  - { offset: 0x83D90, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0x3460, symBinAddr: 0xD794, symSize: 0x34 }
+  - { offset: 0x83DAF, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager tasks]', symObjAddr: 0x3494, symBinAddr: 0xD7C8, symSize: 0x64 }
+  - { offset: 0x83E02, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager dataTasks]', symObjAddr: 0x34F8, symBinAddr: 0xD82C, symSize: 0x64 }
+  - { offset: 0x83E55, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager uploadTasks]', symObjAddr: 0x355C, symBinAddr: 0xD890, symSize: 0x64 }
+  - { offset: 0x83EA8, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager downloadTasks]', symObjAddr: 0x35C0, symBinAddr: 0xD8F4, symSize: 0x64 }
+  - { offset: 0x83EFB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager invalidateSessionCancelingTasks:resetSession:]', symObjAddr: 0x3624, symBinAddr: 0xD958, symSize: 0xB4 }
+  - { offset: 0x83F51, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setResponseSerializer:]', symObjAddr: 0x36D8, symBinAddr: 0xDA0C, symSize: 0x1C }
+  - { offset: 0x83F96, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager addNotificationObserverForTask:]', symObjAddr: 0x36F4, symBinAddr: 0xDA28, symSize: 0xBC }
+  - { offset: 0x83FDB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager removeNotificationObserverForTask:]', symObjAddr: 0x37B0, symBinAddr: 0xDAE4, symSize: 0xAC }
+  - { offset: 0x84020, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager dataTaskWithRequest:uploadProgress:downloadProgress:completionHandler:]', symObjAddr: 0x385C, symBinAddr: 0xDB90, symSize: 0xEC }
+  - { offset: 0x840AD, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager uploadTaskWithRequest:fromFile:progress:completionHandler:]', symObjAddr: 0x3948, symBinAddr: 0xDC7C, symSize: 0x100 }
+  - { offset: 0x8413A, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager uploadTaskWithRequest:fromData:progress:completionHandler:]', symObjAddr: 0x3A48, symBinAddr: 0xDD7C, symSize: 0xEC }
+  - { offset: 0x841C7, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager uploadTaskWithStreamedRequest:progress:completionHandler:]', symObjAddr: 0x3B34, symBinAddr: 0xDE68, symSize: 0xC8 }
+  - { offset: 0x84243, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager downloadTaskWithRequest:progress:destination:completionHandler:]', symObjAddr: 0x3BFC, symBinAddr: 0xDF30, symSize: 0xEC }
+  - { offset: 0x842D0, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager downloadTaskWithResumeData:progress:destination:completionHandler:]', symObjAddr: 0x3CE8, symBinAddr: 0xE01C, symSize: 0xEC }
+  - { offset: 0x8435D, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager uploadProgressForTask:]', symObjAddr: 0x3DD4, symBinAddr: 0xE108, symSize: 0x54 }
+  - { offset: 0x843A6, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager downloadProgressForTask:]', symObjAddr: 0x3E28, symBinAddr: 0xE15C, symSize: 0x54 }
+  - { offset: 0x843EF, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setSessionDidBecomeInvalidBlock:]', symObjAddr: 0x3E7C, symBinAddr: 0xE1B0, symSize: 0x14 }
+  - { offset: 0x84430, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setSessionDidReceiveAuthenticationChallengeBlock:]', symObjAddr: 0x3E90, symBinAddr: 0xE1C4, symSize: 0x14 }
+  - { offset: 0x84471, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDidFinishEventsForBackgroundURLSessionBlock:]', symObjAddr: 0x3EA4, symBinAddr: 0xE1D8, symSize: 0x14 }
+  - { offset: 0x844B2, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setTaskNeedNewBodyStreamBlock:]', symObjAddr: 0x3EB8, symBinAddr: 0xE1EC, symSize: 0x14 }
+  - { offset: 0x844F3, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setTaskWillPerformHTTPRedirectionBlock:]', symObjAddr: 0x3ECC, symBinAddr: 0xE200, symSize: 0x14 }
+  - { offset: 0x84534, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setTaskDidSendBodyDataBlock:]', symObjAddr: 0x3EE0, symBinAddr: 0xE214, symSize: 0x14 }
+  - { offset: 0x84575, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setTaskDidCompleteBlock:]', symObjAddr: 0x3EF4, symBinAddr: 0xE228, symSize: 0x14 }
+  - { offset: 0x845B6, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setTaskDidFinishCollectingMetricsBlock:]', symObjAddr: 0x3F08, symBinAddr: 0xE23C, symSize: 0x14 }
+  - { offset: 0x845F7, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDataTaskDidReceiveResponseBlock:]', symObjAddr: 0x3F1C, symBinAddr: 0xE250, symSize: 0x14 }
+  - { offset: 0x84638, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDataTaskDidBecomeDownloadTaskBlock:]', symObjAddr: 0x3F30, symBinAddr: 0xE264, symSize: 0x14 }
+  - { offset: 0x84679, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDataTaskDidReceiveDataBlock:]', symObjAddr: 0x3F44, symBinAddr: 0xE278, symSize: 0x14 }
+  - { offset: 0x846BA, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDataTaskWillCacheResponseBlock:]', symObjAddr: 0x3F58, symBinAddr: 0xE28C, symSize: 0x14 }
+  - { offset: 0x846FB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDownloadTaskDidFinishDownloadingBlock:]', symObjAddr: 0x3F6C, symBinAddr: 0xE2A0, symSize: 0x14 }
+  - { offset: 0x8473C, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDownloadTaskDidWriteDataBlock:]', symObjAddr: 0x3F80, symBinAddr: 0xE2B4, symSize: 0x14 }
+  - { offset: 0x8477D, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDownloadTaskDidResumeBlock:]', symObjAddr: 0x3F94, symBinAddr: 0xE2C8, symSize: 0x14 }
+  - { offset: 0x847BE, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager description]', symObjAddr: 0x3FA8, symBinAddr: 0xE2DC, symSize: 0xC8 }
+  - { offset: 0x84817, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager respondsToSelector:]', symObjAddr: 0x4070, symBinAddr: 0xE3A4, symSize: 0x13C }
+  - { offset: 0x84860, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:didBecomeInvalidWithError:]', symObjAddr: 0x41AC, symBinAddr: 0xE4E0, symSize: 0xE4 }
+  - { offset: 0x848D1, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:didReceiveChallenge:completionHandler:]', symObjAddr: 0x4290, symBinAddr: 0xE5C4, symSize: 0xFC }
+  - { offset: 0x8499E, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]', symObjAddr: 0x438C, symBinAddr: 0xE6C0, symSize: 0x164 }
+  - { offset: 0x84A7C, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:task:didReceiveChallenge:completionHandler:]', symObjAddr: 0x44F0, symBinAddr: 0xE824, symSize: 0x4C8 }
+  - { offset: 0x84BF2, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager serverTrustErrorForServerTrust:url:]', symObjAddr: 0x49B8, symBinAddr: 0xECEC, symSize: 0x2DC }
+  - { offset: 0x84C99, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:task:needNewBodyStream:]', symObjAddr: 0x4C94, symBinAddr: 0xEFC8, symSize: 0x218 }
+  - { offset: 0x84D47, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]', symObjAddr: 0x4EAC, symBinAddr: 0xF1E0, symSize: 0x1B4 }
+  - { offset: 0x84E42, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:task:didCompleteWithError:]', symObjAddr: 0x5060, symBinAddr: 0xF394, symSize: 0x12C }
+  - { offset: 0x84EDC, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:task:didFinishCollectingMetrics:]', symObjAddr: 0x518C, symBinAddr: 0xF4C0, symSize: 0x120 }
+  - { offset: 0x84F76, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:dataTask:didReceiveResponse:completionHandler:]', symObjAddr: 0x52AC, symBinAddr: 0xF5E0, symSize: 0x124 }
+  - { offset: 0x8503C, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:dataTask:didBecomeDownloadTask:]', symObjAddr: 0x53D0, symBinAddr: 0xF704, symSize: 0x128 }
+  - { offset: 0x850D6, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:dataTask:didReceiveData:]', symObjAddr: 0x54F8, symBinAddr: 0xF82C, symSize: 0x108 }
+  - { offset: 0x85170, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:dataTask:willCacheResponse:completionHandler:]', symObjAddr: 0x5600, symBinAddr: 0xF934, symSize: 0x148 }
+  - { offset: 0x85236, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSessionDidFinishEventsForBackgroundURLSession:]', symObjAddr: 0x5748, symBinAddr: 0xFA7C, symSize: 0xE0 }
+  - { offset: 0x8529F, size: 0x8, addend: 0x0, symName: '___72-[AFURLSessionManager URLSessionDidFinishEventsForBackgroundURLSession:]_block_invoke', symObjAddr: 0x5828, symBinAddr: 0xFB5C, symSize: 0x50 }
+  - { offset: 0x852FE, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:downloadTask:didFinishDownloadingToURL:]', symObjAddr: 0x5878, symBinAddr: 0xFBAC, symSize: 0x250 }
+  - { offset: 0x853C8, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]', symObjAddr: 0x5AC8, symBinAddr: 0xFDFC, symSize: 0x12C }
+  - { offset: 0x85492, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]', symObjAddr: 0x5BF4, symBinAddr: 0xFF28, symSize: 0x120 }
+  - { offset: 0x85544, size: 0x8, addend: 0x0, symName: '+[AFURLSessionManager supportsSecureCoding]', symObjAddr: 0x5D14, symBinAddr: 0x10048, symSize: 0x18 }
+  - { offset: 0x85578, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager initWithCoder:]', symObjAddr: 0x5D2C, symBinAddr: 0x10060, symSize: 0xBC }
+  - { offset: 0x855D2, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager encodeWithCoder:]', symObjAddr: 0x5DE8, symBinAddr: 0x1011C, symSize: 0x8C }
+  - { offset: 0x85617, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager copyWithZone:]', symObjAddr: 0x5E74, symBinAddr: 0x101A8, symSize: 0x90 }
+  - { offset: 0x85660, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setSession:]', symObjAddr: 0x5F04, symBinAddr: 0x10238, symSize: 0xC }
+  - { offset: 0x856A2, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager operationQueue]', symObjAddr: 0x5F10, symBinAddr: 0x10244, symSize: 0x8 }
+  - { offset: 0x856D9, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setOperationQueue:]', symObjAddr: 0x5F18, symBinAddr: 0x1024C, symSize: 0xC }
+  - { offset: 0x8571B, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager responseSerializer]', symObjAddr: 0x5F24, symBinAddr: 0x10258, symSize: 0x8 }
+  - { offset: 0x85752, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager securityPolicy]', symObjAddr: 0x5F2C, symBinAddr: 0x10260, symSize: 0x8 }
+  - { offset: 0x85789, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setSecurityPolicy:]', symObjAddr: 0x5F34, symBinAddr: 0x10268, symSize: 0xC }
+  - { offset: 0x857CA, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager reachabilityManager]', symObjAddr: 0x5F40, symBinAddr: 0x10274, symSize: 0x8 }
+  - { offset: 0x85801, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setReachabilityManager:]', symObjAddr: 0x5F48, symBinAddr: 0x1027C, symSize: 0xC }
+  - { offset: 0x85842, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager completionQueue]', symObjAddr: 0x5F54, symBinAddr: 0x10288, symSize: 0x8 }
+  - { offset: 0x85879, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setCompletionQueue:]', symObjAddr: 0x5F5C, symBinAddr: 0x10290, symSize: 0xC }
+  - { offset: 0x858BA, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager completionGroup]', symObjAddr: 0x5F68, symBinAddr: 0x1029C, symSize: 0x8 }
+  - { offset: 0x858F1, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setCompletionGroup:]', symObjAddr: 0x5F70, symBinAddr: 0x102A4, symSize: 0xC }
+  - { offset: 0x85932, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager sessionConfiguration]', symObjAddr: 0x5F7C, symBinAddr: 0x102B0, symSize: 0x8 }
+  - { offset: 0x8596A, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setSessionConfiguration:]', symObjAddr: 0x5F84, symBinAddr: 0x102B8, symSize: 0xC }
+  - { offset: 0x859AC, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager mutableTaskDelegatesKeyedByTaskIdentifier]', symObjAddr: 0x5F90, symBinAddr: 0x102C4, symSize: 0x8 }
+  - { offset: 0x859E4, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setMutableTaskDelegatesKeyedByTaskIdentifier:]', symObjAddr: 0x5F98, symBinAddr: 0x102CC, symSize: 0xC }
+  - { offset: 0x85A26, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager lock]', symObjAddr: 0x5FA4, symBinAddr: 0x102D8, symSize: 0x8 }
+  - { offset: 0x85A5E, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setLock:]', symObjAddr: 0x5FAC, symBinAddr: 0x102E0, symSize: 0xC }
+  - { offset: 0x85AA0, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager sessionDidBecomeInvalid]', symObjAddr: 0x5FB8, symBinAddr: 0x102EC, symSize: 0x8 }
+  - { offset: 0x85AD8, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setSessionDidBecomeInvalid:]', symObjAddr: 0x5FC0, symBinAddr: 0x102F4, symSize: 0x8 }
+  - { offset: 0x85B18, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager sessionDidReceiveAuthenticationChallenge]', symObjAddr: 0x5FC8, symBinAddr: 0x102FC, symSize: 0x8 }
+  - { offset: 0x85B50, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setSessionDidReceiveAuthenticationChallenge:]', symObjAddr: 0x5FD0, symBinAddr: 0x10304, symSize: 0x8 }
+  - { offset: 0x85B90, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager didFinishEventsForBackgroundURLSession]', symObjAddr: 0x5FD8, symBinAddr: 0x1030C, symSize: 0x8 }
+  - { offset: 0x85BC8, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDidFinishEventsForBackgroundURLSession:]', symObjAddr: 0x5FE0, symBinAddr: 0x10314, symSize: 0x8 }
+  - { offset: 0x85C08, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager taskWillPerformHTTPRedirection]', symObjAddr: 0x5FE8, symBinAddr: 0x1031C, symSize: 0x8 }
+  - { offset: 0x85C40, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setTaskWillPerformHTTPRedirection:]', symObjAddr: 0x5FF0, symBinAddr: 0x10324, symSize: 0x8 }
+  - { offset: 0x85C80, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager authenticationChallengeHandler]', symObjAddr: 0x5FF8, symBinAddr: 0x1032C, symSize: 0x8 }
+  - { offset: 0x85CB8, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setAuthenticationChallengeHandler:]', symObjAddr: 0x6000, symBinAddr: 0x10334, symSize: 0x8 }
+  - { offset: 0x85CFB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager taskNeedNewBodyStream]', symObjAddr: 0x6008, symBinAddr: 0x1033C, symSize: 0x8 }
+  - { offset: 0x85D33, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setTaskNeedNewBodyStream:]', symObjAddr: 0x6010, symBinAddr: 0x10344, symSize: 0x8 }
+  - { offset: 0x85D73, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager taskDidSendBodyData]', symObjAddr: 0x6018, symBinAddr: 0x1034C, symSize: 0x8 }
+  - { offset: 0x85DAB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setTaskDidSendBodyData:]', symObjAddr: 0x6020, symBinAddr: 0x10354, symSize: 0x8 }
+  - { offset: 0x85DEB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager taskDidComplete]', symObjAddr: 0x6028, symBinAddr: 0x1035C, symSize: 0x8 }
+  - { offset: 0x85E23, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setTaskDidComplete:]', symObjAddr: 0x6030, symBinAddr: 0x10364, symSize: 0x8 }
+  - { offset: 0x85E63, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager taskDidFinishCollectingMetrics]', symObjAddr: 0x6038, symBinAddr: 0x1036C, symSize: 0x8 }
+  - { offset: 0x85E9B, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setTaskDidFinishCollectingMetrics:]', symObjAddr: 0x6040, symBinAddr: 0x10374, symSize: 0x8 }
+  - { offset: 0x85EDB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager dataTaskDidReceiveResponse]', symObjAddr: 0x6048, symBinAddr: 0x1037C, symSize: 0x8 }
+  - { offset: 0x85F13, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDataTaskDidReceiveResponse:]', symObjAddr: 0x6050, symBinAddr: 0x10384, symSize: 0x8 }
+  - { offset: 0x85F53, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager dataTaskDidBecomeDownloadTask]', symObjAddr: 0x6058, symBinAddr: 0x1038C, symSize: 0x8 }
+  - { offset: 0x85F8B, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDataTaskDidBecomeDownloadTask:]', symObjAddr: 0x6060, symBinAddr: 0x10394, symSize: 0x8 }
+  - { offset: 0x85FCB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager dataTaskDidReceiveData]', symObjAddr: 0x6068, symBinAddr: 0x1039C, symSize: 0x8 }
+  - { offset: 0x86003, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDataTaskDidReceiveData:]', symObjAddr: 0x6070, symBinAddr: 0x103A4, symSize: 0x8 }
+  - { offset: 0x86043, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager dataTaskWillCacheResponse]', symObjAddr: 0x6078, symBinAddr: 0x103AC, symSize: 0x8 }
+  - { offset: 0x8607B, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDataTaskWillCacheResponse:]', symObjAddr: 0x6080, symBinAddr: 0x103B4, symSize: 0x8 }
+  - { offset: 0x860BB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager downloadTaskDidFinishDownloading]', symObjAddr: 0x6088, symBinAddr: 0x103BC, symSize: 0x8 }
+  - { offset: 0x860F3, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDownloadTaskDidFinishDownloading:]', symObjAddr: 0x6090, symBinAddr: 0x103C4, symSize: 0x8 }
+  - { offset: 0x86133, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager downloadTaskDidWriteData]', symObjAddr: 0x6098, symBinAddr: 0x103CC, symSize: 0x8 }
+  - { offset: 0x8616B, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDownloadTaskDidWriteData:]', symObjAddr: 0x60A0, symBinAddr: 0x103D4, symSize: 0x8 }
+  - { offset: 0x861AB, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager downloadTaskDidResume]', symObjAddr: 0x60A8, symBinAddr: 0x103DC, symSize: 0x8 }
+  - { offset: 0x861E3, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager setDownloadTaskDidResume:]', symObjAddr: 0x60B0, symBinAddr: 0x103E4, symSize: 0x8 }
+  - { offset: 0x86223, size: 0x8, addend: 0x0, symName: '-[AFURLSessionManager .cxx_destruct]', symObjAddr: 0x60B8, symBinAddr: 0x103EC, symSize: 0x150 }
+  - { offset: 0x86257, size: 0x8, addend: 0x0, symName: ___url_session_manager_completion_group_block_invoke, symObjAddr: 0x6278, symBinAddr: 0x105AC, symSize: 0x34 }
+  - { offset: 0x86298, size: 0x8, addend: 0x0, symName: ___url_session_manager_processing_queue_block_invoke, symObjAddr: 0x62AC, symBinAddr: 0x105E0, symSize: 0x44 }
+  - { offset: 0x86DF0, size: 0x8, addend: 0x0, symName: '+[TiCloudRTCEngine createClient:success:error:]', symObjAddr: 0x0, symBinAddr: 0x10624, symSize: 0xDE4 }
+  - { offset: 0x86E14, size: 0x8, addend: 0x0, symName: ___onetimeClass, symObjAddr: 0x23E68, symBinAddr: 0x6F8D8, symSize: 0x0 }
+  - { offset: 0x8758E, size: 0x8, addend: 0x0, symName: '+[TiCloudRTCEngine createClient:success:error:]', symObjAddr: 0x0, symBinAddr: 0x10624, symSize: 0xDE4 }
+  - { offset: 0x87700, size: 0x8, addend: 0x0, symName: '___47+[TiCloudRTCEngine createClient:success:error:]_block_invoke', symObjAddr: 0xDE4, symBinAddr: 0x11408, symSize: 0x284 }
+  - { offset: 0x8778D, size: 0x8, addend: 0x0, symName: '___47+[TiCloudRTCEngine createClient:success:error:]_block_invoke_2', symObjAddr: 0x1068, symBinAddr: 0x1168C, symSize: 0xD8 }
+  - { offset: 0x877F3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40b, symObjAddr: 0x1158, symBinAddr: 0x11764, symSize: 0x3C }
+  - { offset: 0x8781C, size: 0x8, addend: 0x0, symName: '___47+[TiCloudRTCEngine createClient:success:error:]_block_invoke.61', symObjAddr: 0x11BC, symBinAddr: 0x117A0, symSize: 0x134 }
+  - { offset: 0x87892, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine createNotification]', symObjAddr: 0x12F0, symBinAddr: 0x118D4, symSize: 0x68 }
+  - { offset: 0x878C5, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine hadEnterForeGround]', symObjAddr: 0x1358, symBinAddr: 0x1193C, symSize: 0x160 }
+  - { offset: 0x878F8, size: 0x8, addend: 0x0, symName: '+[TiCloudRTCEngine getEngine]', symObjAddr: 0x14B8, symBinAddr: 0x11A9C, symSize: 0x158 }
+  - { offset: 0x8792B, size: 0x8, addend: 0x0, symName: '+[TiCloudRTCEngine getVersion]', symObjAddr: 0x1610, symBinAddr: 0x11BF4, symSize: 0x1C }
+  - { offset: 0x8795E, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine setEventListener:]', symObjAddr: 0x162C, symBinAddr: 0x11C10, symSize: 0x11C }
+  - { offset: 0x879A1, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine call:success:error:]', symObjAddr: 0x1748, symBinAddr: 0x11D2C, symSize: 0x1034 }
+  - { offset: 0x87B01, size: 0x8, addend: 0x0, symName: '___39-[TiCloudRTCEngine call:success:error:]_block_invoke', symObjAddr: 0x277C, symBinAddr: 0x12D60, symSize: 0x24 }
+  - { offset: 0x87B78, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x27A0, symBinAddr: 0x12D84, symSize: 0x34 }
+  - { offset: 0x87BA1, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x27D4, symBinAddr: 0x12DB8, symSize: 0x2C }
+  - { offset: 0x87BC0, size: 0x8, addend: 0x0, symName: '___39-[TiCloudRTCEngine call:success:error:]_block_invoke.104', symObjAddr: 0x2800, symBinAddr: 0x12DE4, symSize: 0x1BC }
+  - { offset: 0x87CA3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48b56w, symObjAddr: 0x29BC, symBinAddr: 0x12FA0, symSize: 0x50 }
+  - { offset: 0x87CCC, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56w, symObjAddr: 0x2A0C, symBinAddr: 0x12FF0, symSize: 0x38 }
+  - { offset: 0x87CEB, size: 0x8, addend: 0x0, symName: '___39-[TiCloudRTCEngine call:success:error:]_block_invoke.108', symObjAddr: 0x2A44, symBinAddr: 0x13028, symSize: 0x148 }
+  - { offset: 0x87D7A, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine dtmf:]', symObjAddr: 0x2BC0, symBinAddr: 0x13170, symSize: 0x8F0 }
+  - { offset: 0x87E23, size: 0x8, addend: 0x0, symName: '___25-[TiCloudRTCEngine dtmf:]_block_invoke', symObjAddr: 0x34B0, symBinAddr: 0x13A60, symSize: 0xFC }
+  - { offset: 0x87E5D, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine setEnableSpeakerphone:]', symObjAddr: 0x35AC, symBinAddr: 0x13B5C, symSize: 0x39C }
+  - { offset: 0x87EA2, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine isSpeakerphoneEnabled]', symObjAddr: 0x3948, symBinAddr: 0x13EF8, symSize: 0x18 }
+  - { offset: 0x87EDA, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine setEnableLocalAudio:]', symObjAddr: 0x3960, symBinAddr: 0x13F10, symSize: 0x29C }
+  - { offset: 0x87F1F, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine setMicrophoneMute:]', symObjAddr: 0x3BFC, symBinAddr: 0x141AC, symSize: 0x29C }
+  - { offset: 0x87F64, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine renewAccessToken:]', symObjAddr: 0x3E98, symBinAddr: 0x14448, symSize: 0x334 }
+  - { offset: 0x87FBA, size: 0x8, addend: 0x0, symName: '___37-[TiCloudRTCEngine renewAccessToken:]_block_invoke', symObjAddr: 0x41CC, symBinAddr: 0x1477C, symSize: 0x134 }
+  - { offset: 0x8803A, size: 0x8, addend: 0x0, symName: '___37-[TiCloudRTCEngine renewAccessToken:]_block_invoke.178', symObjAddr: 0x4358, symBinAddr: 0x148B0, symSize: 0x158 }
+  - { offset: 0x8809E, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine hangup]', symObjAddr: 0x44B8, symBinAddr: 0x14A08, symSize: 0x104 }
+  - { offset: 0x880D2, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine newHangup:]', symObjAddr: 0x45BC, symBinAddr: 0x14B0C, symSize: 0x400 }
+  - { offset: 0x88117, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine hangupProcess:addOnCallingEnd:]', symObjAddr: 0x49BC, symBinAddr: 0x14F0C, symSize: 0xB74 }
+  - { offset: 0x881D8, size: 0x8, addend: 0x0, symName: '___50-[TiCloudRTCEngine hangupProcess:addOnCallingEnd:]_block_invoke', symObjAddr: 0x5530, symBinAddr: 0x15A80, symSize: 0xFC }
+  - { offset: 0x88212, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine destroyClient:error:]', symObjAddr: 0x562C, symBinAddr: 0x15B7C, symSize: 0x3A8 }
+  - { offset: 0x8829C, size: 0x8, addend: 0x0, symName: '___40-[TiCloudRTCEngine destroyClient:error:]_block_invoke', symObjAddr: 0x59D4, symBinAddr: 0x15F24, symSize: 0x80 }
+  - { offset: 0x8833D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48w, symObjAddr: 0x5A54, symBinAddr: 0x15FA4, symSize: 0x40 }
+  - { offset: 0x88366, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48w, symObjAddr: 0x5A94, symBinAddr: 0x15FE4, symSize: 0x30 }
+  - { offset: 0x88385, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine destroyClient]', symObjAddr: 0x5AC4, symBinAddr: 0x16014, symSize: 0x200 }
+  - { offset: 0x883B9, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine acceptCall]', symObjAddr: 0x5CC4, symBinAddr: 0x16214, symSize: 0x438 }
+  - { offset: 0x88416, size: 0x8, addend: 0x0, symName: '___30-[TiCloudRTCEngine acceptCall]_block_invoke', symObjAddr: 0x60FC, symBinAddr: 0x1664C, symSize: 0x194 }
+  - { offset: 0x88469, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine refuseCall]', symObjAddr: 0x6290, symBinAddr: 0x167E0, symSize: 0x49C }
+  - { offset: 0x884DE, size: 0x8, addend: 0x0, symName: '___30-[TiCloudRTCEngine refuseCall]_block_invoke', symObjAddr: 0x672C, symBinAddr: 0x16C7C, symSize: 0x14 }
+  - { offset: 0x88514, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine initAgoraRTMSuccess:error:]', symObjAddr: 0x6740, symBinAddr: 0x16C90, symSize: 0x26C }
+  - { offset: 0x8857B, size: 0x8, addend: 0x0, symName: '___46-[TiCloudRTCEngine initAgoraRTMSuccess:error:]_block_invoke', symObjAddr: 0x69AC, symBinAddr: 0x16EFC, symSize: 0x174 }
+  - { offset: 0x8861F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48b, symObjAddr: 0x6B20, symBinAddr: 0x17070, symSize: 0x44 }
+  - { offset: 0x88648, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x6B64, symBinAddr: 0x170B4, symSize: 0x30 }
+  - { offset: 0x88667, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine initAgoraRTC]', symObjAddr: 0x6B94, symBinAddr: 0x170E4, symSize: 0x194 }
+  - { offset: 0x886BD, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine creatTimerToRenewAccessToken:]', symObjAddr: 0x6D28, symBinAddr: 0x17278, symSize: 0x84 }
+  - { offset: 0x88702, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine reloadAccessTokenExpires]', symObjAddr: 0x6DAC, symBinAddr: 0x172FC, symSize: 0x2AC }
+  - { offset: 0x88736, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine bitRateTimerSelector]', symObjAddr: 0x7058, symBinAddr: 0x175A8, symSize: 0x190 }
+  - { offset: 0x8876A, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine invalidateBitRateTimer]', symObjAddr: 0x71E8, symBinAddr: 0x17738, symSize: 0x44 }
+  - { offset: 0x8879E, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine errMessageWithCode:]', symObjAddr: 0x722C, symBinAddr: 0x1777C, symSize: 0xFD4 }
+  - { offset: 0x887F8, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine tim_errMessageWithCode:]', symObjAddr: 0x8200, symBinAddr: 0x18750, symSize: 0xC60 }
+  - { offset: 0x8884E, size: 0x8, addend: 0x0, symName: '+[TiCloudRTCEngine setupFTMobile:]', symObjAddr: 0x8E60, symBinAddr: 0x193B0, symSize: 0x228 }
+  - { offset: 0x888D3, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine innerState]', symObjAddr: 0x9088, symBinAddr: 0x195D8, symSize: 0x8 }
+  - { offset: 0x8890B, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine setInnerState:]', symObjAddr: 0x9090, symBinAddr: 0x195E0, symSize: 0x8 }
+  - { offset: 0x88949, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine audioPlayer]', symObjAddr: 0x9098, symBinAddr: 0x195E8, symSize: 0x8 }
+  - { offset: 0x88981, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine setAudioPlayer:]', symObjAddr: 0x90A0, symBinAddr: 0x195F0, symSize: 0xC }
+  - { offset: 0x889C3, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine remoteInvitation]', symObjAddr: 0x90AC, symBinAddr: 0x195FC, symSize: 0x8 }
+  - { offset: 0x889FB, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine setRemoteInvitation:]', symObjAddr: 0x90B4, symBinAddr: 0x19604, symSize: 0xC }
+  - { offset: 0x88A3D, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine pullTimer]', symObjAddr: 0x90C0, symBinAddr: 0x19610, symSize: 0x8 }
+  - { offset: 0x88A75, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine setPullTimer:]', symObjAddr: 0x90C8, symBinAddr: 0x19618, symSize: 0xC }
+  - { offset: 0x88AB7, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine agoraNetworkQuality]', symObjAddr: 0x90D4, symBinAddr: 0x19624, symSize: 0x8 }
+  - { offset: 0x88AEF, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine setAgoraNetworkQuality:]', symObjAddr: 0x90DC, symBinAddr: 0x1962C, symSize: 0x8 }
+  - { offset: 0x88B2D, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine backgroundTaskIdentifier]', symObjAddr: 0x90E4, symBinAddr: 0x19634, symSize: 0x8 }
+  - { offset: 0x88B65, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine setBackgroundTaskIdentifier:]', symObjAddr: 0x90EC, symBinAddr: 0x1963C, symSize: 0x8 }
+  - { offset: 0x88BA3, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine callUuid]', symObjAddr: 0x90F4, symBinAddr: 0x19644, symSize: 0x8 }
+  - { offset: 0x88BDB, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine setCallUuid:]', symObjAddr: 0x90FC, symBinAddr: 0x1964C, symSize: 0x8 }
+  - { offset: 0x88C1B, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine innerRegisterModel]', symObjAddr: 0x9104, symBinAddr: 0x19654, symSize: 0x8 }
+  - { offset: 0x88C53, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine setInnerRegisterModel:]', symObjAddr: 0x910C, symBinAddr: 0x1965C, symSize: 0xC }
+  - { offset: 0x88C95, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine .cxx_destruct]', symObjAddr: 0x9118, symBinAddr: 0x19668, symSize: 0xD8 }
+  - { offset: 0x89563, size: 0x8, addend: 0x0, symName: _AFStringFromNetworkReachabilityStatus, symObjAddr: 0x0, symBinAddr: 0x19740, symSize: 0x14C }
+  - { offset: 0x8957D, size: 0x8, addend: 0x0, symName: _AFNetworkingReachabilityDidChangeNotification, symObjAddr: 0x1110, symBinAddr: 0x50C60, symSize: 0x0 }
+  - { offset: 0x8959D, size: 0x8, addend: 0x0, symName: _AFNetworkingReachabilityNotificationStatusItem, symObjAddr: 0x1118, symBinAddr: 0x50C68, symSize: 0x0 }
+  - { offset: 0x895A7, size: 0x8, addend: 0x0, symName: '+[AFNetworkReachabilityManager sharedManager]', symObjAddr: 0x14C, symBinAddr: 0x1988C, symSize: 0xA4 }
+  - { offset: 0x895D1, size: 0x8, addend: 0x0, symName: _sharedManager._sharedManager, symObjAddr: 0x8D88, symBinAddr: 0x6F8E0, symSize: 0x0 }
+  - { offset: 0x895E7, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0x8D90, symBinAddr: 0x6F8E8, symSize: 0x0 }
+  - { offset: 0x897F3, size: 0x8, addend: 0x0, symName: _AFStringFromNetworkReachabilityStatus, symObjAddr: 0x0, symBinAddr: 0x19740, symSize: 0x14C }
+  - { offset: 0x8985E, size: 0x8, addend: 0x0, symName: '___45+[AFNetworkReachabilityManager sharedManager]_block_invoke', symObjAddr: 0x1F0, symBinAddr: 0x19930, symSize: 0x40 }
+  - { offset: 0x8989D, size: 0x8, addend: 0x0, symName: '+[AFNetworkReachabilityManager managerForDomain:]', symObjAddr: 0x230, symBinAddr: 0x19970, symSize: 0x74 }
+  - { offset: 0x89967, size: 0x8, addend: 0x0, symName: '+[AFNetworkReachabilityManager managerForAddress:]', symObjAddr: 0x2A4, symBinAddr: 0x199E4, symSize: 0x64 }
+  - { offset: 0x89A12, size: 0x8, addend: 0x0, symName: '+[AFNetworkReachabilityManager manager]', symObjAddr: 0x308, symBinAddr: 0x19A48, symSize: 0x4C }
+  - { offset: 0x89A58, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager initWithReachability:]', symObjAddr: 0x354, symBinAddr: 0x19A94, symSize: 0x98 }
+  - { offset: 0x89AC8, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager init]', symObjAddr: 0x3EC, symBinAddr: 0x19B2C, symSize: 0x4C }
+  - { offset: 0x89AFB, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager dealloc]', symObjAddr: 0x438, symBinAddr: 0x19B78, symSize: 0x70 }
+  - { offset: 0x89B3C, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager isReachable]', symObjAddr: 0x4A8, symBinAddr: 0x19BE8, symSize: 0x6C }
+  - { offset: 0x89B73, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager isReachableViaWWAN]', symObjAddr: 0x514, symBinAddr: 0x19C54, symSize: 0x2C }
+  - { offset: 0x89BAA, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager isReachableViaWiFi]', symObjAddr: 0x540, symBinAddr: 0x19C80, symSize: 0x2C }
+  - { offset: 0x89BE1, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager startMonitoring]', symObjAddr: 0x56C, symBinAddr: 0x19CAC, symSize: 0x1B8 }
+  - { offset: 0x89D2C, size: 0x8, addend: 0x0, symName: '___47-[AFNetworkReachabilityManager startMonitoring]_block_invoke', symObjAddr: 0x724, symBinAddr: 0x19E64, symSize: 0xA0 }
+  - { offset: 0x89DAE, size: 0x8, addend: 0x0, symName: _AFNetworkReachabilityRetainCallback, symObjAddr: 0x7D8, symBinAddr: 0x19F04, symSize: 0x14 }
+  - { offset: 0x89E00, size: 0x8, addend: 0x0, symName: _AFNetworkReachabilityReleaseCallback, symObjAddr: 0x7EC, symBinAddr: 0x19F18, symSize: 0x2C }
+  - { offset: 0x89E41, size: 0x8, addend: 0x0, symName: _AFNetworkReachabilityCallback, symObjAddr: 0x818, symBinAddr: 0x19F44, symSize: 0x1C }
+  - { offset: 0x89EA3, size: 0x8, addend: 0x0, symName: _AFPostReachabilityStatusChange, symObjAddr: 0x898, symBinAddr: 0x19FC4, symSize: 0x184 }
+  - { offset: 0x89F51, size: 0x8, addend: 0x0, symName: '___47-[AFNetworkReachabilityManager startMonitoring]_block_invoke.22', symObjAddr: 0x834, symBinAddr: 0x19F60, symSize: 0x64 }
+  - { offset: 0x8A070, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager stopMonitoring]', symObjAddr: 0xA78, symBinAddr: 0x1A148, symSize: 0x74 }
+  - { offset: 0x8A0DC, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager localizedNetworkReachabilityStatusString]', symObjAddr: 0xAEC, symBinAddr: 0x1A1BC, symSize: 0x24 }
+  - { offset: 0x8A121, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager setReachabilityStatusChangeBlock:]', symObjAddr: 0xB10, symBinAddr: 0x1A1E0, symSize: 0x14 }
+  - { offset: 0x8A160, size: 0x8, addend: 0x0, symName: '+[AFNetworkReachabilityManager keyPathsForValuesAffectingValueForKey:]', symObjAddr: 0xB24, symBinAddr: 0x1A1F4, symSize: 0x120 }
+  - { offset: 0x8A1A9, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager networkReachabilityStatus]', symObjAddr: 0xC44, symBinAddr: 0x1A314, symSize: 0x8 }
+  - { offset: 0x8A1E0, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager setNetworkReachabilityStatus:]', symObjAddr: 0xC4C, symBinAddr: 0x1A31C, symSize: 0x8 }
+  - { offset: 0x8A21D, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager networkReachability]', symObjAddr: 0xC54, symBinAddr: 0x1A324, symSize: 0x8 }
+  - { offset: 0x8A254, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager networkReachabilityStatusBlock]', symObjAddr: 0xC5C, symBinAddr: 0x1A32C, symSize: 0x8 }
+  - { offset: 0x8A28B, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager setNetworkReachabilityStatusBlock:]', symObjAddr: 0xC64, symBinAddr: 0x1A334, symSize: 0x8 }
+  - { offset: 0x8A2CA, size: 0x8, addend: 0x0, symName: '-[AFNetworkReachabilityManager .cxx_destruct]', symObjAddr: 0xC6C, symBinAddr: 0x1A33C, symSize: 0xC }
+  - { offset: 0x8A2FD, size: 0x8, addend: 0x0, symName: ___AFPostReachabilityStatusChange_block_invoke, symObjAddr: 0xC78, symBinAddr: 0x1A348, symSize: 0x140 }
+  - { offset: 0x8A644, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(ApiRequest) registerSdk:error:]', symObjAddr: 0x0, symBinAddr: 0x1A488, symSize: 0x55C }
+  - { offset: 0x8A912, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(ApiRequest) registerSdk:error:]', symObjAddr: 0x0, symBinAddr: 0x1A488, symSize: 0x55C }
+  - { offset: 0x8A9C7, size: 0x8, addend: 0x0, symName: '___50-[TiCloudRTCEngine(ApiRequest) registerSdk:error:]_block_invoke', symObjAddr: 0x55C, symBinAddr: 0x1A9E4, symSize: 0x73C }
+  - { offset: 0x8AB35, size: 0x8, addend: 0x0, symName: '___50-[TiCloudRTCEngine(ApiRequest) registerSdk:error:]_block_invoke.57', symObjAddr: 0xD20, symBinAddr: 0x1B120, symSize: 0x1BC }
+  - { offset: 0x8ABF2, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(ApiRequest) getCallInfo:error:]', symObjAddr: 0xF38, symBinAddr: 0x1B2DC, symSize: 0x8A8 }
+  - { offset: 0x8AC75, size: 0x8, addend: 0x0, symName: '___50-[TiCloudRTCEngine(ApiRequest) getCallInfo:error:]_block_invoke', symObjAddr: 0x17E0, symBinAddr: 0x1BB84, symSize: 0x5BC }
+  - { offset: 0x8AD4E, size: 0x8, addend: 0x0, symName: '___50-[TiCloudRTCEngine(ApiRequest) getCallInfo:error:]_block_invoke_2', symObjAddr: 0x1D9C, symBinAddr: 0x1C140, symSize: 0x1BC }
+  - { offset: 0x8AE0B, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(ApiRequest) getAgoraNewToken:error:]', symObjAddr: 0x1F58, symBinAddr: 0x1C2FC, symSize: 0x61C }
+  - { offset: 0x8AE9E, size: 0x8, addend: 0x0, symName: '___55-[TiCloudRTCEngine(ApiRequest) getAgoraNewToken:error:]_block_invoke', symObjAddr: 0x2574, symBinAddr: 0x1C918, symSize: 0x4A0 }
+  - { offset: 0x8AF6B, size: 0x8, addend: 0x0, symName: '___55-[TiCloudRTCEngine(ApiRequest) getAgoraNewToken:error:]_block_invoke_2', symObjAddr: 0x2A14, symBinAddr: 0x1CDB8, symSize: 0x1BC }
+  - { offset: 0x8B028, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(ApiRequest) renewAccessToken:success:error:]', symObjAddr: 0x2BD0, symBinAddr: 0x1CF74, symSize: 0x5E0 }
+  - { offset: 0x8B0EE, size: 0x8, addend: 0x0, symName: '___63-[TiCloudRTCEngine(ApiRequest) renewAccessToken:success:error:]_block_invoke', symObjAddr: 0x31B0, symBinAddr: 0x1D554, symSize: 0x4D4 }
+  - { offset: 0x8B1E3, size: 0x8, addend: 0x0, symName: '___63-[TiCloudRTCEngine(ApiRequest) renewAccessToken:success:error:]_block_invoke_2', symObjAddr: 0x3684, symBinAddr: 0x1DA28, symSize: 0x1BC }
+  - { offset: 0x8B2A6, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(ApiRequest) uploadLogs:]', symObjAddr: 0x3840, symBinAddr: 0x1DBE4, symSize: 0x4A0 }
+  - { offset: 0x8B32D, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(ApiRequest) tim_uploadLogs:]', symObjAddr: 0x3CE0, symBinAddr: 0x1E084, symSize: 0x4FC }
+  - { offset: 0x8B3A5, size: 0x8, addend: 0x0, symName: '___47-[TiCloudRTCEngine(ApiRequest) tim_uploadLogs:]_block_invoke', symObjAddr: 0x41DC, symBinAddr: 0x1E580, symSize: 0x38 }
+  - { offset: 0x8B3FD, size: 0x8, addend: 0x0, symName: '___47-[TiCloudRTCEngine(ApiRequest) tim_uploadLogs:]_block_invoke_2', symObjAddr: 0x4214, symBinAddr: 0x1E5B8, symSize: 0x5C }
+  - { offset: 0x8B483, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(ApiRequest) comparisonErrorCode:message:error:]', symObjAddr: 0x4270, symBinAddr: 0x1E614, symSize: 0x520 }
+  - { offset: 0x8C039, size: 0x8, addend: 0x0, symName: '+[TiCommonUtils sharedCommon]', symObjAddr: 0x0, symBinAddr: 0x1EB34, symSize: 0x70 }
+  - { offset: 0x8C047, size: 0x8, addend: 0x0, symName: '+[TiCommonUtils sharedCommon]', symObjAddr: 0x0, symBinAddr: 0x1EB34, symSize: 0x70 }
+  - { offset: 0x8C071, size: 0x8, addend: 0x0, symName: _sharedCommon.onceToken, symObjAddr: 0x4788, symBinAddr: 0x6F8F0, symSize: 0x0 }
+  - { offset: 0x8C0BE, size: 0x8, addend: 0x0, symName: _common, symObjAddr: 0x4790, symBinAddr: 0x6F8F8, symSize: 0x0 }
+  - { offset: 0x8C158, size: 0x8, addend: 0x0, symName: '___29+[TiCommonUtils sharedCommon]_block_invoke', symObjAddr: 0x70, symBinAddr: 0x1EBA4, symSize: 0x40 }
+  - { offset: 0x8C17F, size: 0x8, addend: 0x0, symName: '+[TiCommonUtils URLEncodeWithString:]', symObjAddr: 0xB0, symBinAddr: 0x1EBE4, symSize: 0xA4 }
+  - { offset: 0x8C1F2, size: 0x8, addend: 0x0, symName: '+[TiCommonUtils uuidString]', symObjAddr: 0x154, symBinAddr: 0x1EC88, symSize: 0x98 }
+  - { offset: 0x8C2EA, size: 0x8, addend: 0x0, symName: '+[TiCommonUtils toNSStringWithDictionary:]', symObjAddr: 0x1EC, symBinAddr: 0x1ED20, symSize: 0x7C }
+  - { offset: 0x8C35D, size: 0x8, addend: 0x0, symName: '+[TiCommonUtils toDictionaryWithNSString:]', symObjAddr: 0x268, symBinAddr: 0x1ED9C, symSize: 0xF4 }
+  - { offset: 0x8C3EE, size: 0x8, addend: 0x0, symName: '+[TiCommonUtils isEmptyString:]', symObjAddr: 0x35C, symBinAddr: 0x1EE90, symSize: 0x1CC }
+  - { offset: 0x8C431, size: 0x8, addend: 0x0, symName: '+[TiCommonUtils dictionary:containsKey:]', symObjAddr: 0x528, symBinAddr: 0x1F05C, symSize: 0x10C }
+  - { offset: 0x8C484, size: 0x8, addend: 0x0, symName: '+[TiCommonUtils replaceMiddleDigits:]', symObjAddr: 0x634, symBinAddr: 0x1F168, symSize: 0x24 }
+  - { offset: 0x8C519, size: 0x8, addend: 0x0, symName: '+[TiCommonUtils replaceWithRegex:regex:replacement:]', symObjAddr: 0x658, symBinAddr: 0x1F18C, symSize: 0x144 }
+  - { offset: 0x8C5F7, size: 0x8, addend: 0x0, symName: '-[TiCommonUtils isDisconnected]', symObjAddr: 0x79C, symBinAddr: 0x1F2D0, symSize: 0x8 }
+  - { offset: 0x8C62E, size: 0x8, addend: 0x0, symName: '-[TiCommonUtils setIsDisconnected:]', symObjAddr: 0x7A4, symBinAddr: 0x1F2D8, symSize: 0x8 }
+  - { offset: 0x8C776, size: 0x8, addend: 0x0, symName: '+[AgoraRtm initAgoraRTM:]', symObjAddr: 0x0, symBinAddr: 0x1F2E0, symSize: 0x90 }
+  - { offset: 0x8C79A, size: 0x8, addend: 0x0, symName: __kit, symObjAddr: 0x13960, symBinAddr: 0x6F900, symSize: 0x0 }
+  - { offset: 0x8C7B5, size: 0x8, addend: 0x0, symName: __current, symObjAddr: 0x13968, symBinAddr: 0x6F908, symSize: 0x0 }
+  - { offset: 0x8C7CB, size: 0x8, addend: 0x0, symName: __offlineMessages, symObjAddr: 0x13970, symBinAddr: 0x6F910, symSize: 0x0 }
+  - { offset: 0x8C7F4, size: 0x8, addend: 0x0, symName: __status, symObjAddr: 0x5A80, symBinAddr: 0x611C8, symSize: 0x0 }
+  - { offset: 0x8C835, size: 0x8, addend: 0x0, symName: __oneToOneMessageType, symObjAddr: 0x13978, symBinAddr: 0x6F918, symSize: 0x0 }
+  - { offset: 0x8CB07, size: 0x8, addend: 0x0, symName: '+[AgoraRtm initAgoraRTM:]', symObjAddr: 0x0, symBinAddr: 0x1F2E0, symSize: 0x90 }
+  - { offset: 0x8CB46, size: 0x8, addend: 0x0, symName: '+[AgoraRtm kit]', symObjAddr: 0x90, symBinAddr: 0x1F370, symSize: 0x1C }
+  - { offset: 0x8CB79, size: 0x8, addend: 0x0, symName: '+[AgoraRtm current]', symObjAddr: 0xAC, symBinAddr: 0x1F38C, symSize: 0x1C }
+  - { offset: 0x8CBAC, size: 0x8, addend: 0x0, symName: '+[AgoraRtm setCurrent:]', symObjAddr: 0xC8, symBinAddr: 0x1F3A8, symSize: 0x20 }
+  - { offset: 0x8CBEB, size: 0x8, addend: 0x0, symName: '+[AgoraRtm status]', symObjAddr: 0xE8, symBinAddr: 0x1F3C8, symSize: 0x1C }
+  - { offset: 0x8CC1E, size: 0x8, addend: 0x0, symName: '+[AgoraRtm setStatus:]', symObjAddr: 0x104, symBinAddr: 0x1F3E4, symSize: 0x1C }
+  - { offset: 0x8CC5B, size: 0x8, addend: 0x0, symName: '+[AgoraRtm setOneToOneMessageType:]', symObjAddr: 0x120, symBinAddr: 0x1F400, symSize: 0x1C }
+  - { offset: 0x8CC98, size: 0x8, addend: 0x0, symName: '+[AgoraRtm oneToOneMessageType]', symObjAddr: 0x13C, symBinAddr: 0x1F41C, symSize: 0x1C }
+  - { offset: 0x8CCCB, size: 0x8, addend: 0x0, symName: '+[AgoraRtm updateDelegate:]', symObjAddr: 0x158, symBinAddr: 0x1F438, symSize: 0x1C }
+  - { offset: 0x8CD08, size: 0x8, addend: 0x0, symName: '+[AgoraRtm addOfflineMessage:fromUser:]', symObjAddr: 0x174, symBinAddr: 0x1F454, symSize: 0x134 }
+  - { offset: 0x8CD67, size: 0x8, addend: 0x0, symName: '+[AgoraRtm getOfflineMessagesFromUser:]', symObjAddr: 0x2A8, symBinAddr: 0x1F588, symSize: 0x1C }
+  - { offset: 0x8CDA8, size: 0x8, addend: 0x0, symName: '+[AgoraRtm removeOfflineMessageFromUser:]', symObjAddr: 0x2C4, symBinAddr: 0x1F5A4, symSize: 0x1C }
+  - { offset: 0x8CDE5, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) startRtcCall]', symObjAddr: 0x2E0, symBinAddr: 0x1F5C0, symSize: 0x3E8 }
+  - { offset: 0x8CE37, size: 0x8, addend: 0x0, symName: '___42-[TiCloudRTCEngine(AgoraRTM) startRtcCall]_block_invoke', symObjAddr: 0x6C8, symBinAddr: 0x1F9A8, symSize: 0x260 }
+  - { offset: 0x8CE86, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) __startRtcCall]', symObjAddr: 0x938, symBinAddr: 0x1FC08, symSize: 0xC8C }
+  - { offset: 0x8CF29, size: 0x8, addend: 0x0, symName: '___44-[TiCloudRTCEngine(AgoraRTM) __startRtcCall]_block_invoke', symObjAddr: 0x15C4, symBinAddr: 0x20894, symSize: 0x298 }
+  - { offset: 0x8CFB2, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) cancelRtcCall]', symObjAddr: 0x1870, symBinAddr: 0x20B2C, symSize: 0x104 }
+  - { offset: 0x8CFF5, size: 0x8, addend: 0x0, symName: '___43-[TiCloudRTCEngine(AgoraRTM) cancelRtcCall]_block_invoke', symObjAddr: 0x1974, symBinAddr: 0x20C30, symSize: 0x26C }
+  - { offset: 0x8D05F, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) rtmKit:connectionStateChanged:reason:]', symObjAddr: 0x1BE0, symBinAddr: 0x20E9C, symSize: 0x970 }
+  - { offset: 0x8D10D, size: 0x8, addend: 0x0, symName: '___67-[TiCloudRTCEngine(AgoraRTM) rtmKit:connectionStateChanged:reason:]_block_invoke', symObjAddr: 0x2550, symBinAddr: 0x2180C, symSize: 0xFC }
+  - { offset: 0x8D147, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) reconnectingConnectionState]', symObjAddr: 0x264C, symBinAddr: 0x21908, symSize: 0x1A4 }
+  - { offset: 0x8D17B, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) rtmKit:messageReceived:fromPeer:]', symObjAddr: 0x27F0, symBinAddr: 0x21AAC, symSize: 0x11EC }
+  - { offset: 0x8D2AC, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) rtmKitTokenPrivilegeWillExpire:]', symObjAddr: 0x39DC, symBinAddr: 0x22C98, symSize: 0xDC }
+  - { offset: 0x8D302, size: 0x8, addend: 0x0, symName: '___61-[TiCloudRTCEngine(AgoraRTM) rtmKitTokenPrivilegeWillExpire:]_block_invoke', symObjAddr: 0x3AB8, symBinAddr: 0x22D74, symSize: 0x88 }
+  - { offset: 0x8D360, size: 0x8, addend: 0x0, symName: '___61-[TiCloudRTCEngine(AgoraRTM) rtmKitTokenPrivilegeWillExpire:]_block_invoke.173', symObjAddr: 0x3B40, symBinAddr: 0x22DFC, symSize: 0x14 }
+  - { offset: 0x8D3A3, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) rtmCallKit:localInvitationReceivedByPeer:]', symObjAddr: 0x3B54, symBinAddr: 0x22E10, symSize: 0xF4 }
+  - { offset: 0x8D3ED, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) rtmCallKit:localInvitationAccepted:withResponse:]', symObjAddr: 0x3C48, symBinAddr: 0x22F04, symSize: 0x1CC }
+  - { offset: 0x8D45D, size: 0x8, addend: 0x0, symName: '___78-[TiCloudRTCEngine(AgoraRTM) rtmCallKit:localInvitationAccepted:withResponse:]_block_invoke', symObjAddr: 0x3E14, symBinAddr: 0x230D0, symSize: 0x14 }
+  - { offset: 0x8D4AD, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) rtmCallKit:localInvitationRefused:withResponse:]', symObjAddr: 0x3E28, symBinAddr: 0x230E4, symSize: 0x190 }
+  - { offset: 0x8D50C, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) rtmCallKit:localInvitationCanceled:]', symObjAddr: 0x3FB8, symBinAddr: 0x23274, symSize: 0x168 }
+  - { offset: 0x8D55A, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) rtmCallKit:localInvitationFailure:errorCode:]', symObjAddr: 0x4120, symBinAddr: 0x233DC, symSize: 0x290 }
+  - { offset: 0x8D5CA, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) rtmCallKit:remoteInvitationReceived:]', symObjAddr: 0x43B0, symBinAddr: 0x2366C, symSize: 0xD50 }
+  - { offset: 0x8D6DD, size: 0x8, addend: 0x0, symName: '___66-[TiCloudRTCEngine(AgoraRTM) rtmCallKit:remoteInvitationReceived:]_block_invoke', symObjAddr: 0x5100, symBinAddr: 0x243BC, symSize: 0x14 }
+  - { offset: 0x8D713, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) rtmCallKit:remoteInvitationAccepted:]', symObjAddr: 0x5114, symBinAddr: 0x243D0, symSize: 0x268 }
+  - { offset: 0x8D783, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) rtmCallKit:remoteInvitationCanceled:]', symObjAddr: 0x537C, symBinAddr: 0x24638, symSize: 0x2A0 }
+  - { offset: 0x8D7F7, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) rtmCallKit:remoteInvitationRefused:]', symObjAddr: 0x561C, symBinAddr: 0x248D8, symSize: 0x10C }
+  - { offset: 0x8D845, size: 0x8, addend: 0x0, symName: '-[TiCloudRTCEngine(AgoraRTM) rtmCallKit:remoteInvitationFailure:errorCode:]', symObjAddr: 0x5728, symBinAddr: 0x249E4, symSize: 0x13C }
+  - { offset: 0x8E12B, size: 0x8, addend: 0x0, symName: _AFPercentEscapedStringFromString, symObjAddr: 0x0, symBinAddr: 0x24B20, symSize: 0x19C }
+  - { offset: 0x8E145, size: 0x8, addend: 0x0, symName: _AFURLRequestSerializationErrorDomain, symObjAddr: 0x7E50, symBinAddr: 0x50EE0, symSize: 0x0 }
+  - { offset: 0x8E165, size: 0x8, addend: 0x0, symName: _AFNetworkingOperationFailingURLRequestErrorKey, symObjAddr: 0x7E58, symBinAddr: 0x50EE8, symSize: 0x0 }
+  - { offset: 0x8E16F, size: 0x8, addend: 0x0, symName: _AFPercentEscapedStringFromString, symObjAddr: 0x0, symBinAddr: 0x24B20, symSize: 0x19C }
+  - { offset: 0x8E2B9, size: 0x8, addend: 0x0, symName: _kAFUploadStream3GSuggestedPacketSize, symObjAddr: 0x7550, symBinAddr: 0x3BC88, symSize: 0x0 }
+  - { offset: 0x8E2D0, size: 0x8, addend: 0x0, symName: _kAFUploadStream3GSuggestedDelay, symObjAddr: 0x7558, symBinAddr: 0x3BC90, symSize: 0x0 }
+  - { offset: 0x8E2E6, size: 0x8, addend: 0x0, symName: _AFHTTPRequestSerializerObservedKeyPaths, symObjAddr: 0x7288, symBinAddr: 0x2BC48, symSize: 0x70 }
+  - { offset: 0x8E30C, size: 0x8, addend: 0x0, symName: _AFHTTPRequestSerializerObservedKeyPaths._AFHTTPRequestSerializerObservedKeyPaths, symObjAddr: 0x29988, symBinAddr: 0x6F920, symSize: 0x0 }
+  - { offset: 0x8E322, size: 0x8, addend: 0x0, symName: _AFHTTPRequestSerializerObservedKeyPaths.onceToken, symObjAddr: 0x29990, symBinAddr: 0x6F928, symSize: 0x0 }
+  - { offset: 0x8E360, size: 0x8, addend: 0x0, symName: _AFHTTPRequestSerializerObserverContext, symObjAddr: 0xC420, symBinAddr: 0x611D0, symSize: 0x0 }
+  - { offset: 0x8EA29, size: 0x8, addend: 0x0, symName: '-[AFQueryStringPair initWithField:value:]', symObjAddr: 0x19C, symBinAddr: 0x24CBC, symSize: 0xCC }
+  - { offset: 0x8EA80, size: 0x8, addend: 0x0, symName: '-[AFQueryStringPair URLEncodedStringValue]', symObjAddr: 0x268, symBinAddr: 0x24D88, symSize: 0x1F8 }
+  - { offset: 0x8EAE1, size: 0x8, addend: 0x0, symName: '-[AFQueryStringPair field]', symObjAddr: 0x460, symBinAddr: 0x24F80, symSize: 0x8 }
+  - { offset: 0x8EB18, size: 0x8, addend: 0x0, symName: '-[AFQueryStringPair setField:]', symObjAddr: 0x468, symBinAddr: 0x24F88, symSize: 0xC }
+  - { offset: 0x8EB59, size: 0x8, addend: 0x0, symName: '-[AFQueryStringPair value]', symObjAddr: 0x474, symBinAddr: 0x24F94, symSize: 0x8 }
+  - { offset: 0x8EB90, size: 0x8, addend: 0x0, symName: '-[AFQueryStringPair setValue:]', symObjAddr: 0x47C, symBinAddr: 0x24F9C, symSize: 0xC }
+  - { offset: 0x8EBD1, size: 0x8, addend: 0x0, symName: '-[AFQueryStringPair .cxx_destruct]', symObjAddr: 0x488, symBinAddr: 0x24FA8, symSize: 0x30 }
+  - { offset: 0x8EC1E, size: 0x8, addend: 0x0, symName: _AFQueryStringFromParameters, symObjAddr: 0x4B8, symBinAddr: 0x24FD8, symSize: 0x1A8 }
+  - { offset: 0x8ECA1, size: 0x8, addend: 0x0, symName: _AFQueryStringPairsFromKeyAndValue, symObjAddr: 0x67C, symBinAddr: 0x2519C, symSize: 0x56C }
+  - { offset: 0x8EDF2, size: 0x8, addend: 0x0, symName: _AFQueryStringPairsFromDictionary, symObjAddr: 0x660, symBinAddr: 0x25180, symSize: 0x1C }
+  - { offset: 0x8EE2E, size: 0x8, addend: 0x0, symName: '+[AFHTTPRequestSerializer serializer]', symObjAddr: 0xBE8, symBinAddr: 0x25708, symSize: 0x28 }
+  - { offset: 0x8EE65, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer init]', symObjAddr: 0xC10, symBinAddr: 0x25730, symSize: 0x65C }
+  - { offset: 0x8EFB5, size: 0x8, addend: 0x0, symName: '___31-[AFHTTPRequestSerializer init]_block_invoke', symObjAddr: 0x126C, symBinAddr: 0x25D8C, symSize: 0xAC }
+  - { offset: 0x8F03F, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer dealloc]', symObjAddr: 0x1328, symBinAddr: 0x25E38, symSize: 0x17C }
+  - { offset: 0x8F0AD, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setAllowsCellularAccess:]', symObjAddr: 0x14A4, symBinAddr: 0x25FB4, symSize: 0x90 }
+  - { offset: 0x8F12D, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setCachePolicy:]', symObjAddr: 0x1534, symBinAddr: 0x26044, symSize: 0x90 }
+  - { offset: 0x8F19E, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setHTTPShouldHandleCookies:]', symObjAddr: 0x15C4, symBinAddr: 0x260D4, symSize: 0x90 }
+  - { offset: 0x8F20B, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setHTTPShouldUsePipelining:]', symObjAddr: 0x1654, symBinAddr: 0x26164, symSize: 0x90 }
+  - { offset: 0x8F278, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setNetworkServiceType:]', symObjAddr: 0x16E4, symBinAddr: 0x261F4, symSize: 0x90 }
+  - { offset: 0x8F2E9, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setTimeoutInterval:]', symObjAddr: 0x1774, symBinAddr: 0x26284, symSize: 0x98 }
+  - { offset: 0x8F35A, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer HTTPRequestHeaders]', symObjAddr: 0x180C, symBinAddr: 0x2631C, symSize: 0xF8 }
+  - { offset: 0x8F3D7, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x1904, symBinAddr: 0x26414, symSize: 0x10 }
+  - { offset: 0x8F3FC, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x1914, symBinAddr: 0x26424, symSize: 0x8 }
+  - { offset: 0x8F41B, size: 0x8, addend: 0x0, symName: '___45-[AFHTTPRequestSerializer HTTPRequestHeaders]_block_invoke', symObjAddr: 0x191C, symBinAddr: 0x2642C, symSize: 0x80 }
+  - { offset: 0x8F46E, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setValue:forHTTPHeaderField:]', symObjAddr: 0x19FC, symBinAddr: 0x264AC, symSize: 0xE8 }
+  - { offset: 0x8F4F5, size: 0x8, addend: 0x0, symName: '___55-[AFHTTPRequestSerializer setValue:forHTTPHeaderField:]_block_invoke', symObjAddr: 0x1AE4, symBinAddr: 0x26594, symSize: 0x4C }
+  - { offset: 0x8F559, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x1B30, symBinAddr: 0x265E0, symSize: 0x30 }
+  - { offset: 0x8F582, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer valueForHTTPHeaderField:]', symObjAddr: 0x1B90, symBinAddr: 0x26610, symSize: 0x12C }
+  - { offset: 0x8F5FE, size: 0x8, addend: 0x0, symName: '___51-[AFHTTPRequestSerializer valueForHTTPHeaderField:]_block_invoke', symObjAddr: 0x1CBC, symBinAddr: 0x2673C, symSize: 0x6C }
+  - { offset: 0x8F662, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setAuthorizationHeaderFieldWithUsername:password:]', symObjAddr: 0x1D98, symBinAddr: 0x267A8, symSize: 0xDC }
+  - { offset: 0x8F6DA, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer clearAuthorizationHeader]', symObjAddr: 0x1E74, symBinAddr: 0x26884, symSize: 0x84 }
+  - { offset: 0x8F724, size: 0x8, addend: 0x0, symName: '___51-[AFHTTPRequestSerializer clearAuthorizationHeader]_block_invoke', symObjAddr: 0x1EF8, symBinAddr: 0x26908, symSize: 0x4C }
+  - { offset: 0x8F766, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setQueryStringSerializationWithStyle:]', symObjAddr: 0x1F44, symBinAddr: 0x26954, symSize: 0x38 }
+  - { offset: 0x8F7AB, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setQueryStringSerializationWithBlock:]', symObjAddr: 0x1F7C, symBinAddr: 0x2698C, symSize: 0x14 }
+  - { offset: 0x8F7EC, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer requestWithMethod:URLString:parameters:error:]', symObjAddr: 0x1F90, symBinAddr: 0x269A0, symSize: 0x248 }
+  - { offset: 0x8F8B0, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer multipartFormRequestWithMethod:URLString:parameters:constructingBodyWithBlock:error:]', symObjAddr: 0x21D8, symBinAddr: 0x26BE8, symSize: 0x3C0 }
+  - { offset: 0x8F9DC, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]', symObjAddr: 0x2598, symBinAddr: 0x26FA8, symSize: 0x1E0 }
+  - { offset: 0x8FAFD, size: 0x8, addend: 0x0, symName: '___105-[AFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke', symObjAddr: 0x2778, symBinAddr: 0x27188, symSize: 0x310 }
+  - { offset: 0x8FBCB, size: 0x8, addend: 0x0, symName: '___105-[AFHTTPRequestSerializer requestWithMultipartFormRequest:writingStreamContentsToFile:completionHandler:]_block_invoke_2', symObjAddr: 0x2A88, symBinAddr: 0x27498, symSize: 0x28 }
+  - { offset: 0x8FC26, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40r, symObjAddr: 0x2AB0, symBinAddr: 0x274C0, symSize: 0x3C }
+  - { offset: 0x8FC4F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b56r, symObjAddr: 0x2AEC, symBinAddr: 0x274FC, symSize: 0x4C }
+  - { offset: 0x8FC78, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0x2B38, symBinAddr: 0x27548, symSize: 0x3C }
+  - { offset: 0x8FC97, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]', symObjAddr: 0x2B74, symBinAddr: 0x27584, symSize: 0x480 }
+  - { offset: 0x8FD7C, size: 0x8, addend: 0x0, symName: '___76-[AFHTTPRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke', symObjAddr: 0x2FF4, symBinAddr: 0x27A04, symSize: 0x9C }
+  - { offset: 0x8FDFA, size: 0x8, addend: 0x0, symName: '+[AFHTTPRequestSerializer automaticallyNotifiesObserversForKey:]', symObjAddr: 0x30E0, symBinAddr: 0x27AA0, symSize: 0xB8 }
+  - { offset: 0x8FE51, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x3198, symBinAddr: 0x27B58, symSize: 0x124 }
+  - { offset: 0x8FEC5, size: 0x8, addend: 0x0, symName: '+[AFHTTPRequestSerializer supportsSecureCoding]', symObjAddr: 0x32BC, symBinAddr: 0x27C7C, symSize: 0x18 }
+  - { offset: 0x8FEF9, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer initWithCoder:]', symObjAddr: 0x32D4, symBinAddr: 0x27C94, symSize: 0x15C }
+  - { offset: 0x8FF5E, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer encodeWithCoder:]', symObjAddr: 0x3430, symBinAddr: 0x27DF0, symSize: 0x118 }
+  - { offset: 0x8FFCE, size: 0x8, addend: 0x0, symName: '___43-[AFHTTPRequestSerializer encodeWithCoder:]_block_invoke', symObjAddr: 0x3548, symBinAddr: 0x27F08, symSize: 0x78 }
+  - { offset: 0x9002F, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer copyWithZone:]', symObjAddr: 0x35C0, symBinAddr: 0x27F80, symSize: 0x118 }
+  - { offset: 0x900A6, size: 0x8, addend: 0x0, symName: '___40-[AFHTTPRequestSerializer copyWithZone:]_block_invoke', symObjAddr: 0x36D8, symBinAddr: 0x28098, symSize: 0x6C }
+  - { offset: 0x9010A, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer stringEncoding]', symObjAddr: 0x3744, symBinAddr: 0x28104, symSize: 0x8 }
+  - { offset: 0x90141, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setStringEncoding:]', symObjAddr: 0x374C, symBinAddr: 0x2810C, symSize: 0x8 }
+  - { offset: 0x9017E, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer allowsCellularAccess]', symObjAddr: 0x3754, symBinAddr: 0x28114, symSize: 0x8 }
+  - { offset: 0x901B5, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer cachePolicy]', symObjAddr: 0x375C, symBinAddr: 0x2811C, symSize: 0x8 }
+  - { offset: 0x901EC, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer HTTPShouldHandleCookies]', symObjAddr: 0x3764, symBinAddr: 0x28124, symSize: 0x8 }
+  - { offset: 0x90223, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer HTTPShouldUsePipelining]', symObjAddr: 0x376C, symBinAddr: 0x2812C, symSize: 0x8 }
+  - { offset: 0x9025A, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer networkServiceType]', symObjAddr: 0x3774, symBinAddr: 0x28134, symSize: 0x8 }
+  - { offset: 0x90291, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer timeoutInterval]', symObjAddr: 0x377C, symBinAddr: 0x2813C, symSize: 0x8 }
+  - { offset: 0x902C6, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer HTTPMethodsEncodingParametersInURI]', symObjAddr: 0x3784, symBinAddr: 0x28144, symSize: 0x8 }
+  - { offset: 0x902FD, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setHTTPMethodsEncodingParametersInURI:]', symObjAddr: 0x378C, symBinAddr: 0x2814C, symSize: 0xC }
+  - { offset: 0x9033E, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer mutableObservedChangedKeyPaths]', symObjAddr: 0x3798, symBinAddr: 0x28158, symSize: 0x8 }
+  - { offset: 0x90375, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setMutableObservedChangedKeyPaths:]', symObjAddr: 0x37A0, symBinAddr: 0x28160, symSize: 0xC }
+  - { offset: 0x903B6, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer mutableHTTPRequestHeaders]', symObjAddr: 0x37AC, symBinAddr: 0x2816C, symSize: 0x8 }
+  - { offset: 0x903ED, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setMutableHTTPRequestHeaders:]', symObjAddr: 0x37B4, symBinAddr: 0x28174, symSize: 0xC }
+  - { offset: 0x9042E, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer requestHeaderModificationQueue]', symObjAddr: 0x37C0, symBinAddr: 0x28180, symSize: 0x8 }
+  - { offset: 0x90465, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setRequestHeaderModificationQueue:]', symObjAddr: 0x37C8, symBinAddr: 0x28188, symSize: 0xC }
+  - { offset: 0x904A6, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer queryStringSerializationStyle]', symObjAddr: 0x37D4, symBinAddr: 0x28194, symSize: 0x8 }
+  - { offset: 0x904DD, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setQueryStringSerializationStyle:]', symObjAddr: 0x37DC, symBinAddr: 0x2819C, symSize: 0x8 }
+  - { offset: 0x9051A, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer queryStringSerialization]', symObjAddr: 0x37E4, symBinAddr: 0x281A4, symSize: 0x8 }
+  - { offset: 0x90551, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer setQueryStringSerialization:]', symObjAddr: 0x37EC, symBinAddr: 0x281AC, symSize: 0x8 }
+  - { offset: 0x90590, size: 0x8, addend: 0x0, symName: '-[AFHTTPRequestSerializer .cxx_destruct]', symObjAddr: 0x37F4, symBinAddr: 0x281B4, symSize: 0x54 }
+  - { offset: 0x905D1, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData initWithURLRequest:stringEncoding:]', symObjAddr: 0x3848, symBinAddr: 0x28208, symSize: 0x144 }
+  - { offset: 0x9066A, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData setRequest:]', symObjAddr: 0x398C, symBinAddr: 0x2834C, symSize: 0x40 }
+  - { offset: 0x906E5, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData appendPartWithFileURL:name:error:]', symObjAddr: 0x39CC, symBinAddr: 0x2838C, symSize: 0x15C }
+  - { offset: 0x90804, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData appendPartWithFileURL:name:fileName:mimeType:error:]', symObjAddr: 0x3B28, symBinAddr: 0x284E8, symSize: 0x454 }
+  - { offset: 0x90904, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData appendPartWithInputStream:name:fileName:length:mimeType:]', symObjAddr: 0x3F7C, symBinAddr: 0x2893C, symSize: 0x1C8 }
+  - { offset: 0x909AF, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData appendPartWithFileData:name:fileName:mimeType:]', symObjAddr: 0x4144, symBinAddr: 0x28B04, symSize: 0x12C }
+  - { offset: 0x90A38, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData appendPartWithFormData:name:]', symObjAddr: 0x4270, symBinAddr: 0x28C30, symSize: 0xE0 }
+  - { offset: 0x90A9F, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData appendPartWithHeaders:body:]', symObjAddr: 0x4350, symBinAddr: 0x28D10, symSize: 0x110 }
+  - { offset: 0x90B06, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData throttleBandwidthWithPacketSize:delay:]', symObjAddr: 0x4460, symBinAddr: 0x28E20, symSize: 0x84 }
+  - { offset: 0x90B5C, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData requestByFinalizingMultipartFormData]', symObjAddr: 0x44E4, symBinAddr: 0x28EA4, symSize: 0x1E8 }
+  - { offset: 0x90B94, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData request]', symObjAddr: 0x46CC, symBinAddr: 0x2908C, symSize: 0x8 }
+  - { offset: 0x90BCC, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData stringEncoding]', symObjAddr: 0x46D4, symBinAddr: 0x29094, symSize: 0x8 }
+  - { offset: 0x90C04, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData setStringEncoding:]', symObjAddr: 0x46DC, symBinAddr: 0x2909C, symSize: 0x8 }
+  - { offset: 0x90C42, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData boundary]', symObjAddr: 0x46E4, symBinAddr: 0x290A4, symSize: 0x8 }
+  - { offset: 0x90C7A, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData setBoundary:]', symObjAddr: 0x46EC, symBinAddr: 0x290AC, symSize: 0x8 }
+  - { offset: 0x90CBA, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData bodyStream]', symObjAddr: 0x46F4, symBinAddr: 0x290B4, symSize: 0x8 }
+  - { offset: 0x90CF2, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData setBodyStream:]', symObjAddr: 0x46FC, symBinAddr: 0x290BC, symSize: 0xC }
+  - { offset: 0x90D34, size: 0x8, addend: 0x0, symName: '-[AFStreamingMultipartFormData .cxx_destruct]', symObjAddr: 0x4708, symBinAddr: 0x290C8, symSize: 0x3C }
+  - { offset: 0x90D68, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream initWithStringEncoding:]', symObjAddr: 0x4744, symBinAddr: 0x29104, symSize: 0xC4 }
+  - { offset: 0x90DB1, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setInitialAndFinalBoundaries]', symObjAddr: 0x4808, symBinAddr: 0x291C8, symSize: 0x1E0 }
+  - { offset: 0x90DFD, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream appendHTTPBodyPart:]', symObjAddr: 0x49E8, symBinAddr: 0x293A8, symSize: 0x60 }
+  - { offset: 0x90E42, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream isEmpty]', symObjAddr: 0x4A48, symBinAddr: 0x29408, symSize: 0x50 }
+  - { offset: 0x90E7A, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream read:maxLength:]', symObjAddr: 0x4A98, symBinAddr: 0x29458, symSize: 0x2A0 }
+  - { offset: 0x90F6C, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream getBuffer:length:]', symObjAddr: 0x4D38, symBinAddr: 0x296F8, symSize: 0x18 }
+  - { offset: 0x90FBA, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream hasBytesAvailable]', symObjAddr: 0x4D50, symBinAddr: 0x29710, symSize: 0x2C }
+  - { offset: 0x90FF2, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream open]', symObjAddr: 0x4D7C, symBinAddr: 0x2973C, symSize: 0xB0 }
+  - { offset: 0x91026, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream close]', symObjAddr: 0x4E2C, symBinAddr: 0x297EC, symSize: 0x18 }
+  - { offset: 0x91058, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream propertyForKey:]', symObjAddr: 0x4E44, symBinAddr: 0x29804, symSize: 0x18 }
+  - { offset: 0x91099, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setProperty:forKey:]', symObjAddr: 0x4E5C, symBinAddr: 0x2981C, symSize: 0x18 }
+  - { offset: 0x910E7, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream scheduleInRunLoop:forMode:]', symObjAddr: 0x4E74, symBinAddr: 0x29834, symSize: 0x14 }
+  - { offset: 0x91131, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream removeFromRunLoop:forMode:]', symObjAddr: 0x4E88, symBinAddr: 0x29848, symSize: 0x14 }
+  - { offset: 0x9117B, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream contentLength]', symObjAddr: 0x4E9C, symBinAddr: 0x2985C, symSize: 0x12C }
+  - { offset: 0x911DC, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream _scheduleInCFRunLoop:forMode:]', symObjAddr: 0x4FC8, symBinAddr: 0x29988, symSize: 0x14 }
+  - { offset: 0x91226, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream _unscheduleFromCFRunLoop:forMode:]', symObjAddr: 0x4FDC, symBinAddr: 0x2999C, symSize: 0x14 }
+  - { offset: 0x91270, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream _setCFClientFlags:callback:context:]', symObjAddr: 0x4FF0, symBinAddr: 0x299B0, symSize: 0x18 }
+  - { offset: 0x912CB, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream copyWithZone:]', symObjAddr: 0x5008, symBinAddr: 0x299C8, symSize: 0x170 }
+  - { offset: 0x9133D, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream delegate]', symObjAddr: 0x5178, symBinAddr: 0x29B38, symSize: 0x10 }
+  - { offset: 0x91375, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setDelegate:]', symObjAddr: 0x5188, symBinAddr: 0x29B48, symSize: 0x10 }
+  - { offset: 0x913B3, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream streamStatus]', symObjAddr: 0x5198, symBinAddr: 0x29B58, symSize: 0x10 }
+  - { offset: 0x913EB, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setStreamStatus:]', symObjAddr: 0x51A8, symBinAddr: 0x29B68, symSize: 0x10 }
+  - { offset: 0x91429, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream streamError]', symObjAddr: 0x51B8, symBinAddr: 0x29B78, symSize: 0x10 }
+  - { offset: 0x91461, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setStreamError:]', symObjAddr: 0x51C8, symBinAddr: 0x29B88, symSize: 0xC }
+  - { offset: 0x914A1, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream numberOfBytesInPacket]', symObjAddr: 0x51D4, symBinAddr: 0x29B94, symSize: 0x10 }
+  - { offset: 0x914D9, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setNumberOfBytesInPacket:]', symObjAddr: 0x51E4, symBinAddr: 0x29BA4, symSize: 0x10 }
+  - { offset: 0x91517, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream delay]', symObjAddr: 0x51F4, symBinAddr: 0x29BB4, symSize: 0x10 }
+  - { offset: 0x9154D, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setDelay:]', symObjAddr: 0x5204, symBinAddr: 0x29BC4, symSize: 0x10 }
+  - { offset: 0x9158C, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream inputStream]', symObjAddr: 0x5214, symBinAddr: 0x29BD4, symSize: 0x10 }
+  - { offset: 0x915C4, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setInputStream:]', symObjAddr: 0x5224, symBinAddr: 0x29BE4, symSize: 0x14 }
+  - { offset: 0x91606, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream stringEncoding]', symObjAddr: 0x5238, symBinAddr: 0x29BF8, symSize: 0x10 }
+  - { offset: 0x9163E, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setStringEncoding:]', symObjAddr: 0x5248, symBinAddr: 0x29C08, symSize: 0x10 }
+  - { offset: 0x9167C, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream HTTPBodyParts]', symObjAddr: 0x5258, symBinAddr: 0x29C18, symSize: 0x10 }
+  - { offset: 0x916B4, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setHTTPBodyParts:]', symObjAddr: 0x5268, symBinAddr: 0x29C28, symSize: 0x14 }
+  - { offset: 0x916F6, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream HTTPBodyPartEnumerator]', symObjAddr: 0x527C, symBinAddr: 0x29C3C, symSize: 0x10 }
+  - { offset: 0x9172E, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setHTTPBodyPartEnumerator:]', symObjAddr: 0x528C, symBinAddr: 0x29C4C, symSize: 0x14 }
+  - { offset: 0x91770, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream currentHTTPBodyPart]', symObjAddr: 0x52A0, symBinAddr: 0x29C60, symSize: 0x10 }
+  - { offset: 0x917A8, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setCurrentHTTPBodyPart:]', symObjAddr: 0x52B0, symBinAddr: 0x29C70, symSize: 0x14 }
+  - { offset: 0x917EA, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream outputStream]', symObjAddr: 0x52C4, symBinAddr: 0x29C84, symSize: 0x10 }
+  - { offset: 0x91822, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setOutputStream:]', symObjAddr: 0x52D4, symBinAddr: 0x29C94, symSize: 0x14 }
+  - { offset: 0x91864, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream buffer]', symObjAddr: 0x52E8, symBinAddr: 0x29CA8, symSize: 0x10 }
+  - { offset: 0x9189C, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream setBuffer:]', symObjAddr: 0x52F8, symBinAddr: 0x29CB8, symSize: 0x14 }
+  - { offset: 0x918DE, size: 0x8, addend: 0x0, symName: '-[AFMultipartBodyStream .cxx_destruct]', symObjAddr: 0x530C, symBinAddr: 0x29CCC, symSize: 0xA4 }
+  - { offset: 0x91912, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart init]', symObjAddr: 0x53B0, symBinAddr: 0x29D70, symSize: 0x84 }
+  - { offset: 0x9194A, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart dealloc]', symObjAddr: 0x5434, symBinAddr: 0x29DF4, symSize: 0x78 }
+  - { offset: 0x9197E, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart inputStream]', symObjAddr: 0x54AC, symBinAddr: 0x29E6C, symSize: 0x1EC }
+  - { offset: 0x919B6, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart stringForHeaders]', symObjAddr: 0x5698, symBinAddr: 0x2A058, symSize: 0x214 }
+  - { offset: 0x91A6B, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart contentLength]', symObjAddr: 0x58AC, symBinAddr: 0x2A26C, symSize: 0x260 }
+  - { offset: 0x91B44, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart hasBytesAvailable]', symObjAddr: 0x5B0C, symBinAddr: 0x2A4CC, symSize: 0x104 }
+  - { offset: 0x91B7C, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart read:maxLength:]', symObjAddr: 0x5C10, symBinAddr: 0x2A5D0, symSize: 0x3A0 }
+  - { offset: 0x91CBC, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart readData:intoBuffer:maxLength:]', symObjAddr: 0x5FB0, symBinAddr: 0x2A970, symSize: 0xE4 }
+  - { offset: 0x91D90, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart transitionToNextPhase]', symObjAddr: 0x6094, symBinAddr: 0x2AA54, symSize: 0x20C }
+  - { offset: 0x91DEC, size: 0x8, addend: 0x0, symName: '___39-[AFHTTPBodyPart transitionToNextPhase]_block_invoke', symObjAddr: 0x62A0, symBinAddr: 0x2AC60, symSize: 0x18 }
+  - { offset: 0x91E2E, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart copyWithZone:]', symObjAddr: 0x62B8, symBinAddr: 0x2AC78, symSize: 0xF0 }
+  - { offset: 0x91E88, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart stringEncoding]', symObjAddr: 0x63A8, symBinAddr: 0x2AD68, symSize: 0x8 }
+  - { offset: 0x91EC0, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart setStringEncoding:]', symObjAddr: 0x63B0, symBinAddr: 0x2AD70, symSize: 0x8 }
+  - { offset: 0x91EFE, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart headers]', symObjAddr: 0x63B8, symBinAddr: 0x2AD78, symSize: 0x8 }
+  - { offset: 0x91F36, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart setHeaders:]', symObjAddr: 0x63C0, symBinAddr: 0x2AD80, symSize: 0xC }
+  - { offset: 0x91F78, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart boundary]', symObjAddr: 0x63CC, symBinAddr: 0x2AD8C, symSize: 0x8 }
+  - { offset: 0x91FB0, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart setBoundary:]', symObjAddr: 0x63D4, symBinAddr: 0x2AD94, symSize: 0x8 }
+  - { offset: 0x91FF0, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart body]', symObjAddr: 0x63DC, symBinAddr: 0x2AD9C, symSize: 0x8 }
+  - { offset: 0x92028, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart setBody:]', symObjAddr: 0x63E4, symBinAddr: 0x2ADA4, symSize: 0xC }
+  - { offset: 0x9206A, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart bodyContentLength]', symObjAddr: 0x63F0, symBinAddr: 0x2ADB0, symSize: 0x8 }
+  - { offset: 0x920A2, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart setBodyContentLength:]', symObjAddr: 0x63F8, symBinAddr: 0x2ADB8, symSize: 0x8 }
+  - { offset: 0x920E0, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart setInputStream:]', symObjAddr: 0x6400, symBinAddr: 0x2ADC0, symSize: 0xC }
+  - { offset: 0x92122, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart hasInitialBoundary]', symObjAddr: 0x640C, symBinAddr: 0x2ADCC, symSize: 0x8 }
+  - { offset: 0x9215A, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart setHasInitialBoundary:]', symObjAddr: 0x6414, symBinAddr: 0x2ADD4, symSize: 0x8 }
+  - { offset: 0x92196, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart hasFinalBoundary]', symObjAddr: 0x641C, symBinAddr: 0x2ADDC, symSize: 0x8 }
+  - { offset: 0x921CE, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart setHasFinalBoundary:]', symObjAddr: 0x6424, symBinAddr: 0x2ADE4, symSize: 0x8 }
+  - { offset: 0x9220A, size: 0x8, addend: 0x0, symName: '-[AFHTTPBodyPart .cxx_destruct]', symObjAddr: 0x642C, symBinAddr: 0x2ADEC, symSize: 0x48 }
+  - { offset: 0x9223E, size: 0x8, addend: 0x0, symName: '+[AFJSONRequestSerializer serializer]', symObjAddr: 0x6474, symBinAddr: 0x2AE34, symSize: 0x18 }
+  - { offset: 0x92274, size: 0x8, addend: 0x0, symName: '+[AFJSONRequestSerializer serializerWithWritingOptions:]', symObjAddr: 0x648C, symBinAddr: 0x2AE4C, symSize: 0x44 }
+  - { offset: 0x922CE, size: 0x8, addend: 0x0, symName: '-[AFJSONRequestSerializer requestBySerializingRequest:withParameters:error:]', symObjAddr: 0x64D0, symBinAddr: 0x2AE90, symSize: 0x3A8 }
+  - { offset: 0x92382, size: 0x8, addend: 0x0, symName: '___76-[AFJSONRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke', symObjAddr: 0x6878, symBinAddr: 0x2B238, symSize: 0x9C }
+  - { offset: 0x92400, size: 0x8, addend: 0x0, symName: '-[AFJSONRequestSerializer initWithCoder:]', symObjAddr: 0x6914, symBinAddr: 0x2B2D4, symSize: 0x104 }
+  - { offset: 0x92457, size: 0x8, addend: 0x0, symName: '-[AFJSONRequestSerializer encodeWithCoder:]', symObjAddr: 0x6A18, symBinAddr: 0x2B3D8, symSize: 0xD4 }
+  - { offset: 0x924AA, size: 0x8, addend: 0x0, symName: '-[AFJSONRequestSerializer copyWithZone:]', symObjAddr: 0x6AEC, symBinAddr: 0x2B4AC, symSize: 0x6C }
+  - { offset: 0x92504, size: 0x8, addend: 0x0, symName: '-[AFJSONRequestSerializer writingOptions]', symObjAddr: 0x6B58, symBinAddr: 0x2B518, symSize: 0x10 }
+  - { offset: 0x9253C, size: 0x8, addend: 0x0, symName: '-[AFJSONRequestSerializer setWritingOptions:]', symObjAddr: 0x6B68, symBinAddr: 0x2B528, symSize: 0x10 }
+  - { offset: 0x9257A, size: 0x8, addend: 0x0, symName: '+[AFPropertyListRequestSerializer serializer]', symObjAddr: 0x6B78, symBinAddr: 0x2B538, symSize: 0x1C }
+  - { offset: 0x925B0, size: 0x8, addend: 0x0, symName: '+[AFPropertyListRequestSerializer serializerWithFormat:writeOptions:]', symObjAddr: 0x6B94, symBinAddr: 0x2B554, symSize: 0x5C }
+  - { offset: 0x9261B, size: 0x8, addend: 0x0, symName: '-[AFPropertyListRequestSerializer requestBySerializingRequest:withParameters:error:]', symObjAddr: 0x6BF0, symBinAddr: 0x2B5B0, symSize: 0x298 }
+  - { offset: 0x926AF, size: 0x8, addend: 0x0, symName: '___84-[AFPropertyListRequestSerializer requestBySerializingRequest:withParameters:error:]_block_invoke', symObjAddr: 0x6E88, symBinAddr: 0x2B848, symSize: 0x9C }
+  - { offset: 0x9272D, size: 0x8, addend: 0x0, symName: '-[AFPropertyListRequestSerializer initWithCoder:]', symObjAddr: 0x6F24, symBinAddr: 0x2B8E4, symSize: 0x16C }
+  - { offset: 0x92792, size: 0x8, addend: 0x0, symName: '-[AFPropertyListRequestSerializer encodeWithCoder:]', symObjAddr: 0x7090, symBinAddr: 0x2BA50, symSize: 0x138 }
+  - { offset: 0x927F3, size: 0x8, addend: 0x0, symName: '-[AFPropertyListRequestSerializer copyWithZone:]', symObjAddr: 0x71C8, symBinAddr: 0x2BB88, symSize: 0x80 }
+  - { offset: 0x9284D, size: 0x8, addend: 0x0, symName: '-[AFPropertyListRequestSerializer format]', symObjAddr: 0x7248, symBinAddr: 0x2BC08, symSize: 0x10 }
+  - { offset: 0x92885, size: 0x8, addend: 0x0, symName: '-[AFPropertyListRequestSerializer setFormat:]', symObjAddr: 0x7258, symBinAddr: 0x2BC18, symSize: 0x10 }
+  - { offset: 0x928C3, size: 0x8, addend: 0x0, symName: '-[AFPropertyListRequestSerializer writeOptions]', symObjAddr: 0x7268, symBinAddr: 0x2BC28, symSize: 0x10 }
+  - { offset: 0x928FB, size: 0x8, addend: 0x0, symName: '-[AFPropertyListRequestSerializer setWriteOptions:]', symObjAddr: 0x7278, symBinAddr: 0x2BC38, symSize: 0x10 }
+  - { offset: 0x92973, size: 0x8, addend: 0x0, symName: ___AFHTTPRequestSerializerObservedKeyPaths_block_invoke, symObjAddr: 0x72F8, symBinAddr: 0x2BCB8, symSize: 0x174 }
+  - { offset: 0x9331B, size: 0x8, addend: 0x0, symName: '+[AFHTTPSessionManager manager]', symObjAddr: 0x0, symBinAddr: 0x2BE2C, symSize: 0x30 }
+  - { offset: 0x93640, size: 0x8, addend: 0x0, symName: '+[AFHTTPSessionManager manager]', symObjAddr: 0x0, symBinAddr: 0x2BE2C, symSize: 0x30 }
+  - { offset: 0x93677, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager init]', symObjAddr: 0x30, symBinAddr: 0x2BE5C, symSize: 0x18 }
+  - { offset: 0x936AE, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager initWithBaseURL:]', symObjAddr: 0x48, symBinAddr: 0x2BE74, symSize: 0x18 }
+  - { offset: 0x936F3, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager initWithSessionConfiguration:]', symObjAddr: 0x60, symBinAddr: 0x2BE8C, symSize: 0x1C }
+  - { offset: 0x9373A, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager initWithBaseURL:sessionConfiguration:]', symObjAddr: 0x7C, symBinAddr: 0x2BEA8, symSize: 0x1C4 }
+  - { offset: 0x93791, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager setRequestSerializer:]', symObjAddr: 0x240, symBinAddr: 0x2C06C, symSize: 0x24 }
+  - { offset: 0x937D4, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager setResponseSerializer:]', symObjAddr: 0x264, symBinAddr: 0x2C090, symSize: 0x44 }
+  - { offset: 0x93817, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager setSecurityPolicy:]', symObjAddr: 0x2A8, symBinAddr: 0x2C0D4, symSize: 0x198 }
+  - { offset: 0x93889, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager GET:parameters:headers:progress:success:failure:]', symObjAddr: 0x440, symBinAddr: 0x2C26C, symSize: 0x6C }
+  - { offset: 0x93930, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager HEAD:parameters:headers:success:failure:]', symObjAddr: 0x4AC, symBinAddr: 0x2C2D8, symSize: 0xE4 }
+  - { offset: 0x939C7, size: 0x8, addend: 0x0, symName: '___64-[AFHTTPSessionManager HEAD:parameters:headers:success:failure:]_block_invoke', symObjAddr: 0x590, symBinAddr: 0x2C3BC, symSize: 0x34 }
+  - { offset: 0x93A28, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager POST:parameters:headers:progress:success:failure:]', symObjAddr: 0x5DC, symBinAddr: 0x2C3F0, symSize: 0x6C }
+  - { offset: 0x93ADD, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager POST:parameters:headers:constructingBodyWithBlock:progress:success:failure:]', symObjAddr: 0x648, symBinAddr: 0x2C45C, symSize: 0x4CC }
+  - { offset: 0x93C24, size: 0x8, addend: 0x0, symName: '___99-[AFHTTPSessionManager POST:parameters:headers:constructingBodyWithBlock:progress:success:failure:]_block_invoke', symObjAddr: 0xB14, symBinAddr: 0x2C928, symSize: 0x24 }
+  - { offset: 0x93C82, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0xB94, symBinAddr: 0x2C94C, symSize: 0x10 }
+  - { offset: 0x93CA7, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0xBA4, symBinAddr: 0x2C95C, symSize: 0x8 }
+  - { offset: 0x93CC6, size: 0x8, addend: 0x0, symName: '___99-[AFHTTPSessionManager POST:parameters:headers:constructingBodyWithBlock:progress:success:failure:]_block_invoke.33', symObjAddr: 0xBAC, symBinAddr: 0x2C964, symSize: 0xE8 }
+  - { offset: 0x93D5D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40b48r, symObjAddr: 0xC94, symBinAddr: 0x2CA4C, symSize: 0x4C }
+  - { offset: 0x93D86, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager PUT:parameters:headers:success:failure:]', symObjAddr: 0xD14, symBinAddr: 0x2CA98, symSize: 0x6C }
+  - { offset: 0x93E1D, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager PATCH:parameters:headers:success:failure:]', symObjAddr: 0xD80, symBinAddr: 0x2CB04, symSize: 0x6C }
+  - { offset: 0x93EB4, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager DELETE:parameters:headers:success:failure:]', symObjAddr: 0xDEC, symBinAddr: 0x2CB70, symSize: 0x6C }
+  - { offset: 0x93F4B, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:headers:uploadProgress:downloadProgress:success:failure:]', symObjAddr: 0xE58, symBinAddr: 0x2CBDC, symSize: 0x4CC }
+  - { offset: 0x9408A, size: 0x8, addend: 0x0, symName: '___124-[AFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:headers:uploadProgress:downloadProgress:success:failure:]_block_invoke', symObjAddr: 0x1324, symBinAddr: 0x2D0A8, symSize: 0x24 }
+  - { offset: 0x940EC, size: 0x8, addend: 0x0, symName: '___124-[AFHTTPSessionManager dataTaskWithHTTPMethod:URLString:parameters:headers:uploadProgress:downloadProgress:success:failure:]_block_invoke_2', symObjAddr: 0x1348, symBinAddr: 0x2D0CC, symSize: 0xE8 }
+  - { offset: 0x9418B, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager description]', symObjAddr: 0x1430, symBinAddr: 0x2D1B4, symSize: 0x108 }
+  - { offset: 0x941F2, size: 0x8, addend: 0x0, symName: '+[AFHTTPSessionManager supportsSecureCoding]', symObjAddr: 0x1538, symBinAddr: 0x2D2BC, symSize: 0x18 }
+  - { offset: 0x94226, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager initWithCoder:]', symObjAddr: 0x1550, symBinAddr: 0x2D2D4, symSize: 0x2C8 }
+  - { offset: 0x94320, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager encodeWithCoder:]', symObjAddr: 0x1818, symBinAddr: 0x2D59C, symSize: 0x29C }
+  - { offset: 0x9439D, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager copyWithZone:]', symObjAddr: 0x1AB4, symBinAddr: 0x2D838, symSize: 0x16C }
+  - { offset: 0x943F7, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager baseURL]', symObjAddr: 0x1C20, symBinAddr: 0x2D9A4, symSize: 0x10 }
+  - { offset: 0x9442E, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager setBaseURL:]', symObjAddr: 0x1C30, symBinAddr: 0x2D9B4, symSize: 0x14 }
+  - { offset: 0x9446F, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager requestSerializer]', symObjAddr: 0x1C44, symBinAddr: 0x2D9C8, symSize: 0x10 }
+  - { offset: 0x944A6, size: 0x8, addend: 0x0, symName: '-[AFHTTPSessionManager .cxx_destruct]', symObjAddr: 0x1C54, symBinAddr: 0x2D9D8, symSize: 0x40 }
+  - { offset: 0x94A3F, size: 0x8, addend: 0x0, symName: _AFJSONObjectByRemovingKeysWithNullValues, symObjAddr: 0x0, symBinAddr: 0x2DA18, symSize: 0x4D0 }
+  - { offset: 0x94A59, size: 0x8, addend: 0x0, symName: _AFURLResponseSerializationErrorDomain, symObjAddr: 0x3870, symBinAddr: 0x510F0, symSize: 0x0 }
+  - { offset: 0x94A79, size: 0x8, addend: 0x0, symName: _AFNetworkingOperationFailingURLResponseErrorKey, symObjAddr: 0x3878, symBinAddr: 0x510F8, symSize: 0x0 }
+  - { offset: 0x94A8F, size: 0x8, addend: 0x0, symName: _AFNetworkingOperationFailingURLResponseDataErrorKey, symObjAddr: 0x3880, symBinAddr: 0x51100, symSize: 0x0 }
+  - { offset: 0x94AB4, size: 0x8, addend: 0x0, symName: _imageLock, symObjAddr: 0x12E08, symBinAddr: 0x6F930, symSize: 0x0 }
+  - { offset: 0x94AC3, size: 0x8, addend: 0x0, symName: '+[UIImage(AFNetworkingSafeImageLoading) af_safeImageWithData:]', symObjAddr: 0x2248, symBinAddr: 0x2FC60, symSize: 0xC8 }
+  - { offset: 0x94AEF, size: 0x8, addend: 0x0, symName: '_af_safeImageWithData:.onceToken', symObjAddr: 0x12E10, symBinAddr: 0x6F938, symSize: 0x0 }
+  - { offset: 0x94CCF, size: 0x8, addend: 0x0, symName: _AFJSONObjectByRemovingKeysWithNullValues, symObjAddr: 0x0, symBinAddr: 0x2DA18, symSize: 0x4D0 }
+  - { offset: 0x94DBB, size: 0x8, addend: 0x0, symName: '+[AFHTTPResponseSerializer serializer]', symObjAddr: 0x4D0, symBinAddr: 0x2DEE8, symSize: 0x28 }
+  - { offset: 0x94E24, size: 0x8, addend: 0x0, symName: '-[AFHTTPResponseSerializer init]', symObjAddr: 0x4F8, symBinAddr: 0x2DF10, symSize: 0xCC }
+  - { offset: 0x94E80, size: 0x8, addend: 0x0, symName: '-[AFHTTPResponseSerializer validateResponse:data:error:]', symObjAddr: 0x5C4, symBinAddr: 0x2DFDC, symSize: 0x714 }
+  - { offset: 0x94F70, size: 0x8, addend: 0x0, symName: _AFErrorWithUnderlyingError, symObjAddr: 0xCD8, symBinAddr: 0x2E6F0, symSize: 0x194 }
+  - { offset: 0x94FBB, size: 0x8, addend: 0x0, symName: '-[AFHTTPResponseSerializer responseObjectForResponse:data:error:]', symObjAddr: 0xE6C, symBinAddr: 0x2E884, symSize: 0x60 }
+  - { offset: 0x95022, size: 0x8, addend: 0x0, symName: '+[AFHTTPResponseSerializer supportsSecureCoding]', symObjAddr: 0xECC, symBinAddr: 0x2E8E4, symSize: 0x18 }
+  - { offset: 0x95055, size: 0x8, addend: 0x0, symName: '-[AFHTTPResponseSerializer initWithCoder:]', symObjAddr: 0xEE4, symBinAddr: 0x2E8FC, symSize: 0x140 }
+  - { offset: 0x950DE, size: 0x8, addend: 0x0, symName: '-[AFHTTPResponseSerializer encodeWithCoder:]', symObjAddr: 0x1024, symBinAddr: 0x2EA3C, symSize: 0xDC }
+  - { offset: 0x9513D, size: 0x8, addend: 0x0, symName: '-[AFHTTPResponseSerializer copyWithZone:]', symObjAddr: 0x1100, symBinAddr: 0x2EB18, symSize: 0xD0 }
+  - { offset: 0x95194, size: 0x8, addend: 0x0, symName: '-[AFHTTPResponseSerializer acceptableStatusCodes]', symObjAddr: 0x11D0, symBinAddr: 0x2EBE8, symSize: 0x8 }
+  - { offset: 0x951CB, size: 0x8, addend: 0x0, symName: '-[AFHTTPResponseSerializer setAcceptableStatusCodes:]', symObjAddr: 0x11D8, symBinAddr: 0x2EBF0, symSize: 0x8 }
+  - { offset: 0x9520A, size: 0x8, addend: 0x0, symName: '-[AFHTTPResponseSerializer acceptableContentTypes]', symObjAddr: 0x11E0, symBinAddr: 0x2EBF8, symSize: 0x8 }
+  - { offset: 0x95241, size: 0x8, addend: 0x0, symName: '-[AFHTTPResponseSerializer setAcceptableContentTypes:]', symObjAddr: 0x11E8, symBinAddr: 0x2EC00, symSize: 0x8 }
+  - { offset: 0x95280, size: 0x8, addend: 0x0, symName: '-[AFHTTPResponseSerializer .cxx_destruct]', symObjAddr: 0x11F0, symBinAddr: 0x2EC08, symSize: 0x30 }
+  - { offset: 0x952B3, size: 0x8, addend: 0x0, symName: '+[AFJSONResponseSerializer serializer]', symObjAddr: 0x1220, symBinAddr: 0x2EC38, symSize: 0x18 }
+  - { offset: 0x952E8, size: 0x8, addend: 0x0, symName: '+[AFJSONResponseSerializer serializerWithReadingOptions:]', symObjAddr: 0x1238, symBinAddr: 0x2EC50, symSize: 0x44 }
+  - { offset: 0x9533F, size: 0x8, addend: 0x0, symName: '-[AFJSONResponseSerializer init]', symObjAddr: 0x127C, symBinAddr: 0x2EC94, symSize: 0xC8 }
+  - { offset: 0x95376, size: 0x8, addend: 0x0, symName: '-[AFJSONResponseSerializer responseObjectForResponse:data:error:]', symObjAddr: 0x1344, symBinAddr: 0x2ED5C, symSize: 0x244 }
+  - { offset: 0x95443, size: 0x8, addend: 0x0, symName: _AFErrorOrUnderlyingErrorHasCodeInDomain, symObjAddr: 0x1588, symBinAddr: 0x2EFA0, symSize: 0x158 }
+  - { offset: 0x9549B, size: 0x8, addend: 0x0, symName: '+[AFJSONResponseSerializer supportsSecureCoding]', symObjAddr: 0x16E0, symBinAddr: 0x2F0F8, symSize: 0x18 }
+  - { offset: 0x954CF, size: 0x8, addend: 0x0, symName: '-[AFJSONResponseSerializer initWithCoder:]', symObjAddr: 0x16F8, symBinAddr: 0x2F110, symSize: 0x16C }
+  - { offset: 0x95534, size: 0x8, addend: 0x0, symName: '-[AFJSONResponseSerializer encodeWithCoder:]', symObjAddr: 0x1864, symBinAddr: 0x2F27C, symSize: 0x138 }
+  - { offset: 0x95595, size: 0x8, addend: 0x0, symName: '-[AFJSONResponseSerializer copyWithZone:]', symObjAddr: 0x199C, symBinAddr: 0x2F3B4, symSize: 0x80 }
+  - { offset: 0x955EF, size: 0x8, addend: 0x0, symName: '-[AFJSONResponseSerializer readingOptions]', symObjAddr: 0x1A1C, symBinAddr: 0x2F434, symSize: 0x10 }
+  - { offset: 0x95626, size: 0x8, addend: 0x0, symName: '-[AFJSONResponseSerializer setReadingOptions:]', symObjAddr: 0x1A2C, symBinAddr: 0x2F444, symSize: 0x10 }
+  - { offset: 0x95663, size: 0x8, addend: 0x0, symName: '-[AFJSONResponseSerializer removesKeysWithNullValues]', symObjAddr: 0x1A3C, symBinAddr: 0x2F454, symSize: 0x10 }
+  - { offset: 0x9569A, size: 0x8, addend: 0x0, symName: '-[AFJSONResponseSerializer setRemovesKeysWithNullValues:]', symObjAddr: 0x1A4C, symBinAddr: 0x2F464, symSize: 0x10 }
+  - { offset: 0x956D5, size: 0x8, addend: 0x0, symName: '+[AFXMLParserResponseSerializer serializer]', symObjAddr: 0x1A5C, symBinAddr: 0x2F474, symSize: 0x28 }
+  - { offset: 0x9571E, size: 0x8, addend: 0x0, symName: '-[AFXMLParserResponseSerializer init]', symObjAddr: 0x1A84, symBinAddr: 0x2F49C, symSize: 0xB8 }
+  - { offset: 0x95756, size: 0x8, addend: 0x0, symName: '-[AFXMLParserResponseSerializer responseObjectForResponse:data:error:]', symObjAddr: 0x1B3C, symBinAddr: 0x2F554, symSize: 0xDC }
+  - { offset: 0x957CF, size: 0x8, addend: 0x0, symName: '+[AFPropertyListResponseSerializer serializer]', symObjAddr: 0x1C18, symBinAddr: 0x2F630, symSize: 0x1C }
+  - { offset: 0x95805, size: 0x8, addend: 0x0, symName: '+[AFPropertyListResponseSerializer serializerWithFormat:readOptions:]', symObjAddr: 0x1C34, symBinAddr: 0x2F64C, symSize: 0x5C }
+  - { offset: 0x95870, size: 0x8, addend: 0x0, symName: '-[AFPropertyListResponseSerializer init]', symObjAddr: 0x1C90, symBinAddr: 0x2F6A8, symSize: 0xB0 }
+  - { offset: 0x958A8, size: 0x8, addend: 0x0, symName: '-[AFPropertyListResponseSerializer responseObjectForResponse:data:error:]', symObjAddr: 0x1D40, symBinAddr: 0x2F758, symSize: 0x18C }
+  - { offset: 0x95959, size: 0x8, addend: 0x0, symName: '+[AFPropertyListResponseSerializer supportsSecureCoding]', symObjAddr: 0x1ECC, symBinAddr: 0x2F8E4, symSize: 0x18 }
+  - { offset: 0x9598D, size: 0x8, addend: 0x0, symName: '-[AFPropertyListResponseSerializer initWithCoder:]', symObjAddr: 0x1EE4, symBinAddr: 0x2F8FC, symSize: 0x16C }
+  - { offset: 0x959F2, size: 0x8, addend: 0x0, symName: '-[AFPropertyListResponseSerializer encodeWithCoder:]', symObjAddr: 0x2050, symBinAddr: 0x2FA68, symSize: 0x138 }
+  - { offset: 0x95A53, size: 0x8, addend: 0x0, symName: '-[AFPropertyListResponseSerializer copyWithZone:]', symObjAddr: 0x2188, symBinAddr: 0x2FBA0, symSize: 0x80 }
+  - { offset: 0x95AAD, size: 0x8, addend: 0x0, symName: '-[AFPropertyListResponseSerializer format]', symObjAddr: 0x2208, symBinAddr: 0x2FC20, symSize: 0x10 }
+  - { offset: 0x95AE4, size: 0x8, addend: 0x0, symName: '-[AFPropertyListResponseSerializer setFormat:]', symObjAddr: 0x2218, symBinAddr: 0x2FC30, symSize: 0x10 }
+  - { offset: 0x95B21, size: 0x8, addend: 0x0, symName: '-[AFPropertyListResponseSerializer readOptions]', symObjAddr: 0x2228, symBinAddr: 0x2FC40, symSize: 0x10 }
+  - { offset: 0x95B58, size: 0x8, addend: 0x0, symName: '-[AFPropertyListResponseSerializer setReadOptions:]', symObjAddr: 0x2238, symBinAddr: 0x2FC50, symSize: 0x10 }
+  - { offset: 0x95BDC, size: 0x8, addend: 0x0, symName: '___62+[UIImage(AFNetworkingSafeImageLoading) af_safeImageWithData:]_block_invoke', symObjAddr: 0x2310, symBinAddr: 0x2FD28, symSize: 0x40 }
+  - { offset: 0x95C05, size: 0x8, addend: 0x0, symName: '-[AFImageResponseSerializer init]', symObjAddr: 0x2350, symBinAddr: 0x2FD68, symSize: 0x140 }
+  - { offset: 0x95DAA, size: 0x8, addend: 0x0, symName: '-[AFImageResponseSerializer responseObjectForResponse:data:error:]', symObjAddr: 0x2490, symBinAddr: 0x2FEA8, symSize: 0x560 }
+  - { offset: 0x961A2, size: 0x8, addend: 0x0, symName: _AFImageWithDataAtScale, symObjAddr: 0x29F0, symBinAddr: 0x30408, symSize: 0xD8 }
+  - { offset: 0x96338, size: 0x8, addend: 0x0, symName: '+[AFImageResponseSerializer supportsSecureCoding]', symObjAddr: 0x2AC8, symBinAddr: 0x304E0, symSize: 0x18 }
+  - { offset: 0x9636C, size: 0x8, addend: 0x0, symName: '-[AFImageResponseSerializer initWithCoder:]', symObjAddr: 0x2AE0, symBinAddr: 0x304F8, symSize: 0x13C }
+  - { offset: 0x963E2, size: 0x8, addend: 0x0, symName: '-[AFImageResponseSerializer encodeWithCoder:]', symObjAddr: 0x2C1C, symBinAddr: 0x30634, symSize: 0x10C }
+  - { offset: 0x96443, size: 0x8, addend: 0x0, symName: '-[AFImageResponseSerializer copyWithZone:]', symObjAddr: 0x2D28, symBinAddr: 0x30740, symSize: 0x7C }
+  - { offset: 0x9649D, size: 0x8, addend: 0x0, symName: '-[AFImageResponseSerializer imageScale]', symObjAddr: 0x2DA4, symBinAddr: 0x307BC, symSize: 0x10 }
+  - { offset: 0x964D2, size: 0x8, addend: 0x0, symName: '-[AFImageResponseSerializer setImageScale:]', symObjAddr: 0x2DB4, symBinAddr: 0x307CC, symSize: 0x10 }
+  - { offset: 0x96510, size: 0x8, addend: 0x0, symName: '-[AFImageResponseSerializer automaticallyInflatesResponseImage]', symObjAddr: 0x2DC4, symBinAddr: 0x307DC, symSize: 0x10 }
+  - { offset: 0x96547, size: 0x8, addend: 0x0, symName: '-[AFImageResponseSerializer setAutomaticallyInflatesResponseImage:]', symObjAddr: 0x2DD4, symBinAddr: 0x307EC, symSize: 0x10 }
+  - { offset: 0x96582, size: 0x8, addend: 0x0, symName: '+[AFCompoundResponseSerializer compoundSerializerWithResponseSerializers:]', symObjAddr: 0x2DE4, symBinAddr: 0x307FC, symSize: 0x5C }
+  - { offset: 0x965DC, size: 0x8, addend: 0x0, symName: '-[AFCompoundResponseSerializer responseObjectForResponse:data:error:]', symObjAddr: 0x2E40, symBinAddr: 0x30858, symSize: 0x268 }
+  - { offset: 0x9669E, size: 0x8, addend: 0x0, symName: '+[AFCompoundResponseSerializer supportsSecureCoding]', symObjAddr: 0x30A8, symBinAddr: 0x30AC0, symSize: 0x18 }
+  - { offset: 0x966D2, size: 0x8, addend: 0x0, symName: '-[AFCompoundResponseSerializer initWithCoder:]', symObjAddr: 0x30C0, symBinAddr: 0x30AD8, symSize: 0x190 }
+  - { offset: 0x9673A, size: 0x8, addend: 0x0, symName: '-[AFCompoundResponseSerializer encodeWithCoder:]', symObjAddr: 0x3250, symBinAddr: 0x30C68, symSize: 0xC0 }
+  - { offset: 0x9678D, size: 0x8, addend: 0x0, symName: '-[AFCompoundResponseSerializer copyWithZone:]', symObjAddr: 0x3310, symBinAddr: 0x30D28, symSize: 0x80 }
+  - { offset: 0x967E7, size: 0x8, addend: 0x0, symName: '-[AFCompoundResponseSerializer responseSerializers]', symObjAddr: 0x3390, symBinAddr: 0x30DA8, symSize: 0x10 }
+  - { offset: 0x9681F, size: 0x8, addend: 0x0, symName: '-[AFCompoundResponseSerializer setResponseSerializers:]', symObjAddr: 0x33A0, symBinAddr: 0x30DB8, symSize: 0xC }
+  - { offset: 0x9685F, size: 0x8, addend: 0x0, symName: '-[AFCompoundResponseSerializer .cxx_destruct]', symObjAddr: 0x33AC, symBinAddr: 0x30DC4, symSize: 0x14 }
+  - { offset: 0x969FA, size: 0x8, addend: 0x0, symName: '+[TiLogsUploadTool sharedLogsManager]', symObjAddr: 0x0, symBinAddr: 0x30DD8, symSize: 0x70 }
+  - { offset: 0x96A0D, size: 0x8, addend: 0x0, symName: '+[TiLogsUploadTool sharedLogsManager]', symObjAddr: 0x0, symBinAddr: 0x30DD8, symSize: 0x70 }
+  - { offset: 0x96A37, size: 0x8, addend: 0x0, symName: _sharedLogsManager.onceToken, symObjAddr: 0x4220, symBinAddr: 0x6F940, symSize: 0x0 }
+  - { offset: 0x96A84, size: 0x8, addend: 0x0, symName: _logTool, symObjAddr: 0x4228, symBinAddr: 0x6F948, symSize: 0x0 }
+  - { offset: 0x96B4C, size: 0x8, addend: 0x0, symName: '___37+[TiLogsUploadTool sharedLogsManager]_block_invoke', symObjAddr: 0x70, symBinAddr: 0x30E48, symSize: 0x40 }
+  - { offset: 0x96B73, size: 0x8, addend: 0x0, symName: '-[TiLogsUploadTool logs]', symObjAddr: 0xB0, symBinAddr: 0x30E88, symSize: 0x6C }
+  - { offset: 0x96BAA, size: 0x8, addend: 0x0, symName: '-[TiLogsUploadTool collectLogs:level:]', symObjAddr: 0x11C, symBinAddr: 0x30EF4, symSize: 0x210 }
+  - { offset: 0x96C3D, size: 0x8, addend: 0x0, symName: '-[TiLogsUploadTool tim_collectLogs:errorCode:errorMessage:]', symObjAddr: 0x32C, symBinAddr: 0x31104, symSize: 0x334 }
+  - { offset: 0x96CFA, size: 0x8, addend: 0x0, symName: '-[TiLogsUploadTool clearLogsArray]', symObjAddr: 0x660, symBinAddr: 0x31438, symSize: 0x40 }
+  - { offset: 0x96D2D, size: 0x8, addend: 0x0, symName: '-[TiLogsUploadTool setLogs:]', symObjAddr: 0x6A0, symBinAddr: 0x31478, symSize: 0xC }
+  - { offset: 0x96D6E, size: 0x8, addend: 0x0, symName: '-[TiLogsUploadTool .cxx_destruct]', symObjAddr: 0x6AC, symBinAddr: 0x31484, symSize: 0xC }
+  - { offset: 0x96FC7, size: 0x8, addend: 0x0, symName: ___llvm_profile_get_magic, symObjAddr: 0x28, symBinAddr: 0x31490, symSize: 0x14 }
+  - { offset: 0x96FD9, size: 0x8, addend: 0x0, symName: ___llvm_profile_get_num_padding_bytes, symObjAddr: 0x44, symBinAddr: 0x314A4, symSize: 0xC }
+  - { offset: 0x96FEB, size: 0x8, addend: 0x0, symName: ___llvm_profile_get_version, symObjAddr: 0x50, symBinAddr: 0x314B0, symSize: 0x10 }
+  - { offset: 0x9702E, size: 0x8, addend: 0x0, symName: _lprofProfileDumped, symObjAddr: 0x0, symBinAddr: 0x314C0, symSize: 0xC }
+  - { offset: 0x9703C, size: 0x8, addend: 0x0, symName: _lprofProfileDumped, symObjAddr: 0x0, symBinAddr: 0x314C0, symSize: 0xC }
+  - { offset: 0x97078, size: 0x8, addend: 0x0, symName: _getValueProfRecordHeaderSize, symObjAddr: 0x0, symBinAddr: 0x314CC, symSize: 0xC }
+  - { offset: 0x97086, size: 0x8, addend: 0x0, symName: _getValueProfRecordHeaderSize, symObjAddr: 0x0, symBinAddr: 0x314CC, symSize: 0xC }
+  - { offset: 0x9709F, size: 0x8, addend: 0x0, symName: _getValueProfRecordValueData, symObjAddr: 0x1C, symBinAddr: 0x314D8, symSize: 0x14 }
+  - { offset: 0x970D6, size: 0x8, addend: 0x0, symName: _getValueProfRecordNext, symObjAddr: 0x178, symBinAddr: 0x314EC, symSize: 0x168 }
+  - { offset: 0x97114, size: 0x8, addend: 0x0, symName: _getFirstValueProfRecord, symObjAddr: 0x2E0, symBinAddr: 0x31654, symSize: 0x8 }
+  - { offset: 0x97142, size: 0x8, addend: 0x0, symName: _lprofSetupValueProfiler, symObjAddr: 0x80C, symBinAddr: 0x3165C, symSize: 0x68 }
+  - { offset: 0x971AE, size: 0x8, addend: 0x0, symName: ___llvm_profile_instrument_target_value, symObjAddr: 0xB24, symBinAddr: 0x316C4, symSize: 0x2B0 }
+  - { offset: 0x97230, size: 0x8, addend: 0x0, symName: _lprofGetVPDataReader, symObjAddr: 0xE1C, symBinAddr: 0x31974, symSize: 0xC }
+  - { offset: 0x97242, size: 0x8, addend: 0x0, symName: _initializeValueProfRuntimeRecord, symObjAddr: 0xE28, symBinAddr: 0x31980, symSize: 0x178 }
+  - { offset: 0x9725B, size: 0x8, addend: 0x0, symName: _getNumValueDataForSiteWrapper, symObjAddr: 0xFA0, symBinAddr: 0x31AF8, symSize: 0x14 }
+  - { offset: 0x97271, size: 0x8, addend: 0x0, symName: _getNumValueDataForSiteWrapper, symObjAddr: 0xFA0, symBinAddr: 0x31AF8, symSize: 0x14 }
+  - { offset: 0x97284, size: 0x8, addend: 0x0, symName: _getValueProfDataSizeWrapper, symObjAddr: 0xFB4, symBinAddr: 0x31B0C, symSize: 0xA8 }
+  - { offset: 0x97309, size: 0x8, addend: 0x0, symName: _getNumValueSitesRT, symObjAddr: 0x10A0, symBinAddr: 0x31BF8, symSize: 0x10 }
+  - { offset: 0x9731B, size: 0x8, addend: 0x0, symName: _getNumValueDataRT, symObjAddr: 0x10B0, symBinAddr: 0x31C08, symSize: 0x154 }
+  - { offset: 0x9732D, size: 0x8, addend: 0x0, symName: _getNextNValueData, symObjAddr: 0x105C, symBinAddr: 0x31BB4, symSize: 0x44 }
+  - { offset: 0x97369, size: 0x8, addend: 0x0, symName: ___llvm_profile_is_continuous_mode_enabled, symObjAddr: 0x0, symBinAddr: 0x31D5C, symSize: 0x1C }
+  - { offset: 0x97377, size: 0x8, addend: 0x0, symName: ___llvm_profile_is_continuous_mode_enabled, symObjAddr: 0x0, symBinAddr: 0x31D5C, symSize: 0x1C }
+  - { offset: 0x97389, size: 0x8, addend: 0x0, symName: ___llvm_profile_enable_continuous_mode, symObjAddr: 0x1C, symBinAddr: 0x31D78, symSize: 0x10 }
+  - { offset: 0x9739B, size: 0x8, addend: 0x0, symName: ___llvm_profile_set_page_size, symObjAddr: 0x2C, symBinAddr: 0x31D88, symSize: 0xC }
+  - { offset: 0x973AD, size: 0x8, addend: 0x0, symName: ___llvm_profile_get_size_for_buffer, symObjAddr: 0x38, symBinAddr: 0x31D94, symSize: 0x6C }
+  - { offset: 0x97452, size: 0x8, addend: 0x0, symName: ___llvm_profile_get_size_for_buffer_internal, symObjAddr: 0xA4, symBinAddr: 0x31E00, symSize: 0x138 }
+  - { offset: 0x97627, size: 0x8, addend: 0x0, symName: ___llvm_profile_get_num_data, symObjAddr: 0x1DC, symBinAddr: 0x31F38, symSize: 0x1C }
+  - { offset: 0x97639, size: 0x8, addend: 0x0, symName: ___llvm_profile_get_data_size, symObjAddr: 0x1F8, symBinAddr: 0x31F54, symSize: 0x24 }
+  - { offset: 0x9764F, size: 0x8, addend: 0x0, symName: ___llvm_profile_get_data_size, symObjAddr: 0x1F8, symBinAddr: 0x31F54, symSize: 0x24 }
+  - { offset: 0x97661, size: 0x8, addend: 0x0, symName: ___llvm_profile_counter_entry_size, symObjAddr: 0x21C, symBinAddr: 0x31F78, symSize: 0x20 }
+  - { offset: 0x97682, size: 0x8, addend: 0x0, symName: ___llvm_profile_get_num_counters, symObjAddr: 0x23C, symBinAddr: 0x31F98, symSize: 0x4C }
+  - { offset: 0x976DB, size: 0x8, addend: 0x0, symName: ___llvm_profile_get_counters_size, symObjAddr: 0x288, symBinAddr: 0x31FE4, symSize: 0x5C }
+  - { offset: 0x9776D, size: 0x8, addend: 0x0, symName: ___llvm_profile_get_padding_sizes_for_counters, symObjAddr: 0x2E4, symBinAddr: 0x32040, symSize: 0xC8 }
+  - { offset: 0x97806, size: 0x8, addend: 0x0, symName: _initBufferWriter, symObjAddr: 0x3AC, symBinAddr: 0x32108, symSize: 0x10 }
+  - { offset: 0x97866, size: 0x8, addend: 0x0, symName: _getCurFilenameLength, symObjAddr: 0x1C0, symBinAddr: 0x32118, symSize: 0x324 }
+  - { offset: 0x978B1, size: 0x8, addend: 0x0, symName: _getCurFilename, symObjAddr: 0x4E4, symBinAddr: 0x3243C, symSize: 0x33C }
+  - { offset: 0x979B5, size: 0x8, addend: 0x0, symName: _parseAndSetFilename, symObjAddr: 0x928, symBinAddr: 0x32778, symSize: 0x568 }
+  - { offset: 0x97C09, size: 0x8, addend: 0x0, symName: _truncateCurrentFile, symObjAddr: 0x1CF4, symBinAddr: 0x33644, symSize: 0xCC }
+  - { offset: 0x97C7E, size: 0x8, addend: 0x0, symName: _initializeProfileForContinuousMode, symObjAddr: 0x1DC0, symBinAddr: 0x33710, symSize: 0x250 }
+  - { offset: 0x97E97, size: 0x8, addend: 0x0, symName: ___llvm_profile_initialize, symObjAddr: 0xE90, symBinAddr: 0x32CE0, symSize: 0xBC }
+  - { offset: 0x97F55, size: 0x8, addend: 0x0, symName: ___llvm_profile_write_file, symObjAddr: 0xFD0, symBinAddr: 0x32D9C, symSize: 0x184 }
+  - { offset: 0x98021, size: 0x8, addend: 0x0, symName: _writeFile, symObjAddr: 0x1154, symBinAddr: 0x32F20, symSize: 0x288 }
+  - { offset: 0x982B7, size: 0x8, addend: 0x0, symName: _createProfileDir, symObjAddr: 0x2010, symBinAddr: 0x33960, symSize: 0x88 }
+  - { offset: 0x982FC, size: 0x8, addend: 0x0, symName: _getProfileFileSizeForMerging, symObjAddr: 0x185C, symBinAddr: 0x331AC, symSize: 0x114 }
+  - { offset: 0x9838D, size: 0x8, addend: 0x0, symName: _mmapProfileForMerging, symObjAddr: 0x1970, symBinAddr: 0x332C0, symSize: 0xC0 }
+  - { offset: 0x9844C, size: 0x8, addend: 0x0, symName: _writeFileWithoutReturn, symObjAddr: 0x1670, symBinAddr: 0x331A8, symSize: 0x4 }
+  - { offset: 0x98462, size: 0x8, addend: 0x0, symName: _writeFileWithoutReturn, symObjAddr: 0x1670, symBinAddr: 0x331A8, symSize: 0x4 }
+  - { offset: 0x98474, size: 0x8, addend: 0x0, symName: _mmapForContinuousMode, symObjAddr: 0x1A30, symBinAddr: 0x33380, symSize: 0x180 }
+  - { offset: 0x985BC, size: 0x8, addend: 0x0, symName: _fileWriter, symObjAddr: 0x1BB0, symBinAddr: 0x33500, symSize: 0x144 }
+  - { offset: 0x98618, size: 0x8, addend: 0x0, symName: _exitSignalHandler, symObjAddr: 0x2098, symBinAddr: 0x339E8, symSize: 0x10 }
+  - { offset: 0x9866B, size: 0x8, addend: 0x0, symName: _lprofGetLoadModuleSignature, symObjAddr: 0x0, symBinAddr: 0x339F8, symSize: 0xD4 }
+  - { offset: 0x98679, size: 0x8, addend: 0x0, symName: _lprofGetLoadModuleSignature, symObjAddr: 0x0, symBinAddr: 0x339F8, symSize: 0xD4 }
+  - { offset: 0x9877A, size: 0x8, addend: 0x0, symName: ___llvm_profile_check_compatibility, symObjAddr: 0xD4, symBinAddr: 0x33ACC, symSize: 0x19C }
+  - { offset: 0x9883E, size: 0x8, addend: 0x0, symName: ___llvm_profile_merge_from_buffer, symObjAddr: 0x270, symBinAddr: 0x33C68, symSize: 0x1E8 }
+  - { offset: 0x988F9, size: 0x8, addend: 0x0, symName: _lprofMergeValueProfData, symObjAddr: 0x0, symBinAddr: 0x33E50, symSize: 0xE4 }
+  - { offset: 0x98907, size: 0x8, addend: 0x0, symName: _lprofMergeValueProfData, symObjAddr: 0x0, symBinAddr: 0x33E50, symSize: 0xE4 }
+  - { offset: 0x9899F, size: 0x8, addend: 0x0, symName: _lprofBufferWriter, symObjAddr: 0x0, symBinAddr: 0x33F34, symSize: 0x70 }
+  - { offset: 0x989AD, size: 0x8, addend: 0x0, symName: _lprofBufferWriter, symObjAddr: 0x0, symBinAddr: 0x33F34, symSize: 0x70 }
+  - { offset: 0x989D4, size: 0x8, addend: 0x0, symName: _lprofBufferIOWrite, symObjAddr: 0x108, symBinAddr: 0x33FA4, symSize: 0x138 }
+  - { offset: 0x98A3F, size: 0x8, addend: 0x0, symName: _lprofWriteData, symObjAddr: 0x304, symBinAddr: 0x340DC, symSize: 0x98 }
+  - { offset: 0x98AE4, size: 0x8, addend: 0x0, symName: _lprofWriteDataImpl, symObjAddr: 0x39C, symBinAddr: 0x34174, symSize: 0x2E0 }
+  - { offset: 0x98C37, size: 0x8, addend: 0x0, symName: _createHeader, symObjAddr: 0x67C, symBinAddr: 0x34454, symSize: 0x124 }
+  - { offset: 0x98CE1, size: 0x8, addend: 0x0, symName: _writeOneValueProfData, symObjAddr: 0xC5C, symBinAddr: 0x34578, symSize: 0x370 }
+  - { offset: 0x98E2B, size: 0x8, addend: 0x0, symName: ___llvm_profile_begin_data, symObjAddr: 0x0, symBinAddr: 0x348E8, symSize: 0xC }
+  - { offset: 0x98E39, size: 0x8, addend: 0x0, symName: ___llvm_profile_begin_data, symObjAddr: 0x0, symBinAddr: 0x348E8, symSize: 0xC }
+  - { offset: 0x98E4B, size: 0x8, addend: 0x0, symName: ___llvm_profile_end_data, symObjAddr: 0xC, symBinAddr: 0x348F4, symSize: 0xC }
+  - { offset: 0x98E5D, size: 0x8, addend: 0x0, symName: ___llvm_profile_begin_names, symObjAddr: 0x18, symBinAddr: 0x34900, symSize: 0xC }
+  - { offset: 0x98E6F, size: 0x8, addend: 0x0, symName: ___llvm_profile_end_names, symObjAddr: 0x24, symBinAddr: 0x3490C, symSize: 0xC }
+  - { offset: 0x98E81, size: 0x8, addend: 0x0, symName: ___llvm_profile_begin_counters, symObjAddr: 0x30, symBinAddr: 0x34918, symSize: 0xC }
+  - { offset: 0x98E93, size: 0x8, addend: 0x0, symName: ___llvm_profile_end_counters, symObjAddr: 0x3C, symBinAddr: 0x34924, symSize: 0xC }
+  - { offset: 0x98EA5, size: 0x8, addend: 0x0, symName: ___llvm_profile_begin_vnodes, symObjAddr: 0x54, symBinAddr: 0x34930, symSize: 0xC }
+  - { offset: 0x98EB7, size: 0x8, addend: 0x0, symName: ___llvm_profile_end_vnodes, symObjAddr: 0x60, symBinAddr: 0x3493C, symSize: 0xC }
+  - { offset: 0x98EC9, size: 0x8, addend: 0x0, symName: ___llvm_write_binary_ids, symObjAddr: 0x6C, symBinAddr: 0x34948, symSize: 0x8 }
+  - { offset: 0x98F05, size: 0x8, addend: 0x0, symName: ___llvm_profile_recursive_mkdir, symObjAddr: 0x0, symBinAddr: 0x3496C, symSize: 0x5C }
+  - { offset: 0x98F1A, size: 0x8, addend: 0x0, symName: ___llvm_profile_recursive_mkdir, symObjAddr: 0x0, symBinAddr: 0x3496C, symSize: 0x5C }
+  - { offset: 0x98F59, size: 0x8, addend: 0x0, symName: _lprofGetHostName, symObjAddr: 0x74, symBinAddr: 0x349C8, symSize: 0x80 }
+  - { offset: 0x98FA3, size: 0x8, addend: 0x0, symName: _lprofLockFileHandle, symObjAddr: 0x214, symBinAddr: 0x34A48, symSize: 0x94 }
+  - { offset: 0x99021, size: 0x8, addend: 0x0, symName: _lprofUnlockFileHandle, symObjAddr: 0x2A8, symBinAddr: 0x34ADC, symSize: 0x94 }
+  - { offset: 0x9908F, size: 0x8, addend: 0x0, symName: _lprofOpenFileEx, symObjAddr: 0x33C, symBinAddr: 0x34B70, symSize: 0xD4 }
+  - { offset: 0x99133, size: 0x8, addend: 0x0, symName: _lprofFindFirstDirSeparator, symObjAddr: 0x554, symBinAddr: 0x34C44, symSize: 0x8 }
+  - { offset: 0x9915C, size: 0x8, addend: 0x0, symName: _lprofInstallSignalHandler, symObjAddr: 0x564, symBinAddr: 0x34C4C, symSize: 0x58 }
+  - { offset: 0x99193, size: 0x8, addend: 0x0, symName: _lprofRestoreSigKill, symObjAddr: 0x5C4, symBinAddr: 0x34CA4, symSize: 0x4 }
+...
