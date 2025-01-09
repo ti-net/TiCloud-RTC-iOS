@@ -95,6 +95,10 @@ typedef NS_ENUM(NSInteger, TiCloudRtcErrCode)
     BLACKLIST_BLOCKED                       = 30006,   // "风控黑名单拦截"
     FREQUENCY_LIMIT_EXCEEDED                = 30007,   // "风控频次拦截"
     TIME_LIMIT_EXCEEDED                     = 30008,   // "风控时间限制拦截"
+    AGENT_POLICY_RESTRICTION                = 30009,   // "座席策略限制"
+    SPECIAL_VIOLATION_WORDS_DETECTED        = 30010,   // "检测到特殊违规词"
+    TEL_DECRYPT_FAILED                      = 30011,   // "Tel解密失败"
+    TEL_MUST_BE_ENCRYPTED                   = 30012,   // "Tel应该为密文"
     
     MEDIA_SERVER_OTHER_ERROR                = 39999,   // "其他异常"
     
@@ -108,6 +112,9 @@ typedef NS_ENUM(NSInteger, TiCloudRtcErrCode)
     ACCOUNT_CANCELED                        = 40006,   // "账户状态异常:注销"
     ENTERPRISE_NOT_EXIST                    = 40007,   // "企业不存在"
     NO_AVAILABLE_GATEWAY                    = 40008,   // "无可用 Gateway"
+    SIGN_TIMESTAMP_HAS_EXPIRED              = 40009,   // "签名(sign)时间戳已过期"
+    SIGN_VERIFICATION_FAILED                = 40010,   // "签名(sign)检验未通过"
+    REQUEST_REPEAT                          = 40011,   // "重复请求"
     
     UNKNOWN_RTC_HTTP_API_ERROR              = 49999,   // "未知 RTC HTTP API 错误"
 };
@@ -203,6 +210,45 @@ typedef NS_ENUM(NSInteger, TiCloudRtcScence)
 
 // 主叫号码（用于回呼,若不为空可覆盖初始化时传入的值）
 @property(nonatomic, copy, nullable) NSString *callerNumber;
+
+/**
+ * 签名时间戳
+ *
+ * 注: 在加密模式下用到,不使用加密则不需要传入
+ */
+@property(nonatomic, assign) NSInteger timestamp;
+
+/**
+ * 参数签名
+ *
+ * 注: 在加密模式下用到,不使用加密则不需要传入
+ *
+ * 签名规则:
+ *  1. 将参数 tel、callerNumber、clid、obClidAreaCode、obClidGroup、userField、type、timestamp 按照字典顺序排序，
+ *      然后按照 key=value&key2=value2 的规则进行拼接(注意：如果没有传对应字段则不用参与拼接，requestUniqueId 不参与签名)
+ *  2. 将企业 ID 拼接到拼接串开头，将企业 Token 拼接到拼接串结尾
+ *  3. 将拼接串进行 SHA256 加密，最终得到的值就是签名(sign)
+ *
+ * 签名示例:
+ *  假设企业 ID 为 7000002 , 企业 Token 为 token123456
+ *  请求参数为
+ *      tel: 13000000000
+ *      callerNumber: 14000000000
+ *      obClidGroup: 号码池1
+ *      type: 6
+ *      timestamp: 1735192796
+ *
+ *
+ *  按照步骤开始计算签名
+ *
+ *  经过第一步计算之后得到  callerNumber=14000000000&obClidGroup=号码池1&tel=13000000000&timestamp=1735192796&type=6
+ *
+ *  经过第二步计算之后得到  7000002callerNumber=14000000000&obClidGroup=号码池1&tel=13000000000&timestamp=1735192796&type=6token123456
+ *
+ *  经过第三步计算之后得到  398db99bf641dbc489a61204257ea7e91ce2dd490a3f37862dc6c4992168c5dd
+ *
+ */
+@property(nonatomic, copy, nullable) NSString *sign;
 
 // 预留扩展参数
 @property(nonatomic, copy, nullable) NSDictionary<NSString *, NSString *> *advancedConnectConfig;
