@@ -137,7 +137,8 @@
 *  @param fields 包含如下数据：
 *
 * customerNumber：主叫号码
-* requestUniqueId：通话唯一标识
+* requestUniqueId：请求唯一标识
+* callId：通话记录callId
 *
 */
 - (void)onRemoteInvitationReceived:(nonnull NSDictionary *)fields;
@@ -148,7 +149,8 @@
 * @param fields 包含如下数据：
 *
 * customerNumber：主叫号码
-* requestUniqueId：通话唯一标识
+* requestUniqueId：请求唯一标识
+* callId：通话记录callId
 * isCalling：标识本次邀请是否因正处于通话中而自动拒绝 YES：是，NO：否
 *
 */
@@ -160,7 +162,8 @@
 * @param fields 包含如下数据：
 *
 * customerNumber：主叫号码
-* requestUniqueId：通话唯一标识
+* requestUniqueId：请求唯一标识
+* callId：通话记录callId
 *
 */
 - (void)onRemoteInvitationCanceled:(nonnull NSDictionary *)fields;
@@ -169,7 +172,7 @@
 * 接收回呼失败
 *
 * errorCode：错误码
-* errorMessage：通话唯一标识
+* errorMessage：错误信息
 *
 */
 - (void)onRemoteInviteFailure:(TiCloudRtcErrCode)errorCode errorMessage:(nonnull NSString *)errorMessage;

@@ -79,6 +79,7 @@ typedef NS_ENUM(NSInteger, TiCloudRtcErrCode)
     SDK_SIDE_RTP_TIMEOUT                    = 20004,   // "SDK 侧 RTP 超时"
     SIP_SIDE_RTP_TIMEOUT                    = 20005,   // "SIP 侧 RTP 超时"
     CALL_MEDIA_SERVER_TIMEOUT               = 20006,   // "呼叫 Media-Server 超时"
+    USERFIELD_EXCEEDS_LENGTH                = 20007,   // "userField 超出长度"
     
     GATEWAY_OFFLINE                         = 21000,   // "通话过程中网关掉线"
     GATEWAY_NOT_ACCEPT_INVITATION_BECAUSE_OF_OFFLINE    = 21001,   // "网关离线无法接受本地会话邀请"
