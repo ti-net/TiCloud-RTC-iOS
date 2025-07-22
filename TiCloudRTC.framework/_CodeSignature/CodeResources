@@ -14,15 +14,15 @@
 		</data>
 		<key>Headers/TiCloudRTCDefines.h</key>
 		<data>
-		Z2FLd+UFi9XZEBmALGjMRbx2W4o=
+		s8B2KPVhuthGnYqL+nxWxSKEIQI=
 		</data>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
 		<data>
-		p5WSw/xw8nn2cC+MVM2HuPTYJqI=
+		skxHNkmPKQP11lzzxtgVOk27av8=
 		</data>
 		<key>Headers/TiCloudRTCEngine+ApiRequest.h</key>
 		<data>
-		cvOx2K0kNU+1daUTVXLJhRWssW4=
+		kmwyMWNfAOi6CFH4P2R5Np8Cl8Q=
 		</data>
 		<key>Headers/TiCloudRTCEngine.h</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
 		<data>
-		qXLV/HzwGsU1UE33HGgaqwd6nVA=
+		CXyTP2fJzE4UFMmm9IuRgCnVRbs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LNgcq7bExp99gjDBRYiX/iz925s=
+		gTUHk8ae26rPacmq1ECtnG08SBk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,33 +69,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z2FLd+UFi9XZEBmALGjMRbx2W4o=
+			s8B2KPVhuthGnYqL+nxWxSKEIQI=
 			</data>
 			<key>hash2</key>
 			<data>
-			TrJq9+nUZ95aW/IKaylWY5Rv+RnfVTnKaME+OjRswkY=
+			BBGzDF6C/AJ8CwGhilYIcpLILyEJjDL9ljsK5FMBa7M=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p5WSw/xw8nn2cC+MVM2HuPTYJqI=
+			skxHNkmPKQP11lzzxtgVOk27av8=
 			</data>
 			<key>hash2</key>
 			<data>
-			aLpSKJE2pupIVqFgYxaLuJ9BcJet5nJ02uZp6QGyiLc=
+			VywrffZqNKveVi2ei/tAREB5DP3bxsZv2QI5MkksKBU=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine+ApiRequest.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cvOx2K0kNU+1daUTVXLJhRWssW4=
+			kmwyMWNfAOi6CFH4P2R5Np8Cl8Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			GNgbIaXh4xxSFL8kt3tUZfXPXeDskhCXLzZskJOaO4A=
+			YhP5jfsT9DYZtaUKVsPQQjAhEQkgvQpCAIyWS5E3Mww=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine.h</key>
@@ -113,11 +113,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qXLV/HzwGsU1UE33HGgaqwd6nVA=
+			CXyTP2fJzE4UFMmm9IuRgCnVRbs=
 			</data>
 			<key>hash2</key>
 			<data>
-			y7lD8bKv/4MgJcX8c9M5L3ILTZQ6qIL2SVdPezfMAT0=
+			mJ8P20/VtI+vnQFjWF6dlPyuDHnLZpspAZXaSFtsNDo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
