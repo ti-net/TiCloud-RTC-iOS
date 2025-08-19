@@ -4,131 +4,132 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/AFNetworkReachabilityManager.h</key>
+		<key>Headers/TelephoneView.h</key>
 		<data>
-		ucw7ZEs9qbD4ZHXh6GrEj2bffRw=
+		oXZACVi/+n44NwcGlqYXUYKmeAI=
 		</data>
-		<key>Headers/TiCloudRTC.h</key>
+		<key>Headers/TiCloudRTCOutCallUI.h</key>
 		<data>
-		NUIdx0/B5RgKDpts1piAQ66+95w=
-		</data>
-		<key>Headers/TiCloudRTCDefines.h</key>
-		<data>
-		Z2FLd+UFi9XZEBmALGjMRbx2W4o=
-		</data>
-		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
-		<data>
-		p5WSw/xw8nn2cC+MVM2HuPTYJqI=
-		</data>
-		<key>Headers/TiCloudRTCEngine+ApiRequest.h</key>
-		<data>
-		cvOx2K0kNU+1daUTVXLJhRWssW4=
-		</data>
-		<key>Headers/TiCloudRTCEngine.h</key>
-		<data>
-		qajWXAj0LYBIWj/U4+XBcOTCUcY=
-		</data>
-		<key>Headers/TiCloudRTCEventDelegate.h</key>
-		<data>
-		qXLV/HzwGsU1UE33HGgaqwd6nVA=
+		yAZAOAv06LcCO+smfYorhW1TFjQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LNgcq7bExp99gjDBRYiX/iz925s=
+		2OGzv2XMCKdS8GFhBxQpptF+wkE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		xXrxTAluABqpzyONVXU8JGz6bYQ=
+		IQX5eoERPRKKuayGXbHNTgvHvy0=
+		</data>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 121@3x.png</key>
+		<data>
+		1z09z5qo3Xh9unRb+QLg6wgC2TA=
+		</data>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 132@3x.png</key>
+		<data>
+		KWGTt2Usi9IuQSqIdxcrH7Fr1vU=
+		</data>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 133@3x.png</key>
+		<data>
+		86FVLuPxWAO5jUCZQUzJIysPgWA=
+		</data>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 134@3x.png</key>
+		<data>
+		Hw/njZ1ZP0acY7atn6BkzUSR2Ys=
+		</data>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 135@3x.png</key>
+		<data>
+		WC6d+QsvIfFdKPR7XGkdQ49vIyA=
+		</data>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 136@3x.png</key>
+		<data>
+		xzyjs0DmRpRLR7tl4Nzoi/zWpr8=
+		</data>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 137@3x.png</key>
+		<data>
+		FrkiWwgXv+Fd2iVtcGmszknNL98=
+		</data>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 139@3x.png</key>
+		<data>
+		2Ljg5uvVepSz33i0sRqhjM4dO/s=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/AFNetworkReachabilityManager.h</key>
+		<key>Headers/TelephoneView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ucw7ZEs9qbD4ZHXh6GrEj2bffRw=
-			</data>
 			<key>hash2</key>
 			<data>
-			Auq4EpEWLRxuWwpS81xd1K4dDfhaetQkoWz7EiJn4no=
+			rhI77mZZIDstupI8QwTR/fvZEsaSzA6ygDX3jcFm2DM=
 			</data>
 		</dict>
-		<key>Headers/TiCloudRTC.h</key>
+		<key>Headers/TiCloudRTCOutCallUI.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NUIdx0/B5RgKDpts1piAQ66+95w=
-			</data>
 			<key>hash2</key>
 			<data>
-			BPAT2yMZ3e4jZiO6pMMuvKNjPSD35Hm01ZuZ6xLDxCA=
-			</data>
-		</dict>
-		<key>Headers/TiCloudRTCDefines.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z2FLd+UFi9XZEBmALGjMRbx2W4o=
-			</data>
-			<key>hash2</key>
-			<data>
-			TrJq9+nUZ95aW/IKaylWY5Rv+RnfVTnKaME+OjRswkY=
-			</data>
-		</dict>
-		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			p5WSw/xw8nn2cC+MVM2HuPTYJqI=
-			</data>
-			<key>hash2</key>
-			<data>
-			aLpSKJE2pupIVqFgYxaLuJ9BcJet5nJ02uZp6QGyiLc=
-			</data>
-		</dict>
-		<key>Headers/TiCloudRTCEngine+ApiRequest.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cvOx2K0kNU+1daUTVXLJhRWssW4=
-			</data>
-			<key>hash2</key>
-			<data>
-			GNgbIaXh4xxSFL8kt3tUZfXPXeDskhCXLzZskJOaO4A=
-			</data>
-		</dict>
-		<key>Headers/TiCloudRTCEngine.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qajWXAj0LYBIWj/U4+XBcOTCUcY=
-			</data>
-			<key>hash2</key>
-			<data>
-			o73++AKzMeWwMl9ctxXUCKzSfhNtOMtbyoj1fLpdwkQ=
-			</data>
-		</dict>
-		<key>Headers/TiCloudRTCEventDelegate.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qXLV/HzwGsU1UE33HGgaqwd6nVA=
-			</data>
-			<key>hash2</key>
-			<data>
-			y7lD8bKv/4MgJcX8c9M5L3ILTZQ6qIL2SVdPezfMAT0=
+			TtHAf8Z1mJfxGLnzA5BzcKAMZw7Hs23iYLVlOdzJ/IY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xXrxTAluABqpzyONVXU8JGz6bYQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			CxINpuQUw8y5nOhEk0LWvPj0nrMtaqhO/eMBx19vsbc=
+			015yDojhxnqAmu2PX5aSyir0zGMFu469SoJ58sud++g=
+			</data>
+		</dict>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 121@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3N+Uh4PDM5WZLG22mFp5oTjUluLrjeyCpjwpQSvjAjQ=
+			</data>
+		</dict>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 132@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l5Kvrjde6ChmmmyofFH+ej8UU5Vjl5onE4dvM/UCTC4=
+			</data>
+		</dict>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 133@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7yD+9kp8vkak7JO71SV1H9VhQ4F6ByQ7NXPwhWyzHa4=
+			</data>
+		</dict>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 134@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			D0vU7Zh0Hb4auM6vNJi13Ej0QjUcLsKdePN5JXQwY7U=
+			</data>
+		</dict>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 135@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QGt6HkwfLacyMb2OevlGguh8PGsXB24CE78lEzIVr84=
+			</data>
+		</dict>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 136@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K4kEqj4xdkAAPs/WaA+lzigh+xyj/NegUwLc9nXowBI=
+			</data>
+		</dict>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 137@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e4iq/X/1fuyxXeaxq/TbDgW/T3b3BaS3zToVucWyerE=
+			</data>
+		</dict>
+		<key>TiCloudRTCOutCallUI.bundle/Frame 139@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nYXIoMy4ofBNq1CAcqp+03i6pO+ER4Syh3nBezlbISc=
 			</data>
 		</dict>
 	</dict>

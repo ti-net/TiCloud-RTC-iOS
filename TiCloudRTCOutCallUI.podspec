@@ -8,9 +8,9 @@
 
 
 Pod::Spec.new do |s|
-  s.name         = "TiCloudRTC"
-  s.version      = "4.2.21.25081801"
-  s.summary      = "TiCloudRTC iOS实时语音呼叫SDK"
+  s.name         = "TiCloudRTCOutCallUI"
+  s.version      = "4.2.21"
+  s.summary      = "TiCloudRTC iOS实时语音呼叫SDK带呼叫UI"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,12 +24,12 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/ti-net/TiCloud-RTC-iOS.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gyb1314' => 'gyb_1314@126.com' }
-  s.source           = { :git => 'https://github.com/ti-net/TiCloud-RTC-iOS.git', :tag => s.version.to_s }
+  s.author           = { 'zhupeng' => 'zhupeng@live800.com' }
+  s.source           = { :git => 'https://github.com/ti-net/TiCloud-RTC-iOS.git', :branch => 'OutCallUI', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
-  s.vendored_frameworks  = "TiCloudRTC.framework"
+  s.vendored_frameworks  = "TiCloudRTCOutCallUI.framework"
   s.resource      = 'TiCloudRTCBundle.bundle'
   s.pod_target_xcconfig = {'VALID_ARCHS'=>'arm64 x86_64','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
