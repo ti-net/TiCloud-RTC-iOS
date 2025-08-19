@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/ti-net/TiCloud-RTC-iOS.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gyb1314' => 'gyb_1314@126.com' }
+  s.author           = { 'zhupeng' => 'zhupeng@live800.com' }
   s.source           = { :git => 'https://github.com/ti-net/TiCloud-RTC-iOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
