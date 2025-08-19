@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TiCloudRTCOutCallUI"
-  s.version      = "4.2.21.25081901"
+  s.version      = "1.0.0.001"
   s.summary      = "TiCloudRTC iOS实时语音呼叫SDK带呼叫UI"
 
 # This description is used to generate tags and improve search results.
@@ -23,19 +23,17 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/ti-net/TiCloud-RTC-iOS.git'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT'}
   s.author           = { 'zhupeng' => 'zhupeng@live800.com' }
   s.source           = { :git => 'https://github.com/ti-net/TiCloud-RTC-iOS.git', :branch => 'OutCallUI', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.vendored_frameworks  = "TiCloudRTCOutCallUI.framework"
-  s.resource      = 'TiCloudRTCBundle.bundle'
   s.pod_target_xcconfig = {'VALID_ARCHS'=>'arm64 x86_64','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-  s.dependency 'AgoraRtm_iOS', '1.5.1'
-  s.dependency 'AgoraRtcEngine_iOS', '4.3.2'
+  s.dependency 'TiCloudRTC', '4.2.21.25081801'
 
 
 end

@@ -8,17 +8,29 @@
 		<data>
 		oXZACVi/+n44NwcGlqYXUYKmeAI=
 		</data>
+		<key>Headers/TiCloudRTCOutCallManager.h</key>
+		<data>
+		U851dWXi1Bhs8302z0bSa9OlkrM=
+		</data>
 		<key>Headers/TiCloudRTCOutCallUI.h</key>
 		<data>
-		yAZAOAv06LcCO+smfYorhW1TFjQ=
+		+bD4oXWQY9MSQq8NPt2f/iWylCs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2OGzv2XMCKdS8GFhBxQpptF+wkE=
+		K4+nXRICDVeDTunb5PNju/NmiJo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		IQX5eoERPRKKuayGXbHNTgvHvy0=
+		</data>
+		<key>TiCloudRTCBundle.bundle/Info.plist</key>
+		<data>
+		hJntTRqIEYAOufM1Z+Dyduz3kt8=
+		</data>
+		<key>TiCloudRTCBundle.bundle/hangupAudio.wav</key>
+		<data>
+		+j9N7Fw7/3INTtROxZbt0BAIlfI=
 		</data>
 		<key>TiCloudRTCOutCallUI.bundle/Frame 121@3x.png</key>
 		<data>
@@ -62,11 +74,18 @@
 			rhI77mZZIDstupI8QwTR/fvZEsaSzA6ygDX3jcFm2DM=
 			</data>
 		</dict>
+		<key>Headers/TiCloudRTCOutCallManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lPKTPHpCL0tOVGGFJei5qXOG9aNNeQaBamZGtCdCBD0=
+			</data>
+		</dict>
 		<key>Headers/TiCloudRTCOutCallUI.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TtHAf8Z1mJfxGLnzA5BzcKAMZw7Hs23iYLVlOdzJ/IY=
+			jJQ9Nv7Q87tGUyBlDx8T3Ic7f3jDCWg5H5uFglGZ3g0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -74,6 +93,20 @@
 			<key>hash2</key>
 			<data>
 			015yDojhxnqAmu2PX5aSyir0zGMFu469SoJ58sud++g=
+			</data>
+		</dict>
+		<key>TiCloudRTCBundle.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			X8FjEiIBXj7t/f9N5g4jbxtwkS/Ugj/gdQJ/OZPP6a8=
+			</data>
+		</dict>
+		<key>TiCloudRTCBundle.bundle/hangupAudio.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vbiuVZkBofaDi23q97NluyjF7hcPKHJ4bok5uCTvdvQ=
 			</data>
 		</dict>
 		<key>TiCloudRTCOutCallUI.bundle/Frame 121@3x.png</key>
