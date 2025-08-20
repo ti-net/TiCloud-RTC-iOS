@@ -1,0 +1,6 @@
+framework module TiCloudRTCOutCallUI {
+  umbrella header "TiCloudRTCOutCallUI.h"
+  export *
+
+  module * { export * }
+}
