@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/AFNetworkReachabilityManager.h</key>
-		<data>
-		ucw7ZEs9qbD4ZHXh6GrEj2bffRw=
-		</data>
 		<key>Headers/TiCloudRTC.h</key>
 		<data>
 		NUIdx0/B5RgKDpts1piAQ66+95w=
@@ -34,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LNgcq7bExp99gjDBRYiX/iz925s=
+		Hx/vcf/UiCd/M2U+6P32bh6PnO0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,23 +39,8 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/AFNetworkReachabilityManager.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ucw7ZEs9qbD4ZHXh6GrEj2bffRw=
-			</data>
-			<key>hash2</key>
-			<data>
-			Auq4EpEWLRxuWwpS81xd1K4dDfhaetQkoWz7EiJn4no=
-			</data>
-		</dict>
 		<key>Headers/TiCloudRTC.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NUIdx0/B5RgKDpts1piAQ66+95w=
-			</data>
 			<key>hash2</key>
 			<data>
 			BPAT2yMZ3e4jZiO6pMMuvKNjPSD35Hm01ZuZ6xLDxCA=
@@ -67,10 +48,6 @@
 		</dict>
 		<key>Headers/TiCloudRTCDefines.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Z2FLd+UFi9XZEBmALGjMRbx2W4o=
-			</data>
 			<key>hash2</key>
 			<data>
 			TrJq9+nUZ95aW/IKaylWY5Rv+RnfVTnKaME+OjRswkY=
@@ -78,10 +55,6 @@
 		</dict>
 		<key>Headers/TiCloudRTCEngine+AgoraRTM.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			p5WSw/xw8nn2cC+MVM2HuPTYJqI=
-			</data>
 			<key>hash2</key>
 			<data>
 			aLpSKJE2pupIVqFgYxaLuJ9BcJet5nJ02uZp6QGyiLc=
@@ -89,10 +62,6 @@
 		</dict>
 		<key>Headers/TiCloudRTCEngine+ApiRequest.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cvOx2K0kNU+1daUTVXLJhRWssW4=
-			</data>
 			<key>hash2</key>
 			<data>
 			GNgbIaXh4xxSFL8kt3tUZfXPXeDskhCXLzZskJOaO4A=
@@ -100,10 +69,6 @@
 		</dict>
 		<key>Headers/TiCloudRTCEngine.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qajWXAj0LYBIWj/U4+XBcOTCUcY=
-			</data>
 			<key>hash2</key>
 			<data>
 			o73++AKzMeWwMl9ctxXUCKzSfhNtOMtbyoj1fLpdwkQ=
@@ -111,10 +76,6 @@
 		</dict>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qXLV/HzwGsU1UE33HGgaqwd6nVA=
-			</data>
 			<key>hash2</key>
 			<data>
 			y7lD8bKv/4MgJcX8c9M5L3ILTZQ6qIL2SVdPezfMAT0=
@@ -122,10 +83,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xXrxTAluABqpzyONVXU8JGz6bYQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			CxINpuQUw8y5nOhEk0LWvPj0nrMtaqhO/eMBx19vsbc=
