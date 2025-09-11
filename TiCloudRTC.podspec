@@ -29,13 +29,17 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.vendored_frameworks  = "TiCloudRTC.framework","FTMobileSDK.framework","Agoraffmpeg.xcframework","aosl.xcframework","video_dec.xcframework","video_enc.xcframework"
+  s.vendored_frameworks  = "TiCloudRTC.framework","FTMobileSDK.framework"
   s.resource      = 'TiCloudRTCBundle.bundle'
   s.pod_target_xcconfig = {'VALID_ARCHS'=>'arm64 x86_64','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   #s.dependency 'AgoraRtm_iOS', '1.5.1'
   #s.dependency 'AgoraRtcEngine_iOS', '4.3.2'
+
+  s.subspec 'VideoComponents' do |video_spec|
+    video_spec.vendored_frameworks = "Agoraffmpeg.xcframework","aosl.xcframework","video_dec.xcframework","video_enc.xcframework"
+  end
 
 
 end
