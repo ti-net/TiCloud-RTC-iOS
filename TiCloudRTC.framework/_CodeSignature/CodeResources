@@ -4,6 +4,26 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/FTMobileSDK.framework/FTMobileSDK</key>
+		<data>
+		CdLa+HfSdIcErjajClX7ZG1R5fk=
+		</data>
+		<key>Frameworks/FTMobileSDK.framework/FTSDKPrivacyInfo.bundle/Info.plist</key>
+		<data>
+		DCYPDmxkSH9zgIcRcn6B6nBFQhw=
+		</data>
+		<key>Frameworks/FTMobileSDK.framework/FTSDKPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		F8UW5hvB27bO+e8mnUgluByBLeo=
+		</data>
+		<key>Frameworks/FTMobileSDK.framework/Info.plist</key>
+		<data>
+		8FMjBP8K0bkffnZoJoyh8fYAdxk=
+		</data>
+		<key>Frameworks/FTMobileSDK.framework/_CodeSignature/CodeResources</key>
+		<data>
+		tvM8aGlRMMpWXj7cjRWFsZq3wvQ=
+		</data>
 		<key>Headers/TiCloudRTC.h</key>
 		<data>
 		NUIdx0/B5RgKDpts1piAQ66+95w=
@@ -39,6 +59,41 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/FTMobileSDK.framework/FTMobileSDK</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QjsIamp8g2paUN0ORRAVtJQY72LycwgeEXE++3bU5yE=
+			</data>
+		</dict>
+		<key>Frameworks/FTMobileSDK.framework/FTSDKPrivacyInfo.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RHRLuKqkwrNeMRqrsq4ZI3MVLmfvJG7BRaiV4kINUn4=
+			</data>
+		</dict>
+		<key>Frameworks/FTMobileSDK.framework/FTSDKPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rvXNtRQzMH9bHHG/K1QFOkxboSg+WmYkj1QzijFfgFc=
+			</data>
+		</dict>
+		<key>Frameworks/FTMobileSDK.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pa4IcsPs962ixs7m6QJi2BYnKUWxfuJhgWL2NMPAWww=
+			</data>
+		</dict>
+		<key>Frameworks/FTMobileSDK.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A+51aP5zihJyK0KyoWQeOWwN0D6pdNlsF3oYjp8KbIE=
+			</data>
+		</dict>
 		<key>Headers/TiCloudRTC.h</key>
 		<dict>
 			<key>hash2</key>
