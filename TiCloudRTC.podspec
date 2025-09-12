@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TiCloudRTC"
-  s.version      = "4.2.21.25082902"
+  s.version      = "4.2.21.25091201"
   s.summary      = "TiCloudRTC iOS实时语音呼叫SDK"
 
 # This description is used to generate tags and improve search results.
@@ -36,6 +36,14 @@ TODO: Add long description of the pod here.
 
   #s.dependency 'AgoraRtm_iOS', '1.5.1'
   #s.dependency 'AgoraRtcEngine_iOS', '4.3.2'
+
+  s.subspec 'VideoComponents' do |video_spec|
+    video_spec.vendored_frameworks = "Agoraffmpeg.xcframework","aosl.xcframework","video_dec.xcframework","video_enc.xcframework"
+  end
+
+  s.subspec 'AgoraRtm' do |rtm|
+    rtm.vendored_frameworks = "AgoraRtmKit.xcframework" #不带bitcode
+  end
 
 
 end
