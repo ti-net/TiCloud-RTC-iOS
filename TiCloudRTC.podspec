@@ -12,12 +12,11 @@ TiCloudRTC 是一个基于 Agora RTC/RTM 的 iOS 实时语音呼叫 SDK，
   s.homepage         = "https://github.com/ti-net/TiCloud-RTC-iOS"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gyb1314' => 'gyb_1314@126.com' }
-  s.source           = { :git => 'https://github.com/ti-net/TiCloud-RTC-iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ti-net/TiCloud-RTC-iOS.git', :commit => '16f59e9b8f602772cdb8768e4b042ae387ed8346' }
 
   s.platform         = :ios, "12.0"
 
   s.vendored_frameworks = "TiCloudRTC.framework"
-  s.preserve_paths     = "TiCloudRTC.framework", "TiCloudRTC.framework.dSYM"
 
   s.dependency 'AgoraRtm_iOS', '1.5.1'
   s.dependency 'AgoraRtcEngine_iOS', '4.3.2'
