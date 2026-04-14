@@ -9,6 +9,7 @@
 #define TiCloudRTCEventHandler_h
 
 #import <TiCloudRTC/TiCloudRTCDefines.h>
+#import <TiCloudRTC/TiCloudRTCRuntimeStateSnapshot.h>
 
 @protocol TiCloudRTCEventDelegate <NSObject>
 
@@ -152,6 +153,11 @@
  * 当前 userId 在其他设备登录，此时引擎已销毁
  */
 - (void)onRemoteLogin;
+
+/**
+ * 底层运行时状态发生变化
+ */
+- (void)onRuntimeStateChanged:(nonnull TiCloudRTCRuntimeStateSnapshot *)snapshot;
 
 /**
  * 本地监测无发送语音流时间间隔5秒时回调

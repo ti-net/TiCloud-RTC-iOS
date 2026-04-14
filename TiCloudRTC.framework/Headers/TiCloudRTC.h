@@ -18,5 +18,5 @@ FOUNDATION_EXPORT const unsigned char TiCloudRTCVersionString[];
 #import <TiCloudRTC/TiCloudRTCEngine.h>
 #import <TiCloudRTC/TiCloudRTCEventDelegate.h>
 #import <TiCloudRTC/TiCloudRTCDefines.h>
+#import <TiCloudRTC/TiCloudRTCRuntimeStateSnapshot.h>
 #import <TiCloudRTC/TiCloudRTCEngine+AgoraRTM.h>
-

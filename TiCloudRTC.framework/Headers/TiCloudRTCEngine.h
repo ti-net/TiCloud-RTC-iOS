@@ -6,6 +6,7 @@
 //
 
 #import <TiCloudRTC/TiCloudRTCEventDelegate.h>
+#import <TiCloudRTC/TiCloudRTCRuntimeStateSnapshot.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -25,6 +26,11 @@ NS_ASSUME_NONNULL_BEGIN
  * 外呼
  */
 - (void)call:(TiCloudRTCCallConfig *_Nonnull)config success:(void (^)(void))successBlock error:(void (^)(TiCloudRtcErrCode nErrorCode, NSString *errorDes))errorBlock;
+
+/**
+ * 获取当前底层运行状态快照
+ */
+- (TiCloudRTCRuntimeStateSnapshot * _Nonnull)runtimeStateSnapshot;
 
 /**
  * 通话中发送按键信息

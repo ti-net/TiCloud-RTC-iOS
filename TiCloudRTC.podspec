@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TiCloudRTC"
-  s.version      = "3.9.7"
+  s.version      = "3.10.0"
   s.summary      = "TiCloudRTC iOS实时语音呼叫SDK"
 
 # This description is used to generate tags and improve search results.
@@ -27,15 +27,16 @@ TODO: Add long description of the pod here.
   s.author           = { 'gyb1314' => 'gyb_1314@126.com' }
   s.source           = { :git => 'https://github.com/ti-net/TiCloud-RTC-iOS.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.vendored_frameworks  = "TiCloudRTC.framework"
   #s.pod_target_xcconfig = {'VALID_ARCHS'=>'arm64 x86_64 armv7'}
-  s.pod_target_xcconfig = {'VALID_ARCHS'=>'arm64 x86_64 armv7','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  #s.pod_target_xcconfig = {'VALID_ARCHS'=>'arm64','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = {'VALID_ARCHS'=>'arm64'}
+  #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.dependency 'AgoraRtm_iOS', '1.5.1'
-  s.dependency 'AgoraAudio_Special_iOS', '4.1.1.17.BASIC'
+  s.dependency 'AgoraRtcEngine_iOS', '4.3.2'
 
   
 end

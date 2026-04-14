@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/TiCloudRTC.h</key>
 		<data>
-		NUIdx0/B5RgKDpts1piAQ66+95w=
+		3Cbfr+rU9q4dA1lU14M9iwD+6xY=
 		</data>
 		<key>Headers/TiCloudRTCDefines.h</key>
 		<data>
@@ -22,19 +22,23 @@
 		</data>
 		<key>Headers/TiCloudRTCEngine+ApiRequest.h</key>
 		<data>
-		kmwyMWNfAOi6CFH4P2R5Np8Cl8Q=
+		iosEq/6Zil1O7Rknl0VUkg6JrXo=
 		</data>
 		<key>Headers/TiCloudRTCEngine.h</key>
 		<data>
-		qajWXAj0LYBIWj/U4+XBcOTCUcY=
+		XnrEcjm7AcgkXZDP1ztXX4iJKMY=
 		</data>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
 		<data>
-		CXyTP2fJzE4UFMmm9IuRgCnVRbs=
+		vmWPkvWaXZUoNnXeodKQ2B2XQw0=
+		</data>
+		<key>Headers/TiCloudRTCRuntimeStateSnapshot.h</key>
+		<data>
+		CCIp16KD2qJMR9Pb4WVs8vDxfmU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gTUHk8ae26rPacmq1ECtnG08SBk=
+		nCbJWaZJ84X4/eIpyRaxrpqPa1M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,11 +62,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NUIdx0/B5RgKDpts1piAQ66+95w=
+			3Cbfr+rU9q4dA1lU14M9iwD+6xY=
 			</data>
 			<key>hash2</key>
 			<data>
-			BPAT2yMZ3e4jZiO6pMMuvKNjPSD35Hm01ZuZ6xLDxCA=
+			Rehq2Bhw+AXrYKZ0ta6OVMRH4tOi1uOIcZHUgR3L4jw=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCDefines.h</key>
@@ -91,33 +95,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kmwyMWNfAOi6CFH4P2R5Np8Cl8Q=
+			iosEq/6Zil1O7Rknl0VUkg6JrXo=
 			</data>
 			<key>hash2</key>
 			<data>
-			YhP5jfsT9DYZtaUKVsPQQjAhEQkgvQpCAIyWS5E3Mww=
+			Xvwc6q2g4osDpb1ACgZ3DZTpx/Nx4MW5gEp+qN3l7Kc=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEngine.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qajWXAj0LYBIWj/U4+XBcOTCUcY=
+			XnrEcjm7AcgkXZDP1ztXX4iJKMY=
 			</data>
 			<key>hash2</key>
 			<data>
-			o73++AKzMeWwMl9ctxXUCKzSfhNtOMtbyoj1fLpdwkQ=
+			rhNeMQkrRmyLaSdgqHSj1PQRouDlJg8lA3LwHZxBlEc=
 			</data>
 		</dict>
 		<key>Headers/TiCloudRTCEventDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CXyTP2fJzE4UFMmm9IuRgCnVRbs=
+			vmWPkvWaXZUoNnXeodKQ2B2XQw0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mJ8P20/VtI+vnQFjWF6dlPyuDHnLZpspAZXaSFtsNDo=
+			+NyUd54XfSdUaybI6/LC545iC9no6YXv1NnocRt34no=
+			</data>
+		</dict>
+		<key>Headers/TiCloudRTCRuntimeStateSnapshot.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CCIp16KD2qJMR9Pb4WVs8vDxfmU=
+			</data>
+			<key>hash2</key>
+			<data>
+			qUt/noMnDtzFwPOr3UkMzQKobnp/gcvx+qDAoztQ3Sk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
