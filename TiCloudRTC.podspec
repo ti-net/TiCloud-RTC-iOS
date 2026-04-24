@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TiCloudRTC"
-  s.version      = "3.10.5"
+  s.version      = "3.10.6"
   s.summary      = "TiCloudRTC iOS实时语音呼叫SDK"
 
   s.description      = <<-DESC
